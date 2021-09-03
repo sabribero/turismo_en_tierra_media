@@ -1,0 +1,4 @@
+Sam,36,8,D
+Gandalf,100,5,P
+Eowyn,10,8,A
+Galadriel,120,6,P

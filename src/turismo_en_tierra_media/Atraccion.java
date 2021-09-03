@@ -4,11 +4,11 @@ public class Atraccion {
 
 	private String nombre;
 	private int valor;
-	private double tiempoDeUso;
+	private float tiempoDeUso;
 	private int usosDisponibles;
 	private TipoDeAtraccion tipo;
 	
-	public Atraccion(String nombre, int valor, double tiempoDeUso, int usosMaximos, TipoDeAtraccion tipo) {
+	public Atraccion(String nombre, int valor, float tiempoDeUso, int usosMaximos, TipoDeAtraccion tipo) {
 
 		this.nombre=Validacion.validar(nombre);
 		this.valor=Validacion.validar(valor);

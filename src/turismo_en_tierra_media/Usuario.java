@@ -11,10 +11,10 @@ public class Usuario {
 	private String nombre;
 	private TipoDeAtraccion atraccionFavorita;
 	private int presupuesto;
-	private int tiempoDisponible;
+	private float tiempoDisponible;
 	
 	
-	public Usuario(String nombre, TipoDeAtraccion atraccionFavorita, int monedas, int tiempoLibre) {
+	public Usuario(String nombre, TipoDeAtraccion atraccionFavorita, int monedas, float tiempoLibre) {
 		this.nombre=Validacion.validar(nombre);
 		this.atraccionFavorita = atraccionFavorita;
 		this.presupuesto = Validacion.validar(monedas);
@@ -34,7 +34,7 @@ public class Usuario {
 		return itinerario;
 	}
 
-	public int getTiempoDisponible() {
+	public float getTiempoDisponible() {
 		return tiempoDisponible;
 	}
 

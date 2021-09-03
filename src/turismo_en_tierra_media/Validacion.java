@@ -16,6 +16,21 @@ public class Validacion {
 		}
 	}
 	
+	
+	public static float validar(float numero) {
+		try {
+			if(numero>=0) {
+				return numero;
+			} else {
+				throw new NumeroNegativoException("Se ha ingresado un número negativo.");
+			}
+		} catch(IllegalArgumentException e) {
+			return 0;
+		} catch(NumeroNegativoException e2) {
+			return 0;
+		}
+	}
+	
 	public static double validar(double numero) {
 		try {
 			if(numero>=0) {

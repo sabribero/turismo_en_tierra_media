@@ -1,0 +1,11 @@
+5,10,3,A,Bosque Negro
+10,2,6,A,Moria
+5,2.5,25,P,Minas Tirith
+3,6.5,150,D,La Comarca
+25,3,4,A,Mordor
+5,2,15,P,Abismo de Helm
+35,1,30,D,Lothlorien
+12,3,32,P,Erebor
+
+
+
