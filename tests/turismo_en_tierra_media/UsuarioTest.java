@@ -25,7 +25,6 @@ public class UsuarioTest {
 	public void noAceptaValoresNegativos(){
 		Usuario persona= new Usuario("Marina",TipoDeAtraccion.AVENTURA, 100,-5);
 		assertEquals(0, persona.getTiempoDisponible());
-		assertEquals(TipoDeAtraccion.AVENTURA, persona.getAtraccionFavorita());
 	}
 	
 	@Test

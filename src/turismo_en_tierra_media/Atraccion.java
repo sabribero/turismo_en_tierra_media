@@ -4,11 +4,11 @@ public class Atraccion {
 
 	private String nombre;
 	private int valor;
-	private int tiempoDeUso;
+	private double tiempoDeUso;
 	private int usosDisponibles;
 	private TipoDeAtraccion tipo;
 	
-	public Atraccion(String nombre, int valor, int tiempoDeUso, int usosMaximos, TipoDeAtraccion tipo) {
+	public Atraccion(String nombre, int valor, double tiempoDeUso, int usosMaximos, TipoDeAtraccion tipo) {
 
 		this.nombre=Validacion.validar(nombre);
 		this.valor=Validacion.validar(valor);
@@ -27,7 +27,7 @@ public class Atraccion {
 		return this.valor;
 	}
 
-	public int getTiempoDeUso() {
+	public double getTiempoDeUso() {
 		return this.tiempoDeUso;
 	}
 
