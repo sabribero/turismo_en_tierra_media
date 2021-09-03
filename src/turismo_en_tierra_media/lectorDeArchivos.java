@@ -82,9 +82,9 @@ public class lectorDeArchivos {
 
 				String[] valores = linea.split(",");
 				
-				if(valores[4].equals("P")) tipo = TipoDeAtraccion.PAISAJE;
-				if(valores[4].equals("D")) tipo = TipoDeAtraccion.DEGUSTACION;
-				if(valores[4].equals("A")) tipo = TipoDeAtraccion.AVENTURA;
+				if(valores[3].equals("P")) tipo = TipoDeAtraccion.PAISAJE;
+				if(valores[3].equals("D")) tipo = TipoDeAtraccion.DEGUSTACION;
+				if(valores[3].equals("A")) tipo = TipoDeAtraccion.AVENTURA;
 
 				Atraccion aux = new Atraccion(valores[4], Integer.parseInt(valores[0]),
 						Float.parseFloat(valores[1]), Integer.parseInt(valores[2]), tipo);
