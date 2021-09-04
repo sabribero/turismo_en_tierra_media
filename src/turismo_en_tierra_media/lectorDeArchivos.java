@@ -41,8 +41,8 @@ public class lectorDeArchivos {
 				*/
 				
 				//cabié la forma de lectura de TipoDeAtraccion por un casteo 
-				//											 |
-				//											\|/ (intento de flecha al cambio)
+				//                                   |
+				//                                  \|/ (intento de flecha al cambio)
 
 				Usuario aux = new Usuario (valores[0], TipoDeAtraccion.valueOf(valores[3]), Integer.parseInt(valores[1]), Float.parseFloat(valores[2]));
 
