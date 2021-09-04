@@ -13,8 +13,8 @@ public class pruebaPorConsola {
 
 		lectorDeArchivos lector = new lectorDeArchivos();
 
-		lector.leerUsuarios("Usuarios.txt", todosLosUsuarios);
-		lector.LeerAtracciones("Atracciones.txt", todasLasAtracciones);
+		lector.leerUsuarios(todosLosUsuarios);
+		lector.LeerAtracciones(todasLasAtracciones);
 
 		Aplicacion APP = new Aplicacion(todasLasAtracciones);
 
