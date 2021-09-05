@@ -1,5 +1,5 @@
 package turismo_en_tierra_media;
 
 public enum TipoDePromo {
-	PORCENTUAL, ABSOLUTA, AxB;
+	PORCENTUAL, ABSOLUTA, AxB, DEFAULT;
 }

@@ -1,47 +1,78 @@
 package turismo_en_tierra_media;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Promocion {
 	
-	private TipoDeAtraccion tipo;
+	private TipoDePromo tipo;
 	
-	private int precio1;
-	private String nombre1;
-	private int precio2;
-	private String nombre2;
+	private int valorPromo;
+	private List<Atraccion> atraccionesEnPromocion = new ArrayList<Atraccion>();
 	
-	public Promocion(TipoDeAtraccion tipo, Atraccion atraccion1, Atraccion atraccion2) {
-		//TODO Habría que pedir por consola que se ingrese una nueva promocion o que se 
-		//rearme el archivo para que no queden los valores en null
-		try {
-			Validacion.validarTipo(tipo, atraccion1.getTipo());
-			Validacion.validarTipo(tipo, atraccion2.getTipo());
-			this.tipo = tipo;
-			this.precio1 = atraccion1.getValor();
-			this.precio2= atraccion2.getValor();
-			this.nombre1=atraccion1.getNombre();
-			this.nombre2=atraccion2.getNombre();
-		} catch(DistintoTipoException e) {
-			System.err.println("Discrepancia de tipos de las atracciones con el tipo de la promocion en la promocion que incluye " + atraccion1.getNombre() + " y " + atraccion2.getNombre()+ ".");
-		}
+	
+	//El valor indicado es la suma de las distintas atracciones
+	private int valor;
+	private double tiempoDeUso;
+
+	
+	
+	
+	
+
+	
+	public Promocion(TipoDePromo tipo, List<Atraccion> atraccionesEnPromo, int valorPromo) {
+
+		
+		this.tipo=tipo;
+		this.atraccionesEnPromocion=atraccionesEnPromo;
+		this.valorPromo=valorPromo;
+		
+		
+		/*El valor en monedas va a depender del valor de cada atraccion, del tipo de promo y del valor de la promo
+		 * 
+		 * 20% de descuento, 30% de descuento, absoluto de 40 monedas, 2x1, etc.
+		 */
+		
+		
+
+		
+		
+		
 	}
 
-//--------------------------GETTERS----------------------
-	public TipoDeAtraccion getTipo() {
+
+
+	//--------------------------GETTERS----------------------
+	public TipoDePromo getTipo() {
 		return this.tipo;
 	}
 
-	public int getPrecio1() {
-		return precio1;
-	}
-
-	public int getPrecio2() {
-		return precio2;
+	
+	public List<Atraccion> getAtraccionesEnLaPromo() {
+		return atraccionesEnPromocion;
 	}
 	
-	public String getNombre1() {
-		return this.nombre1;
+	public int getValorPromo() {
+		return valorPromo;
 	}
-	public String  getNombre2() {
-		return this.nombre2;
-	}
+	
+/*
+ * 
+ * 
+ * FALTAN LOS GETTERS DE NOMBRE, TIEMPO DE USO Y ETC QUE SE DEBERIAN SACAR DE CADA UNA DE LAS
+ * ATRACCIONES Y SUMARSE.
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ */
+
+
 }

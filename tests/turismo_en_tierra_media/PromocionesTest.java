@@ -2,52 +2,85 @@ package turismo_en_tierra_media;
 
 import static org.junit.Assert.*;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import org.junit.Before;
 import org.junit.Test;
 
 public class PromocionesTest {
-	
-/*
- * TODO
- * Por el momento imprime un mensaje de error. Habría que pensar una mejor manera
- * de no permitir que se ingresen distintos tipos de atracciones. Quiza verificarlo en
- * el momento de recibir las promociones desde el archivo?*/
-	@Test
-	public void discrepanciaDeTipos() {
-		Atraccion atraccion1=new Atraccion("Mordor", 25, 3, 4, TipoDeAtraccion.AVENTURA);
-		Atraccion atraccion2= new Atraccion("La Comarca",3,6.5,150,TipoDeAtraccion.DEGUSTACION);
-		PromoPorcentual promo= new PromoPorcentual(TipoDeAtraccion.AVENTURA, atraccion1, atraccion2, 3);
-		//no es null
-		assertNotNull(promo);
-		//pero sus datos sí lo son
-		assertNull(promo.getNombre1());
-		assertEquals(0, promo.getPrecio1());
-		//  :/
-		
-		Atraccion atraccion3= new Atraccion("Erebor", 12, 3, 32,TipoDeAtraccion.PAISAJE);
-		PromoAxB promo2= new PromoAxB(TipoDeAtraccion.AVENTURA, atraccion1, atraccion2, atraccion3);
-	}
-	@Test
-	public void promoPorcentual() {
-		Atraccion atraccion1=new Atraccion("Mordor", 25, 3, 4, TipoDeAtraccion.AVENTURA);
-		Atraccion atraccion2= new Atraccion("Bosque negro", 3, 4, 12, TipoDeAtraccion.AVENTURA);
-		PromoPorcentual promo= new PromoPorcentual(TipoDeAtraccion.AVENTURA, atraccion1, atraccion2, 20);
-		//redondea para arriba
-		assertEquals(23, promo.aplicarPromo());
+
+	List<Atraccion> lasAtracciones = new ArrayList<Atraccion>();
+	List<Promocion> lasPromociones = new ArrayList<Promocion>();
+
+	@Before
+	public void setup() {
+		lectorDeArchivos lector = new lectorDeArchivos();
+		lector.LeerAtracciones(lasAtracciones);
+		lector.LeerPromos(lasPromociones, lasAtracciones);
+
 	}
 
-	public void promoAbsoluta() {
-		Atraccion atraccion1= new Atraccion("Lothlorien", 35, 1, 30, TipoDeAtraccion.DEGUSTACION);
-		Atraccion atraccion2= new Atraccion("La Comarca",3,6.5,150,TipoDeAtraccion.DEGUSTACION);
-		PromoAbsoluta promo= new PromoAbsoluta(TipoDeAtraccion.DEGUSTACION, atraccion1, atraccion2, 36);
-		assertEquals(36, promo.aplicarPromo());
+	@Test
+	public void cantidadDePromosTest() {
+		
+		//Vemos que se cargaron la cantidad correcta de promociones
+
+		assertEquals(4, lasPromociones.size());
+
+	}
+
+	@Test
+	public void tiposDePromosTest() {
+		
+		//Vemos los tipos de atraccion de cada una de las promociones
+
+		assertEquals(TipoDePromo.ABSOLUTA, lasPromociones.get(0).getTipo());
+		assertEquals(TipoDePromo.PORCENTUAL, lasPromociones.get(1).getTipo());
+		assertEquals(TipoDePromo.AxB, lasPromociones.get(2).getTipo());
+		assertEquals(TipoDePromo.ABSOLUTA, lasPromociones.get(3).getTipo());
+
 	}
 	
-	public void promoAXB() {
-		Atraccion atraccion1= new Atraccion("Minas Tirith", 5, 2.5, 25, TipoDeAtraccion.PAISAJE);
-		Atraccion atraccion2= new Atraccion("Abismo de Helm", 5, 2, 15, TipoDeAtraccion.PAISAJE);
-		Atraccion atraccion3= new Atraccion("Erebor", 12, 3, 32,TipoDeAtraccion.PAISAJE);
-		PromoAxB promo= new PromoAxB(TipoDeAtraccion.PAISAJE, atraccion1, atraccion2, atraccion3);
-		assertEquals("Erebor", promo.aplicarPromo());
+	
+	@Test
+	public void cantidadDeAtraccionesEnCadaPromoTest() {
+		
+		//Vemos cuantas atracciones entran en cada promocion
+
+		assertEquals(2, lasPromociones.get(0).getAtraccionesEnLaPromo().size());
+		assertEquals(3, lasPromociones.get(1).getAtraccionesEnLaPromo().size());
+		assertEquals(2, lasPromociones.get(2).getAtraccionesEnLaPromo().size());
+		assertEquals(5, lasPromociones.get(3).getAtraccionesEnLaPromo().size());
+
+
 	}
 	
+	
+	@Test
+	public void nombresDeAtraccionesTest() {
+		
+		//Vemos los nombres de las atracciones
+
+		assertEquals("Bosque Negro", lasPromociones.get(0).getAtraccionesEnLaPromo().get(0).getNombre());
+		assertEquals("Moria", lasPromociones.get(0).getAtraccionesEnLaPromo().get(1).getNombre());
+
+
+	}
+	
+	@Test
+	public void valoresDeLasPromosTest() {
+		
+		//Vemos los nombres de las atracciones
+
+		assertEquals(100, lasPromociones.get(3).getValorPromo());
+		assertEquals(0, lasPromociones.get(2).getValorPromo());
+		assertEquals(20, lasPromociones.get(1).getValorPromo());
+		assertEquals(50, lasPromociones.get(0).getValorPromo());
+
+
+	}
+	
+
+
 }

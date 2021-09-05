@@ -19,7 +19,7 @@ public class Atraccion {
 
 	//constructor por defecto
 	public Atraccion() {
-		this(" ", 0, 0,0, TipoDeAtraccion.AVENTURA);
+		this(" ", 0, 0,0, TipoDeAtraccion.DEFAULT);
 	}
 
 //--------------------------GETTERS----------------------------------
