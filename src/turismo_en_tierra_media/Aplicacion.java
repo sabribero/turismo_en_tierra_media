@@ -80,7 +80,6 @@ public class Aplicacion {
 
 					char seleccion = entrada.next().charAt(0);
 
-					System.out.println("Es una " + seleccion);
 
 					while (seleccion != 'S' && seleccion != 'N') {
 
@@ -119,7 +118,6 @@ public class Aplicacion {
 							unUsuario.getNombre() + ", te gustaria ir a " + cadaAtraccion.getNombre() + "? ( S/N )");
 					char seleccion = entrada.next().charAt(0);
 
-					System.out.println("Es una " + seleccion);
 
 					while (seleccion != 'S' && seleccion != 'N') {
 
