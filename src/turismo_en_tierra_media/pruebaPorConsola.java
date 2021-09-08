@@ -19,6 +19,16 @@ public class pruebaPorConsola {
 		Aplicacion APP = new Aplicacion(todasLasAtracciones);
 
 		APP.separarAtracciones();
+		
+		
+		System.out.println("Las atracciones separadas por tipo son:\n ");	
+		
+		System.out.println(APP.atraccionesDeAventura);
+		System.out.println(APP.atraccionesDeDegustacion);
+		System.out.println(APP.atraccionesDePaisaje);
+		
+		
+		System.out.println("\n Iniciamos la oferta de atracciones:  \n \n ");	
 
 		for (int i = 0; i < todosLosUsuarios.size(); i++) {
 
@@ -30,6 +40,8 @@ public class pruebaPorConsola {
 			
 
 		}
+		
+		System.out.println("FIN. Gracias por utilizar Tierra Media APP");
 
 	}
 

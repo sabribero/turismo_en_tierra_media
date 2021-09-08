@@ -35,6 +35,11 @@ public class Aplicacion {
 	List<Atraccion> atraccionesDeDegustacion = new ArrayList<Atraccion>();
 	List<Atraccion> atraccionesDePaisaje = new ArrayList<Atraccion>();
 
+	// Lista de listas y listas auxiliares para ordenar antes de ofrecer
+
+	List<List<Atraccion>> listaOrdenadaParaSugerir = new ArrayList<List<Atraccion>>();
+
+
 	// El constructor recibe una lista de atracciones
 	public Aplicacion(List<Atraccion> Atracciones) {
 		super();
@@ -66,9 +71,45 @@ public class Aplicacion {
 
 	public void ofrecerAtracciones(Usuario unUsuario) {
 
-		if (unUsuario.getAtraccionFavorita() == TipoDeAtraccion.PAISAJE) {
+		this.listaOrdenadaParaSugerir.clear();
 
-			for (Atraccion cadaAtraccion : this.atraccionesDePaisaje) {
+		switch (unUsuario.getAtraccionFavorita()) {
+
+		case PAISAJE: {
+
+			this.listaOrdenadaParaSugerir.add(atraccionesDePaisaje);
+			this.listaOrdenadaParaSugerir.add(atraccionesDeAventura);
+			this.listaOrdenadaParaSugerir.add(atraccionesDeDegustacion);
+
+		}
+
+		case AVENTURA: {
+
+			this.listaOrdenadaParaSugerir.add(atraccionesDeAventura);
+			this.listaOrdenadaParaSugerir.add(atraccionesDeDegustacion);
+			this.listaOrdenadaParaSugerir.add(atraccionesDePaisaje);
+
+		}
+
+		case DEGUSTACION: {
+
+			this.listaOrdenadaParaSugerir.add(atraccionesDeDegustacion);
+			this.listaOrdenadaParaSugerir.add(atraccionesDePaisaje);
+			this.listaOrdenadaParaSugerir.add(atraccionesDeAventura);
+
+		}
+
+		case DEFAULT: {
+
+			// TIRAR UN ERROR
+
+		}
+
+		}
+
+		for (List<Atraccion> cadaListaDeTipo : this.listaOrdenadaParaSugerir)
+
+			for (Atraccion cadaAtraccion : cadaListaDeTipo) {
 
 				if (unUsuario.podriasIrA(cadaAtraccion) && unUsuario.todaviaNoVasA(cadaAtraccion)
 						&& cadaAtraccion.getUsosDisponibles() > 0) {
@@ -76,99 +117,36 @@ public class Aplicacion {
 					Scanner entrada = new Scanner(System.in);
 
 					System.out.println(
-							unUsuario.getNombre() + ", te gustaria ir a " + cadaAtraccion.getNombre() + "? ( S/N )");
+							unUsuario.getNombre() + ", te gustaria ir a " + cadaAtraccion.getNombre() + "? ( 1 - Si / 2 - No )");
 
-					char seleccion = entrada.next().charAt(0);
+					int seleccion = Character.getNumericValue(entrada.next().charAt(0));
 
+					while (seleccion != 1 && seleccion != 2) {
 
-					while (seleccion != 'S' && seleccion != 'N') {
-
-						System.out.println("Error, debe ingresar solo una S o una N");
+						System.out.println("Error, debe ingresar solo un 1 o un 2");
 						System.out.println(unUsuario.getNombre() + ", te gustaria ir a " + cadaAtraccion.getNombre()
-								+ "? ( S/N )");
+								+ "? ( 1 - Si / 2 - No )");
 
-						seleccion = entrada.next().charAt(0);
+						seleccion = Character.getNumericValue(entrada.next().charAt(0));
 
 					}
 
-					if (seleccion == 'S') {
+					if (seleccion == 1) {
 
 						cadaAtraccion.reservarLugar(unUsuario);
-					} else if (seleccion == 'N') {
+					} else if (seleccion == 2) {
 
 						System.out.println("No vas a ir a " + cadaAtraccion.getNombre());
 
 					}
 
-					//entrada.close();
+					// entrada.close();
 
 				}
 
 			}
 
-		} else if (unUsuario.getAtraccionFavorita() == TipoDeAtraccion.AVENTURA) {
-
-			for (Atraccion cadaAtraccion : this.atraccionesDeAventura) {
-
-				if (unUsuario.podriasIrA(cadaAtraccion) && unUsuario.todaviaNoVasA(cadaAtraccion)
-						&& cadaAtraccion.getUsosDisponibles() > 0) {
-
-					Scanner entrada = new Scanner(System.in);
-					System.out.println(
-							unUsuario.getNombre() + ", te gustaria ir a " + cadaAtraccion.getNombre() + "? ( S/N )");
-					char seleccion = entrada.next().charAt(0);
-
-
-					while (seleccion != 'S' && seleccion != 'N') {
-
-						System.out.println("Error, debe ingresar solo una S o una N");
-						System.out.println(unUsuario.getNombre() + ", te gustaria ir a " + cadaAtraccion.getNombre()
-								+ "? ( S/N )");
-
-						seleccion = entrada.next().charAt(0);
-
-					}
-
-					if (seleccion == 'S') {
-
-						cadaAtraccion.reservarLugar(unUsuario);
-					}
-
-				//	entrada.close();
-				}
-			}
-		} else if (unUsuario.getAtraccionFavorita() == TipoDeAtraccion.DEGUSTACION) {
-
-			for (Atraccion cadaAtraccion : this.atraccionesDeDegustacion) {
-
-				if (unUsuario.podriasIrA(cadaAtraccion) && unUsuario.todaviaNoVasA(cadaAtraccion)
-						&& cadaAtraccion.getUsosDisponibles() > 0) {
-
-					Scanner entrada = new Scanner(System.in);
-					System.out.println(
-							unUsuario.getNombre() + ", te gustaria ir a " + cadaAtraccion.getNombre() + "? ( S/N )");
-					char seleccion = entrada.next().charAt(0);
-
-					while (seleccion != 'S' && seleccion != 'N') {
-
-						System.out.println("Error, debe ingresar solo una S o una N");
-						System.out.println(unUsuario.getNombre() + ", te gustaria ir a " + cadaAtraccion.getNombre()
-								+ "? ( S/N )");
-
-						seleccion = entrada.next().charAt(0);
-
-					}
-
-					if (seleccion == 'S') {
-
-						cadaAtraccion.reservarLugar(unUsuario);
-					}
-
-					//entrada.close();
-
-				}
-			}
-		}
+		/////////////////////////////////////////////////////
 
 	}
 
