@@ -39,10 +39,9 @@ public class Aplicacion {
 
 	List<List<Atraccion>> listaOrdenadaParaSugerir = new ArrayList<List<Atraccion>>();
 
-
 	// El constructor recibe una lista de atracciones
 	public Aplicacion(List<Atraccion> Atracciones) {
-		super();
+		// super();
 		this.todasLasAtracciones = Atracciones;
 
 	}
@@ -70,12 +69,14 @@ public class Aplicacion {
 	}
 
 	public void ofrecerAtracciones(Usuario unUsuario) {
+		
+		System.out.println("Bienvenido " + unUsuario.getNombre() +", vamos a comenzar: \n\n");
 
 		this.listaOrdenadaParaSugerir.clear();
 
-		switch (unUsuario.getAtraccionFavorita()) {
+		if (unUsuario.getAtraccionFavorita() == TipoDeAtraccion.PAISAJE) {
 
-		case PAISAJE: {
+
 
 			this.listaOrdenadaParaSugerir.add(atraccionesDePaisaje);
 			this.listaOrdenadaParaSugerir.add(atraccionesDeAventura);
@@ -83,15 +84,8 @@ public class Aplicacion {
 
 		}
 
-		case AVENTURA: {
+		if (unUsuario.getAtraccionFavorita() == TipoDeAtraccion.DEGUSTACION) {
 
-			this.listaOrdenadaParaSugerir.add(atraccionesDeAventura);
-			this.listaOrdenadaParaSugerir.add(atraccionesDeDegustacion);
-			this.listaOrdenadaParaSugerir.add(atraccionesDePaisaje);
-
-		}
-
-		case DEGUSTACION: {
 
 			this.listaOrdenadaParaSugerir.add(atraccionesDeDegustacion);
 			this.listaOrdenadaParaSugerir.add(atraccionesDePaisaje);
@@ -99,11 +93,12 @@ public class Aplicacion {
 
 		}
 
-		case DEFAULT: {
+		if (unUsuario.getAtraccionFavorita() == TipoDeAtraccion.AVENTURA) {
 
-			// TIRAR UN ERROR
 
-		}
+			this.listaOrdenadaParaSugerir.add(atraccionesDeAventura);
+			this.listaOrdenadaParaSugerir.add(atraccionesDeDegustacion);
+			this.listaOrdenadaParaSugerir.add(atraccionesDePaisaje);
 
 		}
 
@@ -116,8 +111,8 @@ public class Aplicacion {
 
 					Scanner entrada = new Scanner(System.in);
 
-					System.out.println(
-							unUsuario.getNombre() + ", te gustaria ir a " + cadaAtraccion.getNombre() + "? ( 1 - Si / 2 - No )");
+					System.out.println(unUsuario.getNombre() + ", te gustaria ir a " + cadaAtraccion.getNombre()
+							+ "? ( 1 - Si / 2 - No )");
 
 					int seleccion = Character.getNumericValue(entrada.next().charAt(0));
 

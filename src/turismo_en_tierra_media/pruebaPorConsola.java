@@ -33,15 +33,25 @@ public class pruebaPorConsola {
 		for (int i = 0; i < todosLosUsuarios.size(); i++) {
 
 			APP.ofrecerAtracciones(todosLosUsuarios.get(i));
+			
+			/*Error: Me ofrece 2 veces cada atraccion
+			 * 
+			 * 
+			 * 
+			 * 
+			 * 
+			 */
 
 			System.out.println(todosLosUsuarios.get(i).getNombre() + " va a ir a:");
 			todosLosUsuarios.get(i).getItinerario().forEach(System.out::println);
+			
+			System.out.println(" \n \n FIN DE USUARIO \n \n");
 			
 			
 
 		}
 		
-		System.out.println("FIN. Gracias por utilizar Tierra Media APP");
+		System.out.println("FIN DE LA APP. Gracias por utilizar Tierra Media APP");
 
 	}
 
