@@ -23,8 +23,12 @@ public class pruebaPorConsola {
 		
 		System.out.println("Las atracciones separadas por tipo son:\n ");	
 		
+		
+		System.out.print("Aventura: ");
 		System.out.println(APP.atraccionesDeAventura);
+		System.out.print("Degustacion: ");
 		System.out.println(APP.atraccionesDeDegustacion);
+		System.out.print("Paisaje : ");
 		System.out.println(APP.atraccionesDePaisaje);
 		
 		
