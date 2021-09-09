@@ -1,5 +1,8 @@
 package turismo_en_tierra_media;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
 import java.util.ArrayList;
 
 import java.util.Scanner;
@@ -69,14 +72,12 @@ public class Aplicacion {
 	}
 
 	public void ofrecerAtracciones(Usuario unUsuario) {
-		
-		System.out.println("Bienvenido " + unUsuario.getNombre() +", vamos a comenzar: \n\n");
+
+		System.out.println("Bienvenido " + unUsuario.getNombre() + ", vamos a comenzar: \n\n");
 
 		this.listaOrdenadaParaSugerir.clear();
 
 		if (unUsuario.getAtraccionFavorita() == TipoDeAtraccion.PAISAJE) {
-
-
 
 			this.listaOrdenadaParaSugerir.add(atraccionesDePaisaje);
 			this.listaOrdenadaParaSugerir.add(atraccionesDeAventura);
@@ -86,7 +87,6 @@ public class Aplicacion {
 
 		if (unUsuario.getAtraccionFavorita() == TipoDeAtraccion.DEGUSTACION) {
 
-
 			this.listaOrdenadaParaSugerir.add(atraccionesDeDegustacion);
 			this.listaOrdenadaParaSugerir.add(atraccionesDePaisaje);
 			this.listaOrdenadaParaSugerir.add(atraccionesDeAventura);
@@ -94,7 +94,6 @@ public class Aplicacion {
 		}
 
 		if (unUsuario.getAtraccionFavorita() == TipoDeAtraccion.AVENTURA) {
-
 
 			this.listaOrdenadaParaSugerir.add(atraccionesDeAventura);
 			this.listaOrdenadaParaSugerir.add(atraccionesDeDegustacion);
@@ -135,14 +134,42 @@ public class Aplicacion {
 
 					}
 
-					// entrada.close();
-
 				}
 
 			}
 
 		/////////////////////////////////////////////////////
+		
+		crearArchivoUsuario(unUsuario);
+		
 
 	}
+	
+	public void crearArchivoUsuario(Usuario unUsuario) {
+		
+		
+        try {
+            //String ruta = "archivos_de_salida/"+unUsuario.getNombre()+".txt";
+            String ruta = unUsuario.getNombre()+".txt";     	
+            String contenido = unUsuario.toString();
+            File file = new File(ruta);
+            // Si el archivo no existe es creado
+            if (!file.exists()) {
+                file.createNewFile();
+            }
+            FileWriter fw = new FileWriter(file);
+            BufferedWriter bw = new BufferedWriter(fw);
+            bw.write(contenido);
+            bw.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+		
+		
+		
+	}
+	
+	
+	
 
 }
