@@ -1,0 +1,4 @@
+Adinerado: Gasto 100 monedas.
+ Pasara 30.0 horas en tierra media.
+Su tipo de atraccion favorito es: Aventura.
+Su itinerario es: [Mordor, Moria, Bosque Negro, Lothlorien, La Comarca, Erebor, Minas Tirith, Abismo de Helm].
