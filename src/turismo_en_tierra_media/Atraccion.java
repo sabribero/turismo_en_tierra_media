@@ -64,7 +64,6 @@ public class Atraccion {
 
 	public void reservarLugar(Usuario unUsuario) {
 		this.usosDisponibles-=1;
-		unUsuario.agregarAtraccion(this);
 	}
 	
 	/////////////////////

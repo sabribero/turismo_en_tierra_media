@@ -1,27 +1,31 @@
 package turismo_en_tierra_media;
 
+import java.util.List;
+
 public class PromoPorcentual extends Promocion{
 	
-	private int descuento;
+
 	
 
-	public PromoPorcentual(TipoDeAtraccion tipo,Atraccion atraccion1, Atraccion atraccion2, int descuento) {
-		super(tipo, atraccion1, atraccion2);
-		this.descuento = Validacion.validar(descuento);
+	public PromoPorcentual(List<Atraccion> atraccionesEnPromo, int valorPromo) {
+		
+		super(atraccionesEnPromo, valorPromo);
+		this.atraccionesEnPromocion=atraccionesEnPromo;
+		
+		this.valorPromo=0;
+		for(Atraccion cadaUna: atraccionesEnPromo) {
+			
+			this.valorPromo=+cadaUna.getValor();
+		}
+		
+		
+		this.tiempoPromo=0;
+		for(Atraccion cadaUna : atraccionesEnPromo) {
+			
+			this.tiempoPromo=+cadaUna.getTiempoDeUso();
+			}
 		
 	}
-//-------------------GETTERS------------------
-	public int getDescuento() {
-		return descuento;
-	}
 
-	
 
-	
-	
-	public int aplicarPromo() { 
-		//paso innecesario pero hace más legible el código
-		int total= super.getPrecio1()+ super.getPrecio2();
-		return  Math.round(total-total*this.descuento/100);
-	}
 }

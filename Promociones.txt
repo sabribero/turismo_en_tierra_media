@@ -1,4 +1,4 @@
-A,50,Bosque Negro,Moria
-P,20,Minas Tirith,Abismo de Helm,Erebor
-B,0,Minas Tirith,Erebor
-A,100,Bosque Negro,Moria,Minas Tirith,La Comarca,Mordor
+ABSOLUTA,50,Bosque Negro,Moria
+PORCENTUAL,20,Minas Tirith,Abismo de Helm,Erebor
+AxB,0,Minas Tirith,Erebor
+ABSOLUTA,100,Bosque Negro,Moria,Minas Tirith,La Comarca,Mordor

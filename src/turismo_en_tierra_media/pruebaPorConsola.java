@@ -9,16 +9,18 @@ public class pruebaPorConsola {
 
 		List<Atraccion> todasLasAtracciones = new ArrayList<Atraccion>();
 		List<Usuario> todosLosUsuarios = new ArrayList<Usuario>();
-	//	List<Promocion> todasLasPromociones = new ArrayList<Promocion>();
+		List<Promocion> todasLasPromociones = new ArrayList<Promocion>();
 
 		lectorDeArchivos lector = new lectorDeArchivos();
 
 		lector.leerUsuarios(todosLosUsuarios);
 		lector.LeerAtracciones(todasLasAtracciones);
+		lector.LeerPromos(todasLasPromociones, todasLasAtracciones);
 
 		Aplicacion APP = new Aplicacion(todasLasAtracciones);
 
 		APP.separarAtracciones();
+		APP.separarPromociones(todasLasPromociones);
 		
 		
 		System.out.println("Las atracciones separadas por tipo son:\n ");	
@@ -36,7 +38,7 @@ public class pruebaPorConsola {
 
 		for (int i = 0; i < todosLosUsuarios.size(); i++) {
 
-			APP.ofrecerAtracciones(todosLosUsuarios.get(i));
+			APP.ofrecerTodo(todosLosUsuarios.get(i));
 			
 			/*Error: Me ofrece 2 veces cada atraccion
 			 * 

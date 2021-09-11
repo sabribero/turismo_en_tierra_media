@@ -1,15 +1,24 @@
 package turismo_en_tierra_media;
 
+import java.util.List;
+
 public class PromoAbsoluta extends Promocion{
 
-	private int precioTotal;
+
+
 	
-	public PromoAbsoluta(TipoDeAtraccion tipo, Atraccion atraccion1, Atraccion atraccion2, int precio) {
-		super(tipo, atraccion1, atraccion2);
-		this.precioTotal = Validacion.validar(precio);
+	public PromoAbsoluta(List<Atraccion> atraccionesEnPromo, int valorPromo) {
+		
+		super(atraccionesEnPromo, valorPromo);
+		this.atraccionesEnPromocion=atraccionesEnPromo;
+		this.valorPromo= valorPromo;
+		
+		this.tiempoPromo=0;
+		for(Atraccion cadaUna : atraccionesEnPromo) {
+			
+			this.tiempoPromo=+cadaUna.getTiempoDeUso();
+			}
 	}
 	
-	public int aplicarPromo() {
-		return this.precioTotal;
-	}
+	
 }

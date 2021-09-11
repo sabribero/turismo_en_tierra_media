@@ -38,9 +38,14 @@ public class Aplicacion {
 	List<Atraccion> atraccionesDeDegustacion = new ArrayList<Atraccion>();
 	List<Atraccion> atraccionesDePaisaje = new ArrayList<Atraccion>();
 
+	List<Promocion> promocionesDeAventura = new ArrayList<Promocion>();
+	List<Promocion> promocionesDeDegustacion = new ArrayList<Promocion>();
+	List<Promocion> promocionesDePaisaje = new ArrayList<Promocion>();
+
 	// Lista de listas y listas auxiliares para ordenar antes de ofrecer
 
 	List<List<Atraccion>> listaOrdenadaParaSugerir = new ArrayList<List<Atraccion>>();
+	List<List<Promocion>> listaOrdenadaParaSugerirPromociones = new ArrayList<List<Promocion>>();
 
 	// El constructor recibe una lista de atracciones
 	public Aplicacion(List<Atraccion> Atracciones) {
@@ -71,105 +76,210 @@ public class Aplicacion {
 
 	}
 
-	public void ofrecerAtracciones(Usuario unUsuario) {
+	public void separarPromociones(List<Promocion> todasLasPromos) {
+
+		for (int i = 0; i < todasLasPromos.size(); i++) {
+
+			if (todasLasPromos.get(i).getAtraccionesEnPromocion().get(0).getTipo() == TipoDeAtraccion.AVENTURA) {
+				promocionesDeAventura.add(todasLasPromos.get(i));
+
+			} else if (todasLasPromos.get(i).getAtraccionesEnPromocion().get(0).getTipo() == TipoDeAtraccion.PAISAJE) {
+				promocionesDePaisaje.add(todasLasPromos.get(i));
+
+			} else if (todasLasPromos.get(i).getAtraccionesEnPromocion().get(0).getTipo() == TipoDeAtraccion.DEGUSTACION) {
+				promocionesDeDegustacion.add(todasLasPromos.get(i));
+
+			}
+		}
+
+	}
+
+	public void ofrecerTodo(Usuario unUsuario) {
 
 		System.out.println("Bienvenido " + unUsuario.getNombre() + ", vamos a comenzar: \n\n");
 
 		this.listaOrdenadaParaSugerir.clear();
+		this.listaOrdenadaParaSugerirPromociones.clear();
 
 		if (unUsuario.getAtraccionFavorita() == TipoDeAtraccion.PAISAJE) {
-
-			this.listaOrdenadaParaSugerir.add(atraccionesDePaisaje);
-			this.listaOrdenadaParaSugerir.add(atraccionesDeAventura);
-			this.listaOrdenadaParaSugerir.add(atraccionesDeDegustacion);
+			
+			
+			this.ofrecerPromociones(unUsuario, promocionesDePaisaje);
+			this.ofrecerPromociones(unUsuario, promocionesDeAventura);
+			this.ofrecerPromociones(unUsuario, promocionesDeDegustacion);
+			
+			this.ofrecerAtracciones(unUsuario, atraccionesDePaisaje);
+			this.ofrecerAtracciones(unUsuario, atraccionesDeAventura);
+			this.ofrecerAtracciones(unUsuario, atraccionesDeDegustacion);
 
 		}
 
 		if (unUsuario.getAtraccionFavorita() == TipoDeAtraccion.DEGUSTACION) {
-
-			this.listaOrdenadaParaSugerir.add(atraccionesDeDegustacion);
-			this.listaOrdenadaParaSugerir.add(atraccionesDePaisaje);
-			this.listaOrdenadaParaSugerir.add(atraccionesDeAventura);
+			
+			
+			
+			this.ofrecerPromociones(unUsuario, promocionesDeDegustacion);
+			this.ofrecerPromociones(unUsuario, promocionesDePaisaje);
+			this.ofrecerPromociones(unUsuario, promocionesDeAventura);
+			
+			this.ofrecerAtracciones(unUsuario, atraccionesDeDegustacion);
+			this.ofrecerAtracciones(unUsuario, atraccionesDePaisaje);
+			this.ofrecerAtracciones(unUsuario, atraccionesDeAventura);
+			
 
 		}
 
 		if (unUsuario.getAtraccionFavorita() == TipoDeAtraccion.AVENTURA) {
+			
+			this.ofrecerPromociones(unUsuario, promocionesDeAventura);
+			this.ofrecerPromociones(unUsuario, promocionesDeDegustacion);
+			this.ofrecerPromociones(unUsuario, promocionesDePaisaje);
+			
+			this.ofrecerAtracciones(unUsuario, atraccionesDeAventura);
+			this.ofrecerAtracciones(unUsuario, atraccionesDeDegustacion);
+			this.ofrecerAtracciones(unUsuario, atraccionesDePaisaje);
 
-			this.listaOrdenadaParaSugerir.add(atraccionesDeAventura);
-			this.listaOrdenadaParaSugerir.add(atraccionesDeDegustacion);
-			this.listaOrdenadaParaSugerir.add(atraccionesDePaisaje);
 
 		}
 
-		for (List<Atraccion> cadaListaDeTipo : this.listaOrdenadaParaSugerir)
+		/////////////////////////////////////////////////////
 
-			for (Atraccion cadaAtraccion : cadaListaDeTipo) {
+		crearArchivoUsuario(unUsuario);
 
-				if (unUsuario.podriasIrA(cadaAtraccion) && unUsuario.todaviaNoVasA(cadaAtraccion)
-						&& cadaAtraccion.getUsosDisponibles() > 0) {
+	}
+	
+	
+	
+	public void ofrecerAtracciones(Usuario unUsuario, List<Atraccion> unasAtracciones) {
+		
+		
+		for (Atraccion cadaAtraccion : unasAtracciones) {
 
-					Scanner entrada = new Scanner(System.in);
+			if (unUsuario.podesIrA(cadaAtraccion.getValor(), cadaAtraccion.getTiempoDeUso()) && unUsuario.todaviaNoVasA(cadaAtraccion)
+					&& cadaAtraccion.getUsosDisponibles() > 0) {
 
+				Scanner entrada = new Scanner(System.in);
+
+				System.out.println(unUsuario.getNombre() + ", te gustaria ir a " + cadaAtraccion.getNombre()
+						+ "? ( 1 - Si / 2 - No )");
+
+				int seleccion = Character.getNumericValue(entrada.next().charAt(0));
+
+				while (seleccion != 1 && seleccion != 2) {
+
+					System.out.println("Error, debe ingresar solo un 1 o un 2");
 					System.out.println(unUsuario.getNombre() + ", te gustaria ir a " + cadaAtraccion.getNombre()
 							+ "? ( 1 - Si / 2 - No )");
 
-					int seleccion = Character.getNumericValue(entrada.next().charAt(0));
+					seleccion = Character.getNumericValue(entrada.next().charAt(0));
 
-					while (seleccion != 1 && seleccion != 2) {
+				}
 
-						System.out.println("Error, debe ingresar solo un 1 o un 2");
-						System.out.println(unUsuario.getNombre() + ", te gustaria ir a " + cadaAtraccion.getNombre()
-								+ "? ( 1 - Si / 2 - No )");
+				if (seleccion == 1) {
 
-						seleccion = Character.getNumericValue(entrada.next().charAt(0));
+					cadaAtraccion.reservarLugar(unUsuario);
+					unUsuario.agregarAtraccion(cadaAtraccion);
+					
+					
+				} else if (seleccion == 2) {
 
-					}
-
-					if (seleccion == 1) {
-
-						cadaAtraccion.reservarLugar(unUsuario);
-					} else if (seleccion == 2) {
-
-						System.out.println("No vas a ir a " + cadaAtraccion.getNombre());
-
-					}
+					System.out.println("No vas a ir a " + cadaAtraccion.getNombre());
 
 				}
 
 			}
 
-		/////////////////////////////////////////////////////
+		}
+
 		
-		crearArchivoUsuario(unUsuario);
 		
+		
+		
+	}
+	
+	public void ofrecerPromociones(Usuario unUsuario, List<Promocion> unasPromociones) {
+		
+		for (Promocion cadaPromocion : unasPromociones) {
+			
+			boolean puede=true;
+			
+			for(Atraccion cadaAtraccion : cadaPromocion.getAtraccionesEnPromocion()){
+				
+				
+				if (!unUsuario.podesIrA(cadaPromocion.getValorPromo(), cadaPromocion.getTiempoDeUso()) || !unUsuario.todaviaNoVasA(cadaAtraccion)
+						|| !(cadaAtraccion.getUsosDisponibles() > 0)) {
+					
+					puede=false;
+					
+				}
+				
+			}
+
+			if (puede) {
+
+				Scanner entrada = new Scanner(System.in);
+
+				System.out.println(unUsuario.getNombre() + ", te gustaria comprar la promo de " + cadaPromocion.getNombre()
+						+ "por "+ cadaPromocion.getValorPromo()+ " monedas? ( 1 - Si / 2 - No )");
+
+				int seleccion = Character.getNumericValue(entrada.next().charAt(0));
+
+				while (seleccion != 1 && seleccion != 2) {
+
+					System.out.println("Error, debe ingresar solo un 1 o un 2");
+					System.out.println(unUsuario.getNombre() + ", te gustaria comprar o no? ( 1 - Si / 2 - No )");
+
+					seleccion = Character.getNumericValue(entrada.next().charAt(0));
+
+				}
+
+				if (seleccion == 1) {
+
+					
+					for(Atraccion cadaAtraccion : cadaPromocion.getAtraccionesEnPromocion()){
+						
+						cadaAtraccion.reservarLugar(unUsuario);
+					
+					}
+					
+					unUsuario.agregarPromocion(cadaPromocion);
+					
+
+				} else if (seleccion == 2) {
+
+					System.out.println("No vas a ir a " + cadaPromocion.getNombre());
+
+				}
+			}
+		}
+
+		
+	}
+	
+	
+	
+	
+	
+
+	public void crearArchivoUsuario(Usuario unUsuario) {
+
+		try {
+			// String ruta = "archivos_de_salida/"+unUsuario.getNombre()+".txt";
+			String ruta = unUsuario.getNombre() + ".txt";
+			String contenido = unUsuario.toString();
+			File file = new File(ruta);
+			// Si el archivo no existe es creado
+			if (!file.exists()) {
+				file.createNewFile();
+			}
+			FileWriter fw = new FileWriter(file);
+			BufferedWriter bw = new BufferedWriter(fw);
+			bw.write(contenido);
+			bw.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 
 	}
-	
-	public void crearArchivoUsuario(Usuario unUsuario) {
-		
-		
-        try {
-            //String ruta = "archivos_de_salida/"+unUsuario.getNombre()+".txt";
-            String ruta = unUsuario.getNombre()+".txt";     	
-            String contenido = unUsuario.toString();
-            File file = new File(ruta);
-            // Si el archivo no existe es creado
-            if (!file.exists()) {
-                file.createNewFile();
-            }
-            FileWriter fw = new FileWriter(file);
-            BufferedWriter bw = new BufferedWriter(fw);
-            bw.write(contenido);
-            bw.close();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-		
-		
-		
-	}
-	
-	
-	
 
 }

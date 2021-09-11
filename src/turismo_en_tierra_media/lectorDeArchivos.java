@@ -84,12 +84,6 @@ public class lectorDeArchivos {
 
 				String[] valores = linea.split(",");
 
-				/*
-				 * if(valores[3].equals("P")) tipo = TipoDeAtraccion.PAISAJE;
-				 * if(valores[3].equals("D")) tipo = TipoDeAtraccion.DEGUSTACION;
-				 * if(valores[3].equals("A")) tipo = TipoDeAtraccion.AVENTURA;
-				 */
-
 				Atraccion aux = new Atraccion(valores[4], Integer.parseInt(valores[0]), Float.parseFloat(valores[1]),
 						Integer.parseInt(valores[2]), TipoDeAtraccion.valueOf(valores[3]));
 
@@ -122,7 +116,6 @@ public class lectorDeArchivos {
 		FileReader fr = null;
 		BufferedReader br = null;
 
-
 		try {
 			// Apertura del fichero y creacion de BufferedReader para poder
 			// hacer una lectura comoda (disponer del metodo readLine()).
@@ -134,24 +127,23 @@ public class lectorDeArchivos {
 			String linea;
 			// TipoDeAtraccion tipo = TipoDeAtraccion.DEFAULT;
 			while ((linea = br.readLine()) != null) {
-				
+
 				TipoDePromo unTipo = TipoDePromo.DEFAULT;
 				List<Atraccion> atraccionesEnPromocion = new ArrayList<Atraccion>();
 				int valorDescuento;
 
 				String[] valores = linea.split(",");
 
-				if (valores[0].equals("P"))
+				if (valores[0].equals("PORCENTUAL"))
 					unTipo = TipoDePromo.PORCENTUAL;
-				if (valores[0].equals("A"))
+				if (valores[0].equals("ABSOLUTA"))
 					unTipo = TipoDePromo.ABSOLUTA;
-				if (valores[0].equals("B"))
+				if (valores[0].equals("AxB"))
 					unTipo = TipoDePromo.AxB;
 
 				valorDescuento = Integer.parseInt(valores[1]);
-				
 
-				for (int i = 2; i <valores.length; i++) {
+				for (int i = 2; i < valores.length; i++) {
 
 					for (int j = 0; j < todasLasAtracciones.size(); j++) {
 
@@ -163,17 +155,23 @@ public class lectorDeArchivos {
 
 					}
 				}
-				
-				
-				
-				Promocion aux = new Promocion(unTipo, atraccionesEnPromocion, valorDescuento);
-				
-				todasLasPromos.add(aux);
-				
+
+				if (unTipo == TipoDePromo.ABSOLUTA) {
+
+					todasLasPromos.add(new PromoAbsoluta(atraccionesEnPromocion, valorDescuento));
+				} else {
+					if (unTipo == TipoDePromo.PORCENTUAL) {
+
+						todasLasPromos.add(new PromoPorcentual(atraccionesEnPromocion, valorDescuento));
+					} else if (unTipo == TipoDePromo.AxB) {
+
+						todasLasPromos.add(new PromoAxB(atraccionesEnPromocion, valorDescuento));
+
+					}
+
+				}
 
 			}
-			
-			
 
 		} catch (Exception e) {
 			e.printStackTrace();

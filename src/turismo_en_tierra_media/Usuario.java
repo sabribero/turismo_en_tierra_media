@@ -57,7 +57,7 @@ public class Usuario {
 		return this.nombre + ": Gasto " + (this.monedasIniciales - this.presupuesto) + " monedas.\n " + "Pasara "
 				+ (this.tiempoDisponibleOriginal - this.tiempoDisponible)
 				+ " horas en tierra media.\nSu tipo de atraccion favorito es: " + this.getNombreAtraccionFavorita()
-				+ ".\nSu itinerario es: " + this.getItinerario()+".";
+				+ ".\nSu itinerario es: " + this.getItinerario() + ".";
 	}
 
 	// a usarse cuando el usuario clickea aceptar
@@ -67,15 +67,39 @@ public class Usuario {
 		this.tiempoDisponible -= unaAtraccion.getTiempoDeUso();
 	}
 
+	protected void agregarPromocion(Promocion unaPromocion) {
+		
+		for(Atraccion cadaUna : unaPromocion.getAtraccionesEnPromocion()) {
+			
+			this.itinerario.add(cadaUna);	
+		}
+
+		this.presupuesto -= unaPromocion.getValorPromo();
+		
+		double auxTiempo=0;
+		
+		for (Atraccion cadaUna: unaPromocion.getAtraccionesEnPromocion()) {
+			
+			auxTiempo=+ cadaUna.getTiempoDeUso();
+			
+		}
+		
+		this.tiempoDisponible -= auxTiempo;
+	}
+
 	// Responde verdadero si tiene las monedas y el tiempo suficiente ---->
 	// Verdadero, tengo dinero y tiempo para ir a...
-	public boolean podriasIrA(Atraccion unaAtraccion) {
+	public boolean podesIrA(int valor, double tiempo) {
 
-		if (this.presupuesto >= unaAtraccion.getValor() && this.tiempoDisponible >= unaAtraccion.getTiempoDeUso()) {
+		if (this.presupuesto >= valor && this.tiempoDisponible >= tiempo) {
 			return true;
 		}
 		return false;
 	}
+	
+	
+	
+	
 
 	// Si todavia no tiene en el itinerario la atraccion que le pasan como
 	// parametro, da true --> Verdad, todavia no voy a .....
