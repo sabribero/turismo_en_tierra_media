@@ -264,8 +264,8 @@ public class Aplicacion {
 	public void crearArchivoUsuario(Usuario unUsuario) {
 
 		try {
-			// String ruta = "archivos_de_salida/"+unUsuario.getNombre()+".txt";
-			String ruta = unUsuario.getNombre() + ".txt";
+			String ruta = "archivos_de_salida/"+unUsuario.getNombre()+".txt";
+			//String ruta = unUsuario.getNombre() + ".txt";
 			String contenido = unUsuario.toString();
 			File file = new File(ruta);
 			// Si el archivo no existe es creado
