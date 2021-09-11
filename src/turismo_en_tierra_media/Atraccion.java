@@ -64,6 +64,7 @@ public class Atraccion {
 
 	public void reservarLugar(Usuario unUsuario) {
 		this.usosDisponibles-=1;
+		unUsuario.agregarAtraccion(this); // Esta línea sirve para el JUnite de Usuarios, quizás haya que borrarla
 	}
 	
 	/////////////////////
