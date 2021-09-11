@@ -7,6 +7,8 @@ public class Promocion {
 
 	protected int valorPromo;
 	protected double tiempoPromo;
+	protected TipoDeAtraccion tipoAtraccion;
+	protected TipoDePromo tipo;
 
 
 	protected List<Atraccion> atraccionesEnPromocion = new ArrayList<Atraccion>();
@@ -33,7 +35,7 @@ public class Promocion {
 	}
 
 	public int getValorPromo() {
-		return valorPromo;
+		return this.valorPromo;
 	}
 	
 	public String getNombre() {
@@ -41,8 +43,7 @@ public class Promocion {
 		String salida="";
 		
 		for(Atraccion cadaUna :this.getAtraccionesEnPromocion())
-			
-			salida= salida + cadaUna.getNombre() + ", ";
+			salida += " "+cadaUna.getNombre() + ",";
 			
 		return salida;
 	}
@@ -52,20 +53,14 @@ public class Promocion {
 		return tiempoPromo;
 	}
 
+	public TipoDePromo getTipo() {
+		return tipo;
+	}
+
 	/*
-	 * 
-	 * 
+	 *  
 	 * FALTAN LOS GETTERS DE NOMBRE, TIEMPO DE USO Y ETC QUE SE DEBERIAN SACAR DE
 	 * CADA UNA DE LAS ATRACCIONES Y SUMARSE.
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
 	 * 
 	 */
 
