@@ -49,7 +49,6 @@ public class Aplicacion {
 
 	// El constructor recibe una lista de atracciones
 	public Aplicacion(List<Atraccion> Atracciones) {
-		// super();
 		this.todasLasAtracciones = Atracciones;
 
 	}

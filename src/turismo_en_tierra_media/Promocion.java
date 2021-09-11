@@ -4,8 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Promocion {
-
-	protected int valorPromo;
+	protected int valor;
 	protected double tiempoPromo;
 	protected TipoDeAtraccion tipoAtraccion;
 	protected TipoDePromo tipo;
@@ -13,18 +12,10 @@ public class Promocion {
 
 	protected List<Atraccion> atraccionesEnPromocion = new ArrayList<Atraccion>();
 
-	public Promocion(List<Atraccion> atraccionesEnPromo, int valorPromo) {
+	public Promocion(List<Atraccion> atraccionesEnPromo) {
 
 		this.atraccionesEnPromocion = atraccionesEnPromo;
-		this.valorPromo = valorPromo;
-
-		/*
-		 * El valor en monedas va a depender del valor de cada atraccion, del tipo de
-		 * promo y del valor de la promo
-		 * 
-		 * 20% de descuento, 30% de descuento, absoluto de 40 monedas, 2x1, etc.
-		 */
-
+		this.setTiempo();
 	}
 
 	// --------------------------GETTERS----------------------
@@ -32,10 +23,6 @@ public class Promocion {
 
 	public List<Atraccion> getAtraccionesEnPromocion() {
 		return atraccionesEnPromocion;
-	}
-
-	public int getValorPromo() {
-		return this.valorPromo;
 	}
 	
 	public String getNombre() {
@@ -48,6 +35,9 @@ public class Promocion {
 		return salida;
 	}
 	
+	public int getValorPromo() {
+		return this.valor;
+	}
 	
 	public double getTiempoDeUso() {
 		return tiempoPromo;
@@ -57,6 +47,17 @@ public class Promocion {
 		return tipo;
 	}
 
+	
+//-------------------------SETTERS--------------------
+	//no se utiliza este setter directamente en el constructor ya que
+	//en la promocion AxB hay que esperar a que se agregue la atraccion
+	//gratis a la lista
+	public void setTiempo() {
+		this.tiempoPromo=0;
+		for(Atraccion cadaUna : atraccionesEnPromocion) {
+			this.tiempoPromo += cadaUna.getTiempoDeUso();
+		}
+	}
 	/*
 	 *  
 	 * FALTAN LOS GETTERS DE NOMBRE, TIEMPO DE USO Y ETC QUE SE DEBERIAN SACAR DE

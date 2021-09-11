@@ -139,7 +139,7 @@ public class lectorDeArchivos {
 					else if (valores[0].equals("PORCENTUAL")) //unTipo == TipoDePromo.PORCENTUAL)
 						todasLasPromos.add(new PromoPorcentual(atraccionesEnPromocion, valorDescuento));
 					else if (valores[0].equals("AxB")) //unTipo == TipoDePromo.AxB)
-						todasLasPromos.add(new PromoAxB(atraccionesEnPromocion, valorDescuento));
+						todasLasPromos.add(new PromoAxB(atraccionesEnPromocion));
 				}
 			}
 		} catch (Exception e) {
