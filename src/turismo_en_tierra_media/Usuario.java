@@ -54,12 +54,18 @@ public class Usuario {
 //-------------------------------METODOS----------------------------
 	@Override
 	public String toString() {
-		return this.nombre + ": Gasto " + (this.monedasIniciales - this.presupuesto) + " monedas.\n " + "Pasara "
+		return this.nombre + ": Gasto " + (this.monedasIniciales - this.presupuesto) + " monedas.\n" + "Pasara "
 				+ (this.tiempoDisponibleOriginal - this.tiempoDisponible)
 				+ " horas en tierra media.\nSu tipo de atraccion favorito es: " + this.getNombreAtraccionFavorita()
 				+ ".\nSu itinerario es: " + this.getItinerario() + ".";
 	}
-
+	
+	//Datos para validar en junit
+	public String userInfo() {
+		return this.nombre + " tiene " + this.presupuesto + " monedas, " + (int) (this.tiempoDisponible)
+				+ " horas libres y su tipo de atraccion favorito es " + this.getNombreAtraccionFavorita();
+	}
+	
 	// a usarse cuando el usuario clickea aceptar
 	protected void agregarAtraccion(Atraccion unaAtraccion) {
 		this.itinerario.add(unaAtraccion);
@@ -97,10 +103,6 @@ public class Usuario {
 		return false;
 	}
 	
-	
-	
-	
-
 	// Si todavia no tiene en el itinerario la atraccion que le pasan como
 	// parametro, da true --> Verdad, todavia no voy a .....
 	public boolean todaviaNoVasA(Atraccion unaAtraccion) {
@@ -109,9 +111,7 @@ public class Usuario {
 			if (misAtracciones.getNombre().equals(unaAtraccion.getNombre())) {
 				return false;
 			}
-
 		}
 		return true;
 	}
-
 }
