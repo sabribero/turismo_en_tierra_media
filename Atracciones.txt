@@ -1,8 +1,9 @@
-5,10,3,AVENTURA,Bosque Negro
-10,2,6,AVENTURA,Moria
-5,2.5,25,PAISAJE,Minas Tirith
-3,6.5,150,DEGUSTACION,La Comarca
-25,3,4,AVENTURA,Mordor
-5,2,15,PAISAJE,Abismo de Helm
-35,1,30,DEGUSTACION,Lothlorien
-12,3,32,PAISAJE,Erebor
+# 'Costo' -	'Tiempo Necesario' -  'Cupo' -	 	'Tipo de Atracción' -	'Nombre de Atracción'
+	10,				2,				6,				AVENTURA,					Moria
+	5,				2.5,			25,				PAISAJE,					Minas Tirith
+	3,				6.5,			150,			DEGUSTACION,				La Comarca
+	25,				3,				4,				AVENTURA,					Mordor
+	5,				2,				15,				PAISAJE,					Abismo de Helm
+	35,				1,				30,				DEGUSTACION,				Lothlorien
+	12,				3,				32,				PAISAJE,					Erebor
+	3,				4,				12,				AVENTURA,					Bosque Negro

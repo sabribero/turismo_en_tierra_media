@@ -1,4 +1,5 @@
-ABSOLUTA,50,Bosque Negro,Moria
-PORCENTUAL,20,Minas Tirith,Abismo de Helm,Erebor
-AxB,0,Minas Tirith,Erebor
-ABSOLUTA,100,Bosque Negro,Moria,Minas Tirith,La Comarca,Mordor
+# 'Tipo de Promoción' -	'Valor de Promo' -	'Atracción 1' -		'Atracción 2' -		'Atracción 3' -		'Atracción 4'
+	ABSOLUTA,					50,				Bosque Negro,		Moria
+	PORCENTUAL,					20,				Minas Tirith,		Abismo de Helm,		Erebor
+	AxB,						0,				Minas Tirith,		Erebor
+	ABSOLUTA,					100,			Bosque Negro,		Moria,				Minas Tirith,		La Comarca,Mordor

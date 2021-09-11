@@ -1,6 +1,7 @@
-Adinerado,200,50,AVENTURA
-Matias,200,50,PAISAJE
-Eowyn,10,8,AVENTURA
-Sam,36,8,DEGUSTACION
-Gandalf,100,5,PAISAJE
-Galadriel,120,6,PAISAJE
+# 'Nombre' - 'Monedas de Oro' - 'Tiempo Disponible' - 'Tipo de Atracción'
+	Eowyn,			10,					8,					AVENTURA
+	Sam,			36,					8,					DEGUSTACION
+	Gandalf,		100,				5,					PAISAJE
+	Galadriel,		120,				6,					PAISAJE
+	Adinerado,		200,				50,					AVENTURA
+	Matias,			200,				50,					PAISAJE
