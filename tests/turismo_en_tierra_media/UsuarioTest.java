@@ -11,8 +11,6 @@ import org.junit.Test;
 
 public class UsuarioTest {
 
-
-	//Usuario[] personas = new Usuario[4];
 	List<Usuario> personas = new ArrayList<Usuario>();
 	
 	@Before
@@ -24,7 +22,7 @@ public class UsuarioTest {
 	@Test
 	public void noAceptaValoresNegativos(){
 		Usuario persona= new Usuario("Marina",TipoDeAtraccion.AVENTURA, 100,-5);
-		assertEquals(0, persona.getTiempoDisponible(),0); //le fataba el parámetro de delta para comparar doubles.
+		assertEquals(0, persona.getTiempoDisponible(),0);
 	}
 	
 	@Test
@@ -37,7 +35,7 @@ public class UsuarioTest {
 	
 	@Test
 	public void usuarioToString() {
-		assertEquals("Eowyn tiene 10 monedas, 8.0 horas libres y su tipo de atraccion favorito es Aventura", personas.get(0).toString());
+		assertEquals("Eowyn tiene 10 monedas, 8 horas libres y su tipo de atraccion favorito es Aventura", personas.get(0).userInfo());
 	}
 	
 	@Test
@@ -47,11 +45,9 @@ public class UsuarioTest {
 		atraccion1.reservarLugar(personas.get(0));
 		
 		assertEquals(5,atraccion1.getUsosDisponibles());
-		assertEquals(6,personas.get(0).getTiempoDisponible(),0); //también le faltaba el tercer parámetro.
+		assertEquals(6,personas.get(0).getTiempoDisponible(),0);
 		List<Atraccion> atraccionEquals= new ArrayList<Atraccion>();
 		atraccionEquals.add(atraccion1); 
 		assertEquals(atraccionEquals, personas.get(0).getItinerario());
 	}
-	
-
 }
