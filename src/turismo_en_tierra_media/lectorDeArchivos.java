@@ -27,26 +27,17 @@ public class lectorDeArchivos {
 
 			// TipoDeAtraccion tipo = TipoDeAtraccion.DEFAULT;
 			while ((linea = br.readLine()) != null) {
-
-				String[] valores = linea.split(",");
-
-				/*
-				 * if(valores[3].equals("P")) tipo = TipoDeAtraccion.PAISAJE;
-				 * if(valores[3].equals("D")) tipo = TipoDeAtraccion.DEGUSTACION;
-				 * if(valores[3].equals("A")) tipo = TipoDeAtraccion.AVENTURA;
-				 */
-
-				// cabié la forma de lectura de TipoDeAtraccion por un casteo
-				// |
-				// \|/ (intento de flecha al cambio)
-
-				Usuario aux = new Usuario(valores[0], TipoDeAtraccion.valueOf(valores[3]), Integer.parseInt(valores[1]),
+				
+				// ahora los archivos de entrada soportan comentarios, si la línea tiene '#' al comienzo se ignora.
+				if (linea.charAt(0) != '#') {
+					String[] valores = linea.replace("\t","").split(",");	// el replace es para eliminar los espacios en los archivos de entrada.
+					
+					Usuario aux = new Usuario(valores[0], TipoDeAtraccion.valueOf(valores[3]), Integer.parseInt(valores[1]),
 						Float.parseFloat(valores[2]));
-
-				todosLosUsuarios.add(aux);
-
+					
+					todosLosUsuarios.add(aux);
+				}
 			}
-
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
@@ -79,18 +70,18 @@ public class lectorDeArchivos {
 
 			// Lectura del fichero
 			String linea;
-			// TipoDeAtraccion tipo = TipoDeAtraccion.DEFAULT;
+			
 			while ((linea = br.readLine()) != null) {
-
-				String[] valores = linea.split(",");
-
-				Atraccion aux = new Atraccion(valores[4], Integer.parseInt(valores[0]), Float.parseFloat(valores[1]),
+				
+				if (linea.charAt(0) != '#') {
+					String[] valores = linea.replace("\t","").split(","); // el replace es para eliminar las tabulaciones en los archivos de entrada
+					
+					Atraccion aux = new Atraccion(valores[4], Integer.parseInt(valores[0]), Float.parseFloat(valores[1]),
 						Integer.parseInt(valores[2]), TipoDeAtraccion.valueOf(valores[3]));
-
-				todasLasAtracciones.add(aux);
-
+					
+					todasLasAtracciones.add(aux);
+				}
 			}
-
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
@@ -125,54 +116,32 @@ public class lectorDeArchivos {
 
 			// Lectura del fichero
 			String linea;
-			// TipoDeAtraccion tipo = TipoDeAtraccion.DEFAULT;
 			while ((linea = br.readLine()) != null) {
-
-				TipoDePromo unTipo = TipoDePromo.DEFAULT;
-				List<Atraccion> atraccionesEnPromocion = new ArrayList<Atraccion>();
-				int valorDescuento;
-
-				String[] valores = linea.split(",");
-
-				if (valores[0].equals("PORCENTUAL"))
-					unTipo = TipoDePromo.PORCENTUAL;
-				if (valores[0].equals("ABSOLUTA"))
-					unTipo = TipoDePromo.ABSOLUTA;
-				if (valores[0].equals("AxB"))
-					unTipo = TipoDePromo.AxB;
-
-				valorDescuento = Integer.parseInt(valores[1]);
-
-				for (int i = 2; i < valores.length; i++) {
-
-					for (int j = 0; j < todasLasAtracciones.size(); j++) {
-
-						if (valores[i].equals(todasLasAtracciones.get(j).getNombre())) {
-
-							atraccionesEnPromocion.add(todasLasAtracciones.get(j));
-
+				
+				if (linea.charAt(0) != '#') {
+					List<Atraccion> atraccionesEnPromocion = new ArrayList<Atraccion>();
+					int valorDescuento;
+	
+					String[] valores = linea.replace("\t","").split(",");
+	
+					valorDescuento = Integer.parseInt(valores[1]);
+	
+					for (int i = 2; i < valores.length; i++) {
+						for (int j = 0; j < todasLasAtracciones.size(); j++) {
+							if (valores[i].equals(todasLasAtracciones.get(j).getNombre())) {
+								atraccionesEnPromocion.add(todasLasAtracciones.get(j));
+							}
 						}
-
 					}
-				}
-
-				if (unTipo == TipoDePromo.ABSOLUTA) {
-
-					todasLasPromos.add(new PromoAbsoluta(atraccionesEnPromocion, valorDescuento));
-				} else {
-					if (unTipo == TipoDePromo.PORCENTUAL) {
-
+					
+					if (valores[0].equals("ABSOLUTA")) //unTipo == TipoDePromo.ABSOLUTA)
+						todasLasPromos.add(new PromoAbsoluta(atraccionesEnPromocion, valorDescuento));
+					else if (valores[0].equals("PORCENTUAL")) //unTipo == TipoDePromo.PORCENTUAL)
 						todasLasPromos.add(new PromoPorcentual(atraccionesEnPromocion, valorDescuento));
-					} else if (unTipo == TipoDePromo.AxB) {
-
+					else if (valores[0].equals("AxB")) //unTipo == TipoDePromo.AxB)
 						todasLasPromos.add(new PromoAxB(atraccionesEnPromocion, valorDescuento));
-
-					}
-
 				}
-
 			}
-
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
@@ -188,5 +157,4 @@ public class lectorDeArchivos {
 			}
 		}
 	}
-
 }
