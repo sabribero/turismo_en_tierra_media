@@ -5,7 +5,6 @@ import java.io.File;
 import java.io.FileWriter;
 import java.util.ArrayList;
 
-import java.util.Scanner;
 
 import java.util.Comparator;
 import java.util.List;
@@ -38,6 +37,7 @@ public class Aplicacion {
 	List<Atraccion> atraccionesDeDegustacion = new ArrayList<Atraccion>();
 	List<Atraccion> atraccionesDePaisaje = new ArrayList<Atraccion>();
 
+	List<Promocion> todasLasPromociones= new ArrayList<Promocion>();
 	List<Promocion> promocionesDeAventura = new ArrayList<Promocion>();
 	List<Promocion> promocionesDeDegustacion = new ArrayList<Promocion>();
 	List<Promocion> promocionesDePaisaje = new ArrayList<Promocion>();
@@ -48,12 +48,13 @@ public class Aplicacion {
 	List<List<Promocion>> listaOrdenadaParaSugerirPromociones = new ArrayList<List<Promocion>>();
 
 	// El constructor recibe una lista de atracciones
-	public Aplicacion(List<Atraccion> Atracciones) {
+	public Aplicacion(List<Atraccion> Atracciones, List<Promocion> promociones) {
 		this.todasLasAtracciones = Atracciones;
+		this.todasLasPromociones=promociones;
 
 	}
 
-	public void separarAtracciones() {
+	public void separarEnListas() {
 
 		for (int i = 0; i < this.todasLasAtracciones.size(); i++) {
 
@@ -72,26 +73,32 @@ public class Aplicacion {
 		atraccionesDeAventura.sort(Comparator.comparing(Atraccion::getValor).reversed());
 		atraccionesDePaisaje.sort(Comparator.comparing(Atraccion::getValor).reversed());
 		atraccionesDeDegustacion.sort(Comparator.comparing(Atraccion::getValor).reversed());
+		todasLasAtracciones.sort(Comparator.comparing(Atraccion::getValor).reversed());
+		
+		//separo las promociones
+		
+		for (int i = 0; i < todasLasPromociones.size(); i++) {
 
-	}
+			if (todasLasPromociones.get(i).getAtraccionesEnPromocion().get(0).getTipo() == TipoDeAtraccion.AVENTURA) {
+				promocionesDeAventura.add(todasLasPromociones.get(i));
 
-	public void separarPromociones(List<Promocion> todasLasPromos) {
+			} else if (todasLasPromociones.get(i).getAtraccionesEnPromocion().get(0).getTipo() == TipoDeAtraccion.PAISAJE) {
+				promocionesDePaisaje.add(todasLasPromociones.get(i));
 
-		for (int i = 0; i < todasLasPromos.size(); i++) {
-
-			if (todasLasPromos.get(i).getAtraccionesEnPromocion().get(0).getTipo() == TipoDeAtraccion.AVENTURA) {
-				promocionesDeAventura.add(todasLasPromos.get(i));
-
-			} else if (todasLasPromos.get(i).getAtraccionesEnPromocion().get(0).getTipo() == TipoDeAtraccion.PAISAJE) {
-				promocionesDePaisaje.add(todasLasPromos.get(i));
-
-			} else if (todasLasPromos.get(i).getAtraccionesEnPromocion().get(0).getTipo() == TipoDeAtraccion.DEGUSTACION) {
-				promocionesDeDegustacion.add(todasLasPromos.get(i));
+			} else if (todasLasPromociones.get(i).getAtraccionesEnPromocion().get(0).getTipo() == TipoDeAtraccion.DEGUSTACION) {
+				promocionesDeDegustacion.add(todasLasPromociones.get(i));
 
 			}
 		}
+		
+		//las ordeno
+		promocionesDeAventura.sort(Comparator.comparing(Promocion::getValorPromo).reversed());
+		promocionesDePaisaje.sort(Comparator.comparing(Promocion::getValorPromo).reversed());
+		promocionesDeDegustacion.sort(Comparator.comparing(Promocion::getValorPromo).reversed());
+		todasLasPromociones.sort(Comparator.comparing(Promocion::getValorPromo).reversed());
 
 	}
+
 
 	public void ofrecerTodo(Usuario unUsuario) {
 
@@ -103,13 +110,13 @@ public class Aplicacion {
 		if (unUsuario.getAtraccionFavorita() == TipoDeAtraccion.PAISAJE) {
 			
 			
-			this.ofrecerPromociones(unUsuario, promocionesDePaisaje);
-			this.ofrecerPromociones(unUsuario, promocionesDeAventura);
-			this.ofrecerPromociones(unUsuario, promocionesDeDegustacion);
+			Sugeridor.sugerirPromo(unUsuario, promocionesDePaisaje);
+			Sugeridor.sugerirPromo(unUsuario, promocionesDeAventura);
+			Sugeridor.sugerirPromo(unUsuario, promocionesDeDegustacion);
 			
-			this.ofrecerAtracciones(unUsuario, atraccionesDePaisaje);
-			this.ofrecerAtracciones(unUsuario, atraccionesDeAventura);
-			this.ofrecerAtracciones(unUsuario, atraccionesDeDegustacion);
+			Sugeridor.sugerirAtracciones(unUsuario, atraccionesDePaisaje);
+			Sugeridor.sugerirAtracciones(unUsuario, atraccionesDeAventura);
+			Sugeridor.sugerirAtracciones(unUsuario, atraccionesDeDegustacion);
 
 		}
 
@@ -117,26 +124,26 @@ public class Aplicacion {
 			
 			
 			
-			this.ofrecerPromociones(unUsuario, promocionesDeDegustacion);
-			this.ofrecerPromociones(unUsuario, promocionesDePaisaje);
-			this.ofrecerPromociones(unUsuario, promocionesDeAventura);
+			Sugeridor.sugerirPromo(unUsuario, promocionesDeDegustacion);
+			Sugeridor.sugerirPromo(unUsuario, promocionesDePaisaje);
+			Sugeridor.sugerirPromo(unUsuario, promocionesDeAventura);
 			
-			this.ofrecerAtracciones(unUsuario, atraccionesDeDegustacion);
-			this.ofrecerAtracciones(unUsuario, atraccionesDePaisaje);
-			this.ofrecerAtracciones(unUsuario, atraccionesDeAventura);
+			Sugeridor.sugerirAtracciones(unUsuario, atraccionesDeDegustacion);
+			Sugeridor.sugerirAtracciones(unUsuario, atraccionesDePaisaje);
+			Sugeridor.sugerirAtracciones(unUsuario, atraccionesDeAventura);
 			
 
 		}
 
 		if (unUsuario.getAtraccionFavorita() == TipoDeAtraccion.AVENTURA) {
 			
-			this.ofrecerPromociones(unUsuario, promocionesDeAventura);
-			this.ofrecerPromociones(unUsuario, promocionesDeDegustacion);
-			this.ofrecerPromociones(unUsuario, promocionesDePaisaje);
+			Sugeridor.sugerirPromo(unUsuario, promocionesDeAventura);
+			Sugeridor.sugerirPromo(unUsuario, promocionesDeDegustacion);
+			Sugeridor.sugerirPromo(unUsuario, promocionesDePaisaje);
 			
-			this.ofrecerAtracciones(unUsuario, atraccionesDeAventura);
-			this.ofrecerAtracciones(unUsuario, atraccionesDeDegustacion);
-			this.ofrecerAtracciones(unUsuario, atraccionesDePaisaje);
+			Sugeridor.sugerirAtracciones(unUsuario, atraccionesDeAventura);
+			Sugeridor.sugerirAtracciones(unUsuario, atraccionesDeDegustacion);
+			Sugeridor.sugerirAtracciones(unUsuario, atraccionesDePaisaje);
 
 
 		}
@@ -147,113 +154,6 @@ public class Aplicacion {
 
 	}
 	
-	
-	
-	public void ofrecerAtracciones(Usuario unUsuario, List<Atraccion> unasAtracciones) {
-		
-		
-		for (Atraccion cadaAtraccion : unasAtracciones) {
-
-			if (unUsuario.podesIrA(cadaAtraccion.getValor(), cadaAtraccion.getTiempoDeUso()) && unUsuario.todaviaNoVasA(cadaAtraccion)
-					&& cadaAtraccion.getUsosDisponibles() > 0) {
-
-				Scanner entrada = new Scanner(System.in);
-
-				System.out.println(unUsuario.getNombre() + ", te gustaria ir a " + cadaAtraccion.getNombre()
-						+ "? ( 1 - Si / 2 - No )");
-
-				int seleccion = Character.getNumericValue(entrada.next().charAt(0));
-
-				while (seleccion != 1 && seleccion != 2) {
-
-					System.out.println("Error, debe ingresar solo un 1 o un 2");
-					System.out.println(unUsuario.getNombre() + ", te gustaria ir a " + cadaAtraccion.getNombre()
-							+ "? ( 1 - Si / 2 - No )");
-
-					seleccion = Character.getNumericValue(entrada.next().charAt(0));
-
-				}
-
-				if (seleccion == 1) {
-
-					cadaAtraccion.reservarLugar(unUsuario);
-					unUsuario.agregarAtraccion(cadaAtraccion);
-					
-					
-				} else if (seleccion == 2) {
-
-					System.out.println("No vas a ir a " + cadaAtraccion.getNombre());
-
-				}
-
-			}
-
-		}
-
-		
-		
-		
-		
-	}
-	
-	public void ofrecerPromociones(Usuario unUsuario, List<Promocion> unasPromociones) {
-		
-		for (Promocion cadaPromocion : unasPromociones) {
-			
-			boolean puede=true;
-			
-			for(Atraccion cadaAtraccion : cadaPromocion.getAtraccionesEnPromocion()){
-				
-				
-				if (!unUsuario.podesIrA(cadaPromocion.getValorPromo(), cadaPromocion.getTiempoDeUso()) || !unUsuario.todaviaNoVasA(cadaAtraccion)
-						|| !(cadaAtraccion.getUsosDisponibles() > 0)) {
-					
-					puede=false;
-					
-				}
-				
-			}
-
-			if (puede) {
-
-				Scanner entrada = new Scanner(System.in);
-
-				System.out.println(unUsuario.getNombre() + ", te gustaria comprar la promo de " + cadaPromocion.getNombre()
-						+ "por "+ cadaPromocion.getValorPromo()+ " monedas? ( 1 - Si / 2 - No )");
-
-				int seleccion = Character.getNumericValue(entrada.next().charAt(0));
-
-				while (seleccion != 1 && seleccion != 2) {
-
-					System.out.println("Error, debe ingresar solo un 1 o un 2");
-					System.out.println(unUsuario.getNombre() + ", te gustaria comprar o no? ( 1 - Si / 2 - No )");
-
-					seleccion = Character.getNumericValue(entrada.next().charAt(0));
-
-				}
-
-				if (seleccion == 1) {
-
-					
-					for(Atraccion cadaAtraccion : cadaPromocion.getAtraccionesEnPromocion()){
-						
-						cadaAtraccion.reservarLugar(unUsuario);
-					
-					}
-					
-					unUsuario.agregarPromocion(cadaPromocion);
-					
-
-				} else if (seleccion == 2) {
-
-					System.out.println("No vas a ir a " + cadaPromocion.getNombre());
-
-				}
-			}
-		}
-
-		
-	}
 	
 	
 	

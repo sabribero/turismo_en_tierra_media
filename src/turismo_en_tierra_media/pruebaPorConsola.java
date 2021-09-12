@@ -17,10 +17,9 @@ public class pruebaPorConsola {
 		lector.LeerAtracciones(todasLasAtracciones);
 		lector.LeerPromos(todasLasPromociones, todasLasAtracciones);
 
-		Aplicacion APP = new Aplicacion(todasLasAtracciones);
+		Aplicacion APP = new Aplicacion(todasLasAtracciones, todasLasPromociones);
 
-		APP.separarAtracciones();
-		APP.separarPromociones(todasLasPromociones);
+		APP.separarEnListas();
 		
 		
 		System.out.println("Las atracciones separadas por tipo son:\n ");	
