@@ -14,12 +14,12 @@ public class Usuario {
 	private float tiempoDisponible, tiempoDisponibleOriginal;
 
 	public Usuario(String nombre, TipoDeAtraccion atraccionFavorita, int monedas, float tiempoLibre) {
-		this.nombre = Validacion.validar(nombre);
+		this.nombre = nombre;
 		this.atraccionFavorita = atraccionFavorita;
-		this.presupuesto = Validacion.validar(monedas);
-		this.monedasIniciales = Validacion.validar(monedas);
-		this.tiempoDisponible = Validacion.validar(tiempoLibre);
-		this.tiempoDisponibleOriginal = Validacion.validar(tiempoLibre);
+		this.presupuesto = monedas;
+		this.monedasIniciales = monedas;
+		this.tiempoDisponible = tiempoLibre;
+		this.tiempoDisponibleOriginal = tiempoLibre;
 	}
 
 	public Usuario() {
@@ -73,25 +73,6 @@ public class Usuario {
 		this.tiempoDisponible -= unaAtraccion.getTiempoDeUso();
 	}
 
-	protected void agregarPromocion(Promocion unaPromocion) {
-		
-		for(Atraccion cadaUna : unaPromocion.getAtraccionesEnPromocion()) {
-			
-			this.itinerario.add(cadaUna);	
-		}
-
-		this.presupuesto -= unaPromocion.getValorPromo();
-		
-		double auxTiempo=0;
-		
-		for (Atraccion cadaUna: unaPromocion.getAtraccionesEnPromocion()) {
-			
-			auxTiempo=+ cadaUna.getTiempoDeUso();
-			
-		}
-		
-		this.tiempoDisponible -= auxTiempo;
-	}
 
 	// Responde verdadero si tiene las monedas y el tiempo suficiente ---->
 	// Verdadero, tengo dinero y tiempo para ir a...

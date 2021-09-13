@@ -32,8 +32,12 @@ public class lectorDeArchivos {
 				if (linea.charAt(0) != '#') {
 					String[] valores = linea.replace("\t","").split(",");	// el replace es para eliminar los espacios en los archivos de entrada.
 					
-					Usuario aux = new Usuario(valores[0], TipoDeAtraccion.valueOf(valores[3]), Integer.parseInt(valores[1]),
-						Float.parseFloat(valores[2]));
+					//auxiliares para validar los datos ingresados y luego crear el objeto
+					String nombre= Validacion.validar(valores[0]);
+					int monedas= Validacion.validar(Integer.parseInt(valores[1]));
+					float tiempoLibre= Validacion.validar(Float.parseFloat(valores[2]));
+					
+					Usuario aux = new Usuario(nombre, TipoDeAtraccion.valueOf(valores[3]), monedas, tiempoLibre);
 					
 					todosLosUsuarios.add(aux);
 				}
@@ -75,9 +79,13 @@ public class lectorDeArchivos {
 				
 				if (linea.charAt(0) != '#') {
 					String[] valores = linea.replace("\t","").split(","); // el replace es para eliminar las tabulaciones en los archivos de entrada
+					//auxiliares para validar los datos ingresados y luego crear el objeto
+					String nombre= Validacion.validar(valores[4]);
+					int valor= Validacion.validar(Integer.parseInt(valores[0]));
+					double tiempoDeUso= Validacion.validar(Float.parseFloat(valores[1]));
+					int usosMaximos= Validacion.validar(Integer.parseInt(valores[2]));
 					
-					Atraccion aux = new Atraccion(valores[4], Integer.parseInt(valores[0]), Float.parseFloat(valores[1]),
-						Integer.parseInt(valores[2]), TipoDeAtraccion.valueOf(valores[3]));
+					Atraccion aux = new Atraccion(nombre, valor, tiempoDeUso, usosMaximos, TipoDeAtraccion.valueOf(valores[3]));
 					
 					todasLasAtracciones.add(aux);
 				}
@@ -98,7 +106,6 @@ public class lectorDeArchivos {
 		}
 	}
 
-	/////////////////////// AGREGADO 5 DEL 9
 
 	// Metodo que llamo en caso de que llegue una lista de Atracciones
 	public void LeerPromos(List<Promocion> todasLasPromos, List<Atraccion> todasLasAtracciones) {
@@ -133,13 +140,21 @@ public class lectorDeArchivos {
 							}
 						}
 					}
-					
-					if (valores[0].equals("ABSOLUTA")) //unTipo == TipoDePromo.ABSOLUTA)
-						todasLasPromos.add(new PromoAbsoluta(atraccionesEnPromocion, valorDescuento));
-					else if (valores[0].equals("PORCENTUAL")) //unTipo == TipoDePromo.PORCENTUAL)
-						todasLasPromos.add(new PromoPorcentual(atraccionesEnPromocion, valorDescuento));
-					else if (valores[0].equals("AxB")) //unTipo == TipoDePromo.AxB)
-						todasLasPromos.add(new PromoAxB(atraccionesEnPromocion));
+					//verifico que las promociones sean del mismo tipo de atraccion, y si lo son
+					//se crea la promocion correspondiente
+					try {
+						for(Atraccion atraccion: atraccionesEnPromocion) {
+							Validacion.validarTipo(atraccionesEnPromocion.get(0).getTipo(), atraccion.getTipo());
+						}
+						if (valores[0].equals("ABSOLUTA")) //unTipo == TipoDePromo.ABSOLUTA)
+							todasLasPromos.add(new PromoAbsoluta(atraccionesEnPromocion, valorDescuento));
+						else if (valores[0].equals("PORCENTUAL")) //unTipo == TipoDePromo.PORCENTUAL)
+							todasLasPromos.add(new PromoPorcentual(atraccionesEnPromocion, valorDescuento));
+						else if (valores[0].equals("AxB")) //unTipo == TipoDePromo.AxB)
+							todasLasPromos.add(new PromoAxB(atraccionesEnPromocion));
+					} catch(DistintoTipoException e) {
+						System.err.println("Se encontro una discrepancia en los tipos de atracciones de una promocion ingresada.");
+					}
 				}
 			}
 		} catch (Exception e) {

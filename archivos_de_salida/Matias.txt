@@ -1,4 +1,4 @@
-Matias: Gasto 53 monedas.
-Pasara 9.0 horas en tierra media.
+Matias: Gasto 0 monedas.
+Pasara 0.0 horas en tierra media.
 Su tipo de atraccion favorito es: Paisaje.
-Su itinerario es: [Abismo de Helm, Lothlorien, Moria, Bosque Negro].
+Su itinerario es: [].

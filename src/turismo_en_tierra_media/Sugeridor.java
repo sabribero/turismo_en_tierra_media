@@ -49,7 +49,6 @@ public class Sugeridor {
 
 					}
 
-					//unUsuario.agregarPromocion(cadaPromocion);
 
 				} else if (seleccion == 2) {
 
@@ -86,7 +85,6 @@ public class Sugeridor {
 				if (seleccion == 1) {
 
 					cadaAtraccion.reservarLugar(unUsuario);
-					//unUsuario.agregarAtraccion(cadaAtraccion);
 					
 					
 				} else if (seleccion == 2) {
