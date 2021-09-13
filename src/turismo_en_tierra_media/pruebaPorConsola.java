@@ -38,14 +38,6 @@ public class pruebaPorConsola {
 		for (int i = 0; i < todosLosUsuarios.size(); i++) {
 
 			APP.ofrecerTodo(todosLosUsuarios.get(i));
-			
-			/*Error: Me ofrece 2 veces cada atraccion
-			 * 
-			 * 
-			 * 
-			 * 
-			 * 
-			 */
 
 			System.out.println(todosLosUsuarios.get(i).getNombre() + " va a ir a:");
 			todosLosUsuarios.get(i).getItinerario().forEach(System.out::println);

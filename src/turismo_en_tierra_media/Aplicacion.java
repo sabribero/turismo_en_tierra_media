@@ -6,7 +6,6 @@ import java.io.FileWriter;
 import java.util.ArrayList;
 
 
-import java.util.Comparator;
 import java.util.List;
 
 
@@ -71,16 +70,16 @@ public class Aplicacion {
 	
 	protected void ordenarListas() {
 		//atracciones
-		atraccionesDeAventura.sort(Comparator.comparing(Atraccion::getValor).reversed());
-		atraccionesDePaisaje.sort(Comparator.comparing(Atraccion::getValor).reversed());
-		atraccionesDeDegustacion.sort(Comparator.comparing(Atraccion::getValor).reversed());
-		todasLasAtracciones.sort(Comparator.comparing(Atraccion::getValor).reversed());
+		atraccionesDeAventura.sort(new ComparadorAtraccion().reversed());
+		atraccionesDePaisaje.sort(new ComparadorAtraccion().reversed());
+		atraccionesDeDegustacion.sort(new ComparadorAtraccion().reversed());
+		todasLasAtracciones.sort(new ComparadorAtraccion().reversed());
 		
 		//promociones
-		promocionesDeAventura.sort(Comparator.comparing(Promocion::getValorPromo).reversed());
-		promocionesDePaisaje.sort(Comparator.comparing(Promocion::getValorPromo).reversed());
-		promocionesDeDegustacion.sort(Comparator.comparing(Promocion::getValorPromo).reversed());
-		todasLasPromociones.sort(Comparator.comparing(Promocion::getValorPromo).reversed());
+		promocionesDeAventura.sort(new ComparadorPromocion().reversed());
+		promocionesDePaisaje.sort(new ComparadorPromocion().reversed());
+		promocionesDeDegustacion.sort(new ComparadorPromocion().reversed());
+		todasLasPromociones.sort(new ComparadorPromocion().reversed());
 	}
 
 	public void ofrecerTodo(Usuario unUsuario) {

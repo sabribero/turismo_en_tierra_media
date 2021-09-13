@@ -117,7 +117,7 @@ public class Sugeridor {
 							unasPromociones.add(promocion);
 						}
 		//vuelvo a ordenar la lista ya que elimine y volvi a agregar elementos
-		unasPromociones.sort(Comparator.comparing(Promocion::getValorPromo).reversed());
+		unasPromociones.sort(new ComparadorPromocion().reversed());
 	}
 	
 	protected static void sugerirAtraccionesNoFavoritas(Usuario unUsuario, List<Atraccion> unasAtracciones) {
@@ -138,6 +138,6 @@ public class Sugeridor {
 				for(Atraccion atraccion: atraccionesRechazadas) {
 					unasAtracciones.add(atraccion);
 				}
-		unasAtracciones.sort(Comparator.comparing(Atraccion::getValor).reversed());
+		unasAtracciones.sort(new ComparadorAtraccion().reversed());
 	}
 }
