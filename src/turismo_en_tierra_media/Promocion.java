@@ -51,6 +51,15 @@ public class Promocion {
 		//asumiendo que está validado que todas las atracciones son del mismo tipo
 		return this.atraccionesEnPromocion.get(0).getTipo();
 	}
+	
+	public boolean tieneCupos() {
+		for(Atraccion cadaAtraccion : this.atraccionesEnPromocion) {
+			if(cadaAtraccion.getUsosDisponibles()<=0) {
+				return false;
+			}
+		}
+		return true;
+	}
 //-------------------------SETTERS--------------------
 	public void setTiempo() {
 		this.tiempoPromo=0;

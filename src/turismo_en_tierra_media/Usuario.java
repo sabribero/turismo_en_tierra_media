@@ -95,12 +95,13 @@ public class Usuario {
 
 	// Responde verdadero si tiene las monedas y el tiempo suficiente ---->
 	// Verdadero, tengo dinero y tiempo para ir a...
-	public boolean podesIrA(int valor, double tiempo) {
+	public boolean podesIrA(Atraccion atraccion) {
 
-		if (this.presupuesto >= valor && this.tiempoDisponible >= tiempo) {
-			return true;
-		}
-		return false;
+		return this.presupuesto >= atraccion.getValor() && this.tiempoDisponible >= atraccion.getTiempoDeUso();
+	}
+	
+	public boolean podesIrA(Promocion promocion) {
+		return this.presupuesto>= promocion.getValorPromo() && this.tiempoDisponible>= promocion.getTiempoDeUso();
 	}
 	
 	// Si todavia no tiene en el itinerario la atraccion que le pasan como
@@ -110,6 +111,18 @@ public class Usuario {
 		for (Atraccion misAtracciones : itinerario) {
 			if (misAtracciones.getNombre().equals(unaAtraccion.getNombre())) {
 				return false;
+			}
+		}
+		return true;
+	}
+	
+	public boolean todaviaNoVasA(Promocion promocion) {
+
+		for(Atraccion atraccionPromo : promocion.getAtraccionesEnPromocion()) {
+			for (Atraccion misAtracciones : this.itinerario) {
+				if(misAtracciones.getNombre().equals(atraccionPromo.getNombre())) {
+					return false;
+				}
 			}
 		}
 		return true;

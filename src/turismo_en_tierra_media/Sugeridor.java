@@ -13,16 +13,14 @@ public class Sugeridor {
 
 			boolean puede = true;
 
-			for (Atraccion cadaAtraccion : cadaPromocion.getAtraccionesEnPromocion()) {
 
-				if (!unUsuario.podesIrA(cadaPromocion.getValorPromo(), cadaPromocion.getTiempoDeUso())
-						|| !unUsuario.todaviaNoVasA(cadaAtraccion) || !(cadaAtraccion.getUsosDisponibles() > 0)) {
+				if (!unUsuario.podesIrA(cadaPromocion)|| !unUsuario.todaviaNoVasA(cadaPromocion) || 
+						!cadaPromocion.tieneCupos()) {
 
 					puede = false;
 
 				}
 
-			}
 
 			if (puede) {
 
@@ -65,7 +63,7 @@ public class Sugeridor {
 	protected static void sugerirAtracciones(Usuario unUsuario, List<Atraccion> unasAtracciones) {
 		for (Atraccion cadaAtraccion : unasAtracciones) {
 
-			if (unUsuario.podesIrA(cadaAtraccion.getValor(), cadaAtraccion.getTiempoDeUso()) && unUsuario.todaviaNoVasA(cadaAtraccion)
+			if (unUsuario.podesIrA(cadaAtraccion) && unUsuario.todaviaNoVasA(cadaAtraccion)
 					&& cadaAtraccion.getUsosDisponibles() > 0) {
 
 				Scanner entrada = new Scanner(System.in);

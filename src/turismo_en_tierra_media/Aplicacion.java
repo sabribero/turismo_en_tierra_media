@@ -42,10 +42,6 @@ public class Aplicacion {
 	List<Promocion> promocionesDeDegustacion = new ArrayList<Promocion>();
 	List<Promocion> promocionesDePaisaje = new ArrayList<Promocion>();
 
-	// Lista de listas y listas auxiliares para ordenar antes de ofrecer
-
-	//List<List<Atraccion>> listaOrdenadaParaSugerir = new ArrayList<List<Atraccion>>();
-	//List<List<Promocion>> listaOrdenadaParaSugerirPromociones = new ArrayList<List<Promocion>>();
 
 	// El constructor recibe una lista de atracciones
 	public Aplicacion(List<Atraccion> Atracciones, List<Promocion> promociones) {
@@ -109,9 +105,6 @@ public class Aplicacion {
 	public void ofrecerTodo(Usuario unUsuario) {
 
 		System.out.println("Bienvenido " + unUsuario.getNombre() + ", vamos a comenzar: \n\n");
-
-		//this.listaOrdenadaParaSugerir.clear();
-		//this.listaOrdenadaParaSugerirPromociones.clear();
 
 		switch(unUsuario.getAtraccionFavorita()) {
 			

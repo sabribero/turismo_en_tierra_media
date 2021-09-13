@@ -1,4 +1,4 @@
-Adinerado: Gasto 22 monedas.
-Pasara 7.5 horas en tierra media.
+Adinerado: Gasto 25 monedas.
+Pasara 14.0 horas en tierra media.
 Su tipo de atraccion favorito es: Aventura.
-Su itinerario es: [Minas Tirith, Abismo de Helm, Erebor].
+Su itinerario es: [Minas Tirith, Abismo de Helm, Erebor, La Comarca].
