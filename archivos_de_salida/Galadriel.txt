@@ -1,4 +1,4 @@
-Galadriel: Gasto 22 monedas.
-Pasara 8.5 horas en tierra media.
+Galadriel: Gasto 13 monedas.
+Pasara 6.0 horas en tierra media.
 Su tipo de atraccion favorito es: Paisaje.
-Su itinerario es: [Minas Tirith, Erebor, Minas Tirith, Erebor].
+Su itinerario es: [Bosque Negro, Moria].

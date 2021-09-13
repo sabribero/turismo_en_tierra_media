@@ -1,4 +1,4 @@
-Matias: Gasto 223 monedas.
-Pasara 26.5 horas en tierra media.
+Matias: Gasto 53 monedas.
+Pasara 9.5 horas en tierra media.
 Su tipo de atraccion favorito es: Paisaje.
-Su itinerario es: [Minas Tirith, Abismo de Helm, Erebor, Minas Tirith, Abismo de Helm, Erebor, Bosque Negro, Moria, Bosque Negro, Moria, Mordor, Mordor, Lothlorien, Lothlorien].
+Su itinerario es: [Minas Tirith, Bosque Negro, Moria, Lothlorien].

@@ -1,4 +1,4 @@
-Gandalf: Gasto 24 monedas.
-Pasara 6.0 horas en tierra media.
+Gandalf: Gasto 25 monedas.
+Pasara 3.0 horas en tierra media.
 Su tipo de atraccion favorito es: Paisaje.
-Su itinerario es: [Erebor, Erebor].
+Su itinerario es: [Mordor].

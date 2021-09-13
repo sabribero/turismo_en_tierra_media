@@ -1,4 +1,4 @@
-Sam: Gasto 40 monedas.
-Pasara 10.5 horas en tierra media.
+Sam: Gasto 27 monedas.
+Pasara 7.5 horas en tierra media.
 Su tipo de atraccion favorito es: Degustacion.
-Su itinerario es: [Minas Tirith, Abismo de Helm, Erebor, Minas Tirith, Abismo de Helm, Erebor].
+Su itinerario es: [Erebor, Moria, Minas Tirith].

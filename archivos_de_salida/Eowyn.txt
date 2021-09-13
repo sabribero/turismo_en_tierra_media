@@ -1,4 +1,4 @@
-Eowyn: Gasto 22 monedas.
-Pasara 8.5 horas en tierra media.
+Eowyn: Gasto 0 monedas.
+Pasara 0.0 horas en tierra media.
 Su tipo de atraccion favorito es: Aventura.
-Su itinerario es: [Minas Tirith, Erebor, Minas Tirith, Erebor].
+Su itinerario es: [].

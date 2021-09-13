@@ -44,8 +44,8 @@ public class Aplicacion {
 
 	// Lista de listas y listas auxiliares para ordenar antes de ofrecer
 
-	List<List<Atraccion>> listaOrdenadaParaSugerir = new ArrayList<List<Atraccion>>();
-	List<List<Promocion>> listaOrdenadaParaSugerirPromociones = new ArrayList<List<Promocion>>();
+	//List<List<Atraccion>> listaOrdenadaParaSugerir = new ArrayList<List<Atraccion>>();
+	//List<List<Promocion>> listaOrdenadaParaSugerirPromociones = new ArrayList<List<Promocion>>();
 
 	// El constructor recibe una lista de atracciones
 	public Aplicacion(List<Atraccion> Atracciones, List<Promocion> promociones) {
@@ -70,10 +70,7 @@ public class Aplicacion {
 			}
 		}
 
-		atraccionesDeAventura.sort(Comparator.comparing(Atraccion::getValor).reversed());
-		atraccionesDePaisaje.sort(Comparator.comparing(Atraccion::getValor).reversed());
-		atraccionesDeDegustacion.sort(Comparator.comparing(Atraccion::getValor).reversed());
-		todasLasAtracciones.sort(Comparator.comparing(Atraccion::getValor).reversed());
+		
 		
 		//separo las promociones
 		
@@ -91,61 +88,58 @@ public class Aplicacion {
 			}
 		}
 		
-		//las ordeno
+		ordenarListas();
+
+	}
+	
+	protected void ordenarListas() {
+		//atracciones
+		atraccionesDeAventura.sort(Comparator.comparing(Atraccion::getValor).reversed());
+		atraccionesDePaisaje.sort(Comparator.comparing(Atraccion::getValor).reversed());
+		atraccionesDeDegustacion.sort(Comparator.comparing(Atraccion::getValor).reversed());
+		todasLasAtracciones.sort(Comparator.comparing(Atraccion::getValor).reversed());
+		
+		//promociones
 		promocionesDeAventura.sort(Comparator.comparing(Promocion::getValorPromo).reversed());
 		promocionesDePaisaje.sort(Comparator.comparing(Promocion::getValorPromo).reversed());
 		promocionesDeDegustacion.sort(Comparator.comparing(Promocion::getValorPromo).reversed());
 		todasLasPromociones.sort(Comparator.comparing(Promocion::getValorPromo).reversed());
-
 	}
-
 
 	public void ofrecerTodo(Usuario unUsuario) {
 
 		System.out.println("Bienvenido " + unUsuario.getNombre() + ", vamos a comenzar: \n\n");
 
-		this.listaOrdenadaParaSugerir.clear();
-		this.listaOrdenadaParaSugerirPromociones.clear();
+		//this.listaOrdenadaParaSugerir.clear();
+		//this.listaOrdenadaParaSugerirPromociones.clear();
 
-		if (unUsuario.getAtraccionFavorita() == TipoDeAtraccion.PAISAJE) {
+		switch(unUsuario.getAtraccionFavorita()) {
 			
-			
-			Sugeridor.sugerirPromo(unUsuario, promocionesDePaisaje);
-			Sugeridor.sugerirPromo(unUsuario, promocionesDeAventura);
-			Sugeridor.sugerirPromo(unUsuario, promocionesDeDegustacion);
-			
+		case PAISAJE:
+			Sugeridor.sugerirPromos(unUsuario, promocionesDePaisaje);
 			Sugeridor.sugerirAtracciones(unUsuario, atraccionesDePaisaje);
-			Sugeridor.sugerirAtracciones(unUsuario, atraccionesDeAventura);
+			Sugeridor.sugerirPromosNoFavoritas(unUsuario, todasLasPromociones);
+			Sugeridor.sugerirAtraccionesNoFavoritas(unUsuario, todasLasAtracciones);
+			break;
+
+		case DEGUSTACION:
+			
+			Sugeridor.sugerirPromos(unUsuario, promocionesDeDegustacion);
 			Sugeridor.sugerirAtracciones(unUsuario, atraccionesDeDegustacion);
+			Sugeridor.sugerirPromosNoFavoritas(unUsuario, todasLasPromociones);
+			Sugeridor.sugerirAtraccionesNoFavoritas(unUsuario, todasLasAtracciones);
+			break;
 
-		}
-
-		if (unUsuario.getAtraccionFavorita() == TipoDeAtraccion.DEGUSTACION) {
+		case AVENTURA:
 			
-			
-			
-			Sugeridor.sugerirPromo(unUsuario, promocionesDeDegustacion);
-			Sugeridor.sugerirPromo(unUsuario, promocionesDePaisaje);
-			Sugeridor.sugerirPromo(unUsuario, promocionesDeAventura);
-			
-			Sugeridor.sugerirAtracciones(unUsuario, atraccionesDeDegustacion);
-			Sugeridor.sugerirAtracciones(unUsuario, atraccionesDePaisaje);
+			Sugeridor.sugerirPromos(unUsuario, promocionesDeAventura);
 			Sugeridor.sugerirAtracciones(unUsuario, atraccionesDeAventura);
-			
+			Sugeridor.sugerirPromosNoFavoritas(unUsuario, todasLasPromociones);
+			Sugeridor.sugerirAtraccionesNoFavoritas(unUsuario, todasLasAtracciones);
+			break;
 
-		}
-
-		if (unUsuario.getAtraccionFavorita() == TipoDeAtraccion.AVENTURA) {
-			
-			Sugeridor.sugerirPromo(unUsuario, promocionesDeAventura);
-			Sugeridor.sugerirPromo(unUsuario, promocionesDeDegustacion);
-			Sugeridor.sugerirPromo(unUsuario, promocionesDePaisaje);
-			
-			Sugeridor.sugerirAtracciones(unUsuario, atraccionesDeAventura);
-			Sugeridor.sugerirAtracciones(unUsuario, atraccionesDeDegustacion);
-			Sugeridor.sugerirAtracciones(unUsuario, atraccionesDePaisaje);
-
-
+		case DEFAULT:
+			System.out.println("Hay una Atraccion cuyos datos no fueron correctamente ingresados.");
 		}
 
 		/////////////////////////////////////////////////////

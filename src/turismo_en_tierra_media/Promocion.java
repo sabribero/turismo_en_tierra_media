@@ -47,22 +47,16 @@ public class Promocion {
 		return tipo;
 	}
 
-	
+	public TipoDeAtraccion getTipoDeAtraccion() {
+		//asumiendo que está validado que todas las atracciones son del mismo tipo
+		return this.atraccionesEnPromocion.get(0).getTipo();
+	}
 //-------------------------SETTERS--------------------
-	//no se utiliza este setter directamente en el constructor ya que
-	//en la promocion AxB hay que esperar a que se agregue la atraccion
-	//gratis a la lista
 	public void setTiempo() {
 		this.tiempoPromo=0;
 		for(Atraccion cadaUna : atraccionesEnPromocion) {
 			this.tiempoPromo += cadaUna.getTiempoDeUso();
 		}
 	}
-	/*
-	 *  
-	 * FALTAN LOS GETTERS DE NOMBRE, TIEMPO DE USO Y ETC QUE SE DEBERIAN SACAR DE
-	 * CADA UNA DE LAS ATRACCIONES Y SUMARSE.
-	 * 
-	 */
 
 }
