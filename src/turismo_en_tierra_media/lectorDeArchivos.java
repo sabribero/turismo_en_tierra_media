@@ -30,7 +30,7 @@ public class lectorDeArchivos {
 				
 				// ahora los archivos de entrada soportan comentarios, si la línea tiene '#' al comienzo se ignora.
 				if (linea.charAt(0) != '#') {
-					String[] valores = linea.replace("\t","").split(",");	// el replace es para eliminar los espacios en los archivos de entrada.
+					String[] valores = linea.replace("\t","").split(",");	// el replace es para eliminar las tabulaciones en los archivos de entrada.
 					
 					//auxiliares para validar los datos ingresados y luego crear el objeto
 					String nombre= Validacion.validar(valores[0]);
@@ -129,7 +129,8 @@ public class lectorDeArchivos {
 					List<Atraccion> atraccionesEnPromocion = new ArrayList<Atraccion>();
 					int valorDescuento;
 	
-					String[] valores = linea.replace("\t","").split(",");
+					String[] valores = linea.replace("\t","").split(",");// el replace es para eliminar las tabulaciones en los archivos de entrada
+					//auxiliares para validar los datos ingresados y luego crear el objeto
 	
 					valorDescuento = Integer.parseInt(valores[1]);
 	
