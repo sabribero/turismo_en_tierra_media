@@ -3,5 +3,12 @@
 	Sam,			36,					8,					DEGUSTACION
 	Gandalf,		100,				5,					PAISAJE
 	Galadriel,		120,				6,					PAISAJE
-	Adinerado,		200,				50,					AVENTURA
-	Matias,			200,				50,					PAISAJE
+	Boromir,		40,					50,					AVENTURA
+	Matias,			150,				30,					PAISAJE
+	Gollum,			5,					60,					PAISAJE
+	Legolas,		50,					9,					AVENTURA
+	Frodo,			7,					7,					PAISAJE
+	Sauron,			25,					15,					PAISAJE
+	Arwen,			30,					9,					DEGUSTACION
+	Gimli,			70,					30,					DEGUSTACION
+	Aragorn,		30,					16,					AVENTURA					

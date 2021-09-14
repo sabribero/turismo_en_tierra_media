@@ -7,3 +7,10 @@
 	35,				1,				30,				DEGUSTACION,				Lothlorien
 	12,				3,				32,				PAISAJE,					Erebor
 	3,				4,				12,				AVENTURA,					Bosque Negro
+	10,				5,				20,             PAISAJE,					Rivendel
+	7,				1,				10,				AVENTURA,					Isengard
+	4,				3,				25,				DEGUSTACION,				Edoras
+	15,				7,				3,				AVENTURA,					Fangorn
+	20,				3,				10,				DEGUSTACION,				Gondor
+	3,				1,				7,				PAISAJE,					Harad
+	11,				5,				30,				PAISAJE,					Pelargir
