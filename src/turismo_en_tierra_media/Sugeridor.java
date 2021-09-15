@@ -10,7 +10,7 @@ public class Sugeridor {
 
 	protected static void sugerirPromos(Usuario unUsuario, List<Promocion> unasPromociones) {
 		for (Promocion cadaPromocion : unasPromociones) {
-
+			
 			if (unUsuario.podesIrA(cadaPromocion) && cadaPromocion.tieneCupos()) { 
 
 				Scanner entrada = new Scanner(System.in);
@@ -50,9 +50,8 @@ public class Sugeridor {
 	
 	protected static void sugerirAtracciones(Usuario unUsuario, List<Atraccion> unasAtracciones) {
 		for (Atraccion cadaAtraccion : unasAtracciones) {
-
-			if (unUsuario.podesIrA(cadaAtraccion) && unUsuario.todaviaNoVasA(cadaAtraccion)
-					&& cadaAtraccion.getUsosDisponibles() > 0) {
+		
+			if (unUsuario.podesIrA(cadaAtraccion) && cadaAtraccion.getUsosDisponibles() > 0) {
 
 				Scanner entrada = new Scanner(System.in);
 
@@ -95,7 +94,7 @@ public class Sugeridor {
 						Iterator<Promocion> iterador= unasPromociones.iterator();
 						while(iterador.hasNext()) {
 							Promocion actual= iterador.next();
-							if(actual.getTipoDeAtraccion() == unUsuario.getAtraccionFavorita()) {					/////// equals
+							if(actual.getTipoDeAtraccion() == unUsuario.getAtraccionFavorita()) {
 								promocionesRechazadas.add(actual);
 								iterador.remove();
 							}
@@ -116,7 +115,7 @@ public class Sugeridor {
 				Iterator<Atraccion> iterador= unasAtracciones.iterator();
 				while(iterador.hasNext()) {
 					Atraccion actual= iterador.next();
-					if(actual.getTipo() == unUsuario.getAtraccionFavorita()) {										/////// equals
+					if(actual.getTipo() == unUsuario.getAtraccionFavorita()) {
 						atraccionesRechazadas.add(actual);
 						iterador.remove();
 					}

@@ -3,6 +3,7 @@ package turismo_en_tierra_media;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 
 
@@ -82,7 +83,7 @@ public class Aplicacion {
 		todasLasPromociones.sort(new ComparadorPromocion().reversed());
 	}
 
-	public void ofrecerTodo(Usuario unUsuario) {
+	public void ofrecerTodo(Usuario unUsuario) throws IOException {
 
 		System.out.println("Bienvenido " + unUsuario.getNombre() + ", vamos a comenzar: \n\n");
 
@@ -121,10 +122,13 @@ public class Aplicacion {
 
 	}
 	
-	public void crearArchivoUsuario(Usuario unUsuario) {
+	public void crearArchivoUsuario(Usuario unUsuario) throws IOException {
+		
+		BufferedWriter bw = null;
 
 		try {
 			String ruta = "archivos_de_salida/"+unUsuario.getNombre()+".txt";
+			new File("archivos_de_salida/").mkdir();							// Se crea la carpeta para guardar los archivos de salida.		
 			//String ruta = unUsuario.getNombre() + ".txt";
 			String contenido = unUsuario.toString();
 			File file = new File(ruta);
@@ -133,11 +137,13 @@ public class Aplicacion {
 				file.createNewFile();
 			}
 			FileWriter fw = new FileWriter(file);
-			BufferedWriter bw = new BufferedWriter(fw);
+			bw = new BufferedWriter(fw);
 			bw.write(contenido);
-			bw.close();
+			
 		} catch (Exception e) {
 			e.printStackTrace();
+		} finally {
+			bw.close();
 		}
 
 	}

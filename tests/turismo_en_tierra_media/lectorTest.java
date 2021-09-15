@@ -5,6 +5,7 @@ import static org.junit.Assert.*;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -15,12 +16,18 @@ public class lectorTest {
 	List<Usuario> losUsuarios = new ArrayList<Usuario>();
 
 	@Before
-	public void setup() {
+	public void setUp() {
 		lectorDeArchivos lector = new lectorDeArchivos();
 		lector.LeerAtracciones(lasAtracciones);
 		lector.LeerPromos(lasPromociones, lasAtracciones);
 		lector.leerUsuarios(losUsuarios);
-
+	}
+	
+	@After
+	public void tearDown() {
+		lasAtracciones.clear();
+		lasPromociones.clear();
+		losUsuarios.clear();
 	}
 
 	@Test

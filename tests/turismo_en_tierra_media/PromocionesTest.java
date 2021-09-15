@@ -15,14 +15,14 @@ public class PromocionesTest {
 	List<Promocion> lasPromociones = new ArrayList<Promocion>();
 
 	@Before
-	public void setup() {
+	public void setUp() {
 		lectorDeArchivos lector = new lectorDeArchivos();
 		lector.LeerAtracciones(lasAtracciones);
 		lector.LeerPromos(lasPromociones, lasAtracciones);
 	}
 	
 	@After
-	public void teardown() {
+	public void tearDown() {
 		lasAtracciones.clear();
 		lasPromociones.clear();
 	}
@@ -32,7 +32,7 @@ public class PromocionesTest {
 		
 		//Vemos que se cargaron la cantidad correcta de promociones
 
-		assertEquals(4, lasPromociones.size());
+		assertEquals(21, lasPromociones.size());
 	}
 
 	@Test
@@ -72,10 +72,10 @@ public class PromocionesTest {
 		
 		//Vemos los nombres de las atracciones
 
-		assertEquals(100, lasPromociones.get(3).getValorPromo());	// ABSOLUTA,100,Bosque Negro,Moria,Minas Tirith,La Comarca,Mordor
+		assertEquals(36, lasPromociones.get(3).getValorPromo());	// ABSOLUTA,36,Bosque Negro,Moria,Mordor
 		assertEquals(5, lasPromociones.get(2).getValorPromo());		// AxB,0,Minas Tirith,Erebor
 		assertEquals(18, lasPromociones.get(1).getValorPromo());	// PORCENTUAL,20,Minas Tirith,Abismo de Helm,Erebor 
 																	// las sumatoria del costo de las atracciones es 22 y tienen 20% de descuento 
-		assertEquals(50, lasPromociones.get(0).getValorPromo());	// ABSOLUTA,50,Bosque Negro,Moria
+		assertEquals(10, lasPromociones.get(0).getValorPromo());	// ABSOLUTA,50,Bosque Negro,Moria
 	}
 }

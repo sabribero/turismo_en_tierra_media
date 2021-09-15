@@ -1,0 +1,4660 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   contentScriptType="application/ecmascript"
+   contentStyleType="text/css"
+   height="630mm"
+   preserveAspectRatio="none"
+   version="1.1"
+   viewBox="0 0 2834.5913 2379.8965"
+   width="750mm"
+   zoomAndPan="magnify"
+   id="svg608"
+   sodipodi:docname="UML Turismo Tierra Media.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview610"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     units="mm"
+     inkscape:object-paths="true"
+     inkscape:zoom="0.26056485"
+     inkscape:cx="969.04859"
+     inkscape:cy="1206.9932"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g606"
+     inkscape:document-units="mm" />
+  <defs
+     id="defs7">
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect22337"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect18472"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <linearGradient
+       id="goqe3d0h3rwq00"
+       x1="0.5"
+       x2="0.5"
+       y1="0"
+       y2="1">
+      <stop
+         offset="0%"
+         stop-color="#2FA4E7"
+         id="stop2" />
+      <stop
+         offset="100%"
+         stop-color="#2683B9"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient2104"
+       x1="1125.709"
+       y1="2032.0951"
+       x2="1125.709"
+       y2="2130.6523"
+       gradientTransform="scale(2.7057022,0.36958983)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient2108"
+       x1="425.66962"
+       y1="5597.3706"
+       x2="425.66962"
+       y2="5634.6387"
+       gradientTransform="scale(7.1553925,0.13975474)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient2112"
+       x1="1894.7639"
+       y1="332.92813"
+       x2="1894.7639"
+       y2="394.52643"
+       gradientTransform="matrix(1.6910639,0,0,0.59134372,-3574.3897,3424.8012)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient2116"
+       x1="716.47595"
+       y1="1020.0569"
+       x2="716.47595"
+       y2="1043.3494"
+       gradientTransform="matrix(4.4721203,0,0,0.22360758,-3574.3897,3424.8012)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient2120"
+       x1="1178.1874"
+       y1="2144.1069"
+       x2="1178.1874"
+       y2="2248.0969"
+       gradientTransform="scale(2.8548442,0.35028181)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient2124"
+       x1="445.51355"
+       y1="5905.9058"
+       x2="445.51355"
+       y2="5945.228"
+       gradientTransform="scale(7.5498078,0.1324537)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient2128"
+       x1="1176.0425"
+       y1="2382.8428"
+       x2="1176.0425"
+       y2="2498.4114"
+       gradientTransform="scale(3.172717,0.31518727)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient2132"
+       x1="444.70248"
+       y1="6563.499"
+       x2="444.70248"
+       y2="6607.1992"
+       gradientTransform="scale(8.3904414,0.11918324)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient2136"
+       x1="1631.0558"
+       y1="450.3768"
+       x2="1631.0558"
+       y2="533.70544"
+       gradientTransform="matrix(2.2876286,0,0,0.4371339,-3574.3897,3424.8012)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient2140"
+       x1="616.75879"
+       y1="1379.9073"
+       x2="616.75879"
+       y2="1411.4167"
+       gradientTransform="matrix(6.0497717,0,0,0.16529549,-3574.3897,3424.8012)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient2144"
+       x1="1258.2826"
+       y1="2475.8015"
+       x2="1258.2826"
+       y2="2595.8789"
+       gradientTransform="scale(3.2964904,0.30335292)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient2148"
+       x1="475.80032"
+       y1="6819.5527"
+       x2="475.80032"
+       y2="6864.958"
+       gradientTransform="scale(8.7177676,0.11470827)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient2152"
+       x1="1784.182"
+       y1="457.70047"
+       x2="1784.182"
+       y2="542.38416"
+       gradientTransform="matrix(2.3248282,0,0,0.43013931,-3574.3897,3424.8012)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient2156"
+       x1="674.66113"
+       y1="1402.3463"
+       x2="674.66113"
+       y2="1434.368"
+       gradientTransform="matrix(6.1481484,0,0,0.1626506,-3574.3897,3424.8012)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient4254"
+       x1="509.73285"
+       y1="282.8428"
+       x2="509.73285"
+       y2="373.58276"
+       gradientTransform="scale(2.4910926,0.40143028)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient4256"
+       x1="509.73285"
+       y1="282.8428"
+       x2="509.73285"
+       y2="373.58276"
+       gradientTransform="scale(2.4910926,0.40143028)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient4258"
+       x1="192.74768"
+       y1="953.65027"
+       x2="192.74768"
+       y2="987.96222"
+       gradientTransform="scale(6.5878446,0.15179472)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient4260"
+       x1="192.74768"
+       y1="953.65027"
+       x2="192.74768"
+       y2="987.96222"
+       gradientTransform="scale(6.5878446,0.15179472)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient4262"
+       x1="126.59445"
+       y1="1336.674"
+       x2="126.59445"
+       y2="1404.7115"
+       gradientTransform="scale(1.8678413,0.53537738)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient4264"
+       x1="126.59445"
+       y1="1336.674"
+       x2="126.59445"
+       y2="1404.7115"
+       gradientTransform="scale(1.8678413,0.53537738)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient4266"
+       x1="47.869755"
+       y1="3689.1172"
+       x2="47.869755"
+       y2="3714.8445"
+       gradientTransform="scale(4.9396191,0.20244476)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient4268"
+       x1="47.869755"
+       y1="3689.1172"
+       x2="47.869755"
+       y2="3714.8445"
+       gradientTransform="scale(4.9396191,0.20244476)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient4270"
+       x1="339.83191"
+       y1="3966.3447"
+       x2="339.83191"
+       y2="4093.1833"
+       gradientTransform="scale(3.4821136,0.2871819)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient4272"
+       x1="339.83191"
+       y1="3966.3447"
+       x2="339.83191"
+       y2="4093.1833"
+       gradientTransform="scale(3.4821136,0.2871819)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient4274"
+       x1="128.50224"
+       y1="10776.709"
+       x2="128.50224"
+       y2="10824.671"
+       gradientTransform="scale(9.2086593,0.10859344)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient4276"
+       x1="128.50224"
+       y1="10776.709"
+       x2="128.50224"
+       y2="10824.671"
+       gradientTransform="scale(9.2086593,0.10859344)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient4278"
+       x1="163.36436"
+       y1="4535.7695"
+       x2="163.36436"
+       y2="4679.3081"
+       gradientTransform="scale(3.9405778,0.25376989)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient4280"
+       x1="163.36436"
+       y1="4535.7695"
+       x2="163.36436"
+       y2="4679.3081"
+       gradientTransform="scale(3.9405778,0.25376989)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient4282"
+       x1="61.773731"
+       y1="12320.435"
+       x2="61.773731"
+       y2="12374.712"
+       gradientTransform="scale(10.421096,0.0959592)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient4284"
+       x1="61.773731"
+       y1="12320.435"
+       x2="61.773731"
+       y2="12374.712"
+       gradientTransform="scale(10.421096,0.0959592)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient4286"
+       x1="156.86124"
+       y1="2001.7629"
+       x2="156.86124"
+       y2="2147.1401"
+       gradientTransform="scale(3.991054,0.25056038)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient4288"
+       x1="156.86124"
+       y1="2001.7629"
+       x2="156.86124"
+       y2="2147.1401"
+       gradientTransform="scale(3.991054,0.25056038)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient4290"
+       x1="59.314674"
+       y1="5623.27"
+       x2="59.314674"
+       y2="5678.2422"
+       gradientTransform="scale(10.554583,0.09474557)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient4292"
+       x1="59.314674"
+       y1="5623.27"
+       x2="59.314674"
+       y2="5678.2422"
+       gradientTransform="scale(10.554583,0.09474557)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient4294"
+       x1="196.71964"
+       y1="27.929466"
+       x2="196.71964"
+       y2="178.18388"
+       gradientTransform="scale(4.1249481,0.24242729)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient4296"
+       x1="196.71964"
+       y1="27.929466"
+       x2="196.71964"
+       y2="178.18388"
+       gradientTransform="scale(4.1249481,0.24242729)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient4298"
+       x1="74.38652"
+       y1="414.40161"
+       x2="74.38652"
+       y2="471.21802"
+       gradientTransform="scale(10.908674,0.09167017)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient4300"
+       x1="74.38652"
+       y1="414.40161"
+       x2="74.38652"
+       y2="471.21802"
+       gradientTransform="scale(10.908674,0.09167017)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient2072"
+       x1="511.23935"
+       y1="2618.2947"
+       x2="511.23935"
+       y2="2745.2827"
+       gradientTransform="scale(3.4862175,0.28684384)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient2076"
+       x1="193.31734"
+       y1="7212.0474"
+       x2="193.31734"
+       y2="7260.0659"
+       gradientTransform="scale(9.2195124,0.10846561)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient2080"
+       x1="741.28857"
+       y1="91.198174"
+       x2="741.28857"
+       y2="199.30276"
+       gradientTransform="scale(2.9678051,0.33694935)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient2084"
+       x1="280.30695"
+       y1="486.19006"
+       x2="280.30695"
+       y2="527.06818"
+       gradientTransform="scale(7.8485395,0.12741224)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient2088"
+       x1="741.28857"
+       y1="2193.3933"
+       x2="741.28857"
+       y2="2301.498"
+       gradientTransform="scale(2.9678051,0.33694935)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient2092"
+       x1="280.30695"
+       y1="6045.5728"
+       x2="280.30695"
+       y2="6086.4507"
+       gradientTransform="scale(7.8485395,0.12741224)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient2096"
+       x1="725.33716"
+       y1="2729.8892"
+       x2="725.33716"
+       y2="2862.2898"
+       gradientTransform="scale(3.6348039,0.27511801)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient2100"
+       x1="274.27515"
+       y1="7519.4326"
+       x2="274.27515"
+       y2="7569.4976"
+       gradientTransform="scale(9.612458,0.10403166)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient4972"
+       x1="312.29807"
+       y1="2885.6025"
+       x2="312.29807"
+       y2="3030.0635"
+       gradientTransform="scale(3.9658962,0.25214981)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient4974"
+       x1="312.29807"
+       y1="2885.6025"
+       x2="312.29807"
+       y2="3030.0635"
+       gradientTransform="scale(3.9658962,0.25214981)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient4976"
+       x1="118.09073"
+       y1="7958.5601"
+       x2="118.09073"
+       y2="8013.1855"
+       gradientTransform="scale(10.488052,0.09534659)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient4978"
+       x1="118.09073"
+       y1="7958.5601"
+       x2="118.09073"
+       y2="8013.1855"
+       gradientTransform="scale(10.488052,0.09534659)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient4980"
+       x1="66.584846"
+       y1="151.66739"
+       x2="66.584846"
+       y2="281.02383"
+       gradientTransform="scale(3.551234,0.28159226)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient4982"
+       x1="66.584846"
+       y1="151.66739"
+       x2="66.584846"
+       y2="281.02383"
+       gradientTransform="scale(3.551234,0.28159226)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient4984"
+       x1="25.17804"
+       y1="694.27032"
+       x2="25.17804"
+       y2="743.18451"
+       gradientTransform="scale(9.3914524,0.1064798)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient4986"
+       x1="25.17804"
+       y1="694.27032"
+       x2="25.17804"
+       y2="743.18451"
+       gradientTransform="scale(9.3914524,0.1064798)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient4988"
+       x1="106.92928"
+       y1="2623.678"
+       x2="106.92928"
+       y2="2704.2283"
+       gradientTransform="scale(2.2113527,0.4522119)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient4990"
+       x1="106.92928"
+       y1="2623.678"
+       x2="106.92928"
+       y2="2704.2283"
+       gradientTransform="scale(2.2113527,0.4522119)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient4992"
+       x1="40.43367"
+       y1="7121.0361"
+       x2="40.43367"
+       y2="7151.4946"
+       gradientTransform="scale(5.8480556,0.17099701)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient4994"
+       x1="40.43367"
+       y1="7121.0361"
+       x2="40.43367"
+       y2="7151.4946"
+       gradientTransform="scale(5.8480556,0.17099701)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient1651"
+       x1="125.67991"
+       y1="286.08279"
+       x2="125.67991"
+       y2="377.86218"
+       gradientTransform="scale(2.5196282,0.39688395)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient1655"
+       x1="47.523933"
+       y1="964.5744"
+       x2="47.523933"
+       y2="999.27936"
+       gradientTransform="scale(6.6633087,0.15007559)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient1659"
+       x1="212.33194"
+       y1="195.34966"
+       x2="212.33194"
+       y2="302.92648"
+       gradientTransform="scale(2.9533161,0.33860242)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient1663"
+       x1="80.29007"
+       y1="760.42877"
+       x2="80.29007"
+       y2="801.1073"
+       gradientTransform="scale(7.8102226,0.12803732)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient1667"
+       x1="342.84225"
+       y1="286.36218"
+       x2="342.84225"
+       y2="389.06708"
+       gradientTransform="scale(2.819567,0.35466439)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#goqe3d0h3rwq00"
+       id="linearGradient1671"
+       x1="129.64053"
+       y1="990.07574"
+       x2="129.64053"
+       y2="1028.9121"
+       gradientTransform="scale(7.4565149,0.13411091)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     id="g606">
+    <!--MD5=[2a2f4971b8c2adde23f91bbad837c5c6]
+class Aplicacion-->
+    <a
+       href="java:turismo_en_tierra_media.Aplicacion"
+       target="_top"
+       title="java:turismo_en_tierra_media.Aplicacion"
+       xlink:actuate="onRequest"
+       xlink:href="java:turismo_en_tierra_media.Aplicacion"
+       xlink:show="new"
+       xlink:title="java:turismo_en_tierra_media.Aplicacion"
+       xlink:type="simple"
+       id="a52"
+       transform="translate(1392.695,285.23248)">
+      <rect
+         codeLine="3"
+         height="360.86429"
+         id="Aplicacion"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="fill:none;stroke:#2fa4e7;stroke-width:1.04167"
+         width="458.33331"
+         x="7.2916999"
+         y="43.229198" />
+      <rect
+         fill="url(#goqe3d0h3rwq00)"
+         height="35.384102"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="fill:url(#linearGradient4980);stroke:url(#linearGradient4982);stroke-width:1.04167"
+         width="458.33331"
+         x="7.2916999"
+         y="43.229198"
+         id="rect10" />
+      <rect
+         fill="url(#goqe3d0h3rwq00)"
+         height="4.1666999"
+         style="fill:url(#linearGradient4984);stroke:url(#linearGradient4986);stroke-width:1.04167"
+         width="458.33331"
+         x="7.2916999"
+         y="74.446602"
+         id="rect12" />
+      <rect
+         codeLine="3"
+         fill="none"
+         height="360.86429"
+         id="rect14"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         width="458.33331"
+         x="7.2916999"
+         y="43.229198" />
+      <circle
+         cx="195.3125"
+         cy="60.9212"
+         fill="#edf0f2"
+         style="stroke:#babdbf;stroke-width:1.04167"
+         id="ellipse16"
+         r="10.4167" />
+      <path
+         d="m 197.2493,57.5358 c -0.6835,-0.3255 -1.123,-0.4232 -1.774,-0.4232 -1.9206,0 -3.4017,1.5137 -3.4017,3.5157 v 0.83 c 0,1.9043 1.5625,3.2878 3.6784,3.2878 0.8951,0 1.7578,-0.2279 2.2949,-0.6348 0.4394,-0.2929 0.6673,-0.6185 0.6673,-0.9114 0,-0.3256 -0.293,-0.6185 -0.6185,-0.6185 -0.1628,0 -0.3092,0.0651 -0.4557,0.1953 -0.3418,0.3581 -0.3418,0.3581 -0.472,0.4232 -0.3093,0.1953 -0.8138,0.2929 -1.3835,0.2929 -1.4974,0 -2.4577,-0.8138 -2.4577,-2.067 v -0.7975 c 0,-1.3184 0.9278,-2.2787 2.1973,-2.2787 0.4232,0 0.8789,0.1139 1.2207,0.3093 0.3581,0.1953 0.4883,0.358 0.5534,0.651 0.0488,0.3092 0.0651,0.3906 0.1627,0.4883 0.0977,0.1139 0.2767,0.179 0.4395,0.179 0.2116,0 0.3906,-0.0976 0.5208,-0.2604 0.0814,-0.1139 0.114,-0.2441 0.114,-0.5697 v -1.0416 c 0,-0.3093 -0.0163,-0.4069 -0.0977,-0.5209 -0.1139,-0.1953 -0.3092,-0.3092 -0.5371,-0.3092 -0.2116,0 -0.3581,0.0814 -0.5208,0.3092 z"
+         fill="#000000"
+         id="path18" />
+      <text
+         fill="#f8f9fa"
+         font-family="Verdana"
+         font-size="12.5px"
+         lengthAdjust="spacing"
+         textLength="63.541698"
+         x="220.3125"
+         y="65.248596"
+         id="text20">Aplicacion</text>
+      <line
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         x1="8.3332996"
+         x2="464.58331"
+         y1="78.613297"
+         y2="78.613297"
+         id="line22" />
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="230.2083"
+         x="18.75"
+         y="98.624199"
+         id="text24">~todasLasAtracciones: List&lt;Atraccion&gt;</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="248.9583"
+         x="18.75"
+         y="122.379"
+         id="text26">~atraccionesDeAventura: List&lt;Atraccion&gt;</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="268.75"
+         x="18.75"
+         y="146.1339"
+         id="text28">~atraccionesDeDegustacion: List&lt;Atraccion&gt;</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="236.4583"
+         x="18.75"
+         y="169.88879"
+         id="text30">~atraccionesDePaisaje: List&lt;Atraccion&gt;</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="242.7083"
+         x="18.75"
+         y="193.64371"
+         id="text32">~todasLasPromociones: List&lt;Promocion&gt;</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="263.54169"
+         x="18.75"
+         y="217.39861"
+         id="text34">~promocionesDeAventura: List&lt;Promocion&gt;</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="283.33331"
+         x="18.75"
+         y="241.1535"
+         id="text36">~promocionesDeDegustacion: List&lt;Promocion&gt;</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="251.0417"
+         x="18.75"
+         y="264.90829"
+         id="text38">~promocionesDePaisaje: List&lt;Promocion&gt;</text>
+      <line
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         x1="8.3332996"
+         x2="464.58331"
+         y1="276.98569"
+         y2="276.98569"
+         id="line40" />
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="435.41669"
+         x="18.75"
+         y="296.99661"
+         id="text42">+Aplicacion(Atracciones: List&lt;Atraccion&gt;, promociones: List&lt;Promocion&gt;)</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="142.7083"
+         x="18.75"
+         y="320.7514"
+         id="text44">+separarEnListas(): void</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="129.1667"
+         x="18.75"
+         y="344.50629"
+         id="text46">#ordenarListas(): void</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="231.25"
+         x="18.75"
+         y="368.2612"
+         id="text48">+ofrecerTodo(unUsuario: Usuario): void</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="277.08331"
+         x="18.75"
+         y="392.01611"
+         id="text50">+crearArchivoUsuario(unUsuario: Usuario): void</text>
+    </a>
+    <!--MD5=[71c2c8d0610c74448807b4eed6cf98cc]
+class Atraccion-->
+    <a
+       href="java:turismo_en_tierra_media.Atraccion"
+       target="_top"
+       title="java:turismo_en_tierra_media.Atraccion"
+       xlink:actuate="onRequest"
+       xlink:href="java:turismo_en_tierra_media.Atraccion"
+       xlink:show="new"
+       xlink:title="java:turismo_en_tierra_media.Atraccion"
+       xlink:type="simple"
+       id="a103"
+       transform="translate(300.88192,870.58097)">
+      <rect
+         codeLine="18"
+         height="432.12891"
+         id="Atraccion"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="fill:none;stroke:#2fa4e7;stroke-width:1.04167"
+         width="618.75"
+         x="502.08331"
+         y="7.2916999" />
+      <rect
+         fill="url(#goqe3d0h3rwq00)"
+         height="35.384102"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="fill:url(#linearGradient4294);stroke:url(#linearGradient4296);stroke-width:1.04167"
+         width="618.75"
+         x="502.08331"
+         y="7.2916999"
+         id="rect55" />
+      <rect
+         fill="url(#goqe3d0h3rwq00)"
+         height="4.1666999"
+         style="fill:url(#linearGradient4298);stroke:url(#linearGradient4300);stroke-width:1.04167"
+         width="618.75"
+         x="502.08331"
+         y="38.509102"
+         id="rect57" />
+      <rect
+         codeLine="18"
+         fill="none"
+         height="432.12891"
+         id="rect59"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         width="618.75"
+         x="502.08331"
+         y="7.2916999" />
+      <circle
+         cx="772.91669"
+         cy="24.9837"
+         fill="#edf0f2"
+         style="stroke:#babdbf;stroke-width:1.04167"
+         id="ellipse61"
+         r="10.4167" />
+      <path
+         d="m 774.8535,21.5983 c -0.6836,-0.3255 -1.123,-0.4232 -1.7741,-0.4232 -1.9205,0 -3.4017,1.5137 -3.4017,3.5157 v 0.83 c 0,1.9043 1.5625,3.2878 3.6784,3.2878 0.8952,0 1.7578,-0.2279 2.2949,-0.6348 0.4395,-0.2929 0.6674,-0.6185 0.6674,-0.9114 0,-0.3256 -0.293,-0.6185 -0.6185,-0.6185 -0.1628,0 -0.3093,0.0651 -0.4558,0.1953 -0.3418,0.3581 -0.3418,0.3581 -0.472,0.4232 -0.3092,0.1953 -0.8138,0.2929 -1.3834,0.2929 -1.4974,0 -2.4577,-0.8138 -2.4577,-2.067 v -0.7975 c 0,-1.3184 0.9277,-2.2787 2.1973,-2.2787 0.4231,0 0.8789,0.1139 1.2207,0.3093 0.358,0.1953 0.4882,0.358 0.5533,0.651 0.0489,0.3092 0.0651,0.3906 0.1628,0.4883 0.0977,0.1139 0.2767,0.179 0.4395,0.179 0.2115,0 0.3906,-0.0976 0.5208,-0.2604 0.0814,-0.1139 0.1139,-0.2441 0.1139,-0.5697 V 22.168 c 0,-0.3093 -0.0163,-0.4069 -0.0976,-0.5209 -0.114,-0.1953 -0.3093,-0.3092 -0.5371,-0.3092 -0.2116,0 -0.3581,0.0814 -0.5209,0.3092 z"
+         fill="#000000"
+         id="path63" />
+      <text
+         fill="#f8f9fa"
+         font-family="Verdana"
+         font-size="12.5px"
+         lengthAdjust="spacing"
+         textLength="58.333302"
+         x="797.91669"
+         y="29.3111"
+         id="text65">Atraccion</text>
+      <line
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         x1="503.125"
+         x2="1119.7917"
+         y1="42.6758"
+         y2="42.6758"
+         id="line67" />
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="91.666702"
+         x="513.54169"
+         y="62.686699"
+         id="text69">-nombre: String</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="55.208302"
+         x="513.54169"
+         y="86.441498"
+         id="text71">-valor: int</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="133.3333"
+         x="513.54169"
+         y="110.1964"
+         id="text73">-tiempoDeUso: double</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="121.875"
+         x="513.54169"
+         y="133.95129"
+         id="text75">-usosDisponibles: int</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="130.2083"
+         x="513.54169"
+         y="157.70621"
+         id="text77">-tipo: TipoDeAtraccion</text>
+      <line
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         x1="503.125"
+         x2="1119.7917"
+         y1="169.78349"
+         y2="169.78349"
+         id="line79" />
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="595.83331"
+         x="513.54169"
+         y="189.7944"
+         id="text81">+Atraccion(nombre: String, valor: int, tiempoDeUso: double, usosMaximos: int, tipo: TipoDeAtraccion)</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="71.875"
+         x="513.54169"
+         y="213.5493"
+         id="text83">+Atraccion()</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="89.583298"
+         x="513.54169"
+         y="237.3042"
+         id="text85">+getValor(): int</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="169.7917"
+         x="513.54169"
+         y="261.05911"
+         id="text87">+getTiempoDeUso(): double</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="156.25"
+         x="513.54169"
+         y="284.8139"
+         id="text89">+getUsosDisponibles(): int</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="166.6667"
+         x="513.54169"
+         y="308.56879"
+         id="text91">+getTipo(): TipoDeAtraccion</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="151.0417"
+         x="513.54169"
+         y="332.3237"
+         id="text93">+getNombreTipo(): String</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="126.0417"
+         x="513.54169"
+         y="356.07861"
+         id="text95">+getNombre(): String</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="219.7917"
+         x="513.54169"
+         y="379.8335"
+         id="text97">#setTipo(tipo: TipoDeAtraccion): void</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="105.2083"
+         x="513.54169"
+         y="403.58841"
+         id="text99">+toString(): String</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="241.6667"
+         x="513.54169"
+         y="427.3432"
+         id="text101">+reservarLugar(unUsuario: Usuario): void</text>
+    </a>
+    <!--MD5=[419ed0ce89fc01fdcada3d14e28cbf28]
+class TipoDeAtraccion-->
+    <a
+       href="java:turismo_en_tierra_media.TipoDeAtraccion"
+       target="_top"
+       title="java:turismo_en_tierra_media.TipoDeAtraccion"
+       xlink:actuate="onRequest"
+       xlink:href="java:turismo_en_tierra_media.TipoDeAtraccion"
+       xlink:show="new"
+       xlink:title="java:turismo_en_tierra_media.TipoDeAtraccion"
+       xlink:type="simple"
+       id="a136"
+       transform="translate(-994.05998,1495.9452)">
+      <rect
+         codeLine="36"
+         height="218.33501"
+         id="TipoDeAtraccion"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="fill:none;stroke:#2fa4e7;stroke-width:1.04167"
+         width="225"
+         x="1157.2917"
+         y="114.0625" />
+      <rect
+         fill="url(#goqe3d0h3rwq00)"
+         height="35.384102"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="fill:url(#linearGradient4254);stroke:url(#linearGradient4256);stroke-width:1.04167"
+         width="225"
+         x="1157.2917"
+         y="114.0625"
+         id="rect106" />
+      <rect
+         fill="url(#goqe3d0h3rwq00)"
+         height="4.1666999"
+         style="fill:url(#linearGradient4258);stroke:url(#linearGradient4260);stroke-width:1.04167"
+         width="225"
+         x="1157.2917"
+         y="145.27991"
+         id="rect108" />
+      <rect
+         codeLine="36"
+         fill="none"
+         height="218.33501"
+         id="rect110"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         width="225"
+         x="1157.2917"
+         y="114.0625" />
+      <circle
+         cx="1208.8542"
+         cy="131.75459"
+         fill="#e47833"
+         style="stroke:#ffffff;stroke-width:1.04167"
+         id="ellipse112"
+         r="10.4167" />
+      <path
+         d="m 1208.1543,132.3568 h 1.0579 v 0.0976 c 0,0.293 0.033,0.4069 0.098,0.5209 0.1139,0.1953 0.3255,0.2929 0.5371,0.2929 0.179,0 0.3744,-0.0976 0.4883,-0.2604 0.098,-0.1139 0.1139,-0.2279 0.1139,-0.5534 v -1.416 c 0,-0.1139 0,-0.1465 0,-0.2604 -0.065,-0.3581 -0.2767,-0.5697 -0.6185,-0.5697 -0.1953,0 -0.3743,0.0977 -0.5045,0.2605 -0.081,0.1139 -0.114,0.2278 -0.114,0.5696 v 0.0814 h -1.0579 v -1.7578 h 2.9297 v 0.6185 c 0,0.3092 0.016,0.4394 0.081,0.5371 0.1302,0.1953 0.3255,0.3092 0.5371,0.3092 0.1953,0 0.3906,-0.0976 0.5208,-0.2604 0.081,-0.1302 0.1139,-0.2279 0.1139,-0.5859 v -1.8718 h -5.6152 c -0.3255,0 -0.4232,0.0163 -0.5371,0.0977 -0.179,0.1139 -0.293,0.3255 -0.293,0.5371 0,0.1953 0.098,0.3743 0.2604,0.5045 0.114,0.0977 0.2442,0.114 0.5697,0.114 h 0.179 v 4.7851 h -0.179 c -0.3092,0 -0.4232,0.0163 -0.5371,0.0977 -0.179,0.1139 -0.293,0.3255 -0.293,0.5371 0,0.1953 0.098,0.3744 0.2604,0.4883 0.098,0.0976 0.2767,0.1302 0.5697,0.1302 h 5.8757 v -1.9043 c 0,-0.3093 -0.016,-0.4232 -0.081,-0.5371 -0.1302,-0.1791 -0.3255,-0.293 -0.5371,-0.293 -0.1953,0 -0.3907,0.0814 -0.5046,0.2604 -0.098,0.1302 -0.1139,0.2279 -0.1139,0.5697 v 0.651 h -3.2064 z"
+         fill="#000000"
+         id="path114" />
+      <text
+         fill="#f8f9fa"
+         font-family="Verdana"
+         font-size="12.5px"
+         lengthAdjust="spacing"
+         textLength="103.125"
+         x="1233.8542"
+         y="136.08189"
+         id="text116">TipoDeAtraccion</text>
+      <line
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         x1="1158.3333"
+         x2="1381.25"
+         y1="149.44659"
+         y2="149.44659"
+         id="line118" />
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="44.791698"
+         x="1168.75"
+         y="169.4575"
+         id="text120">PAISAJE</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="63.541698"
+         x="1168.75"
+         y="193.2124"
+         id="text122">AVENTURA</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="87.5"
+         x="1168.75"
+         y="216.9673"
+         id="text124">DEGUSTACION</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="53.125"
+         x="1168.75"
+         y="240.72211"
+         id="text126">DEFAULT</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="45.833302"
+         x="1168.75"
+         y="264.47699"
+         id="text128">nombre</text>
+      <line
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         x1="1158.3333"
+         x2="1381.25"
+         y1="276.55441"
+         y2="276.55441"
+         id="line130" />
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="202.0833"
+         x="1168.75"
+         y="296.56519"
+         id="text132">~TipoDeAtraccion(nombre: String)</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="168.75"
+         x="1168.75"
+         y="320.3201"
+         id="text134">~getNombreDeTipo(): String</text>
+    </a>
+    <!--MD5=[cb512555a6df8c2deac98d28e8ac9c0c]
+class TipoDePromo-->
+    <a
+       href="java:turismo_en_tierra_media.TipoDePromo"
+       target="_top"
+       title="java:turismo_en_tierra_media.TipoDePromo"
+       xlink:actuate="onRequest"
+       xlink:href="java:turismo_en_tierra_media.TipoDePromo"
+       xlink:show="new"
+       xlink:title="java:turismo_en_tierra_media.TipoDePromo"
+       xlink:type="simple"
+       id="a163"
+       transform="translate(328.81763,939.80512)">
+      <rect
+         codeLine="45"
+         height="147.0703"
+         id="TipoDePromo"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="fill:none;stroke:#2fa4e7;stroke-width:1.04167"
+         width="126.0417"
+         x="173.4375"
+         y="716.14581" />
+      <rect
+         fill="url(#goqe3d0h3rwq00)"
+         height="35.384102"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="fill:url(#linearGradient4262);stroke:url(#linearGradient4264);stroke-width:1.04167"
+         width="126.0417"
+         x="173.4375"
+         y="716.14581"
+         id="rect139" />
+      <rect
+         fill="url(#goqe3d0h3rwq00)"
+         height="4.1666999"
+         style="fill:url(#linearGradient4266);stroke:url(#linearGradient4268);stroke-width:1.04167"
+         width="126.0417"
+         x="173.4375"
+         y="747.36328"
+         id="rect141" />
+      <rect
+         codeLine="45"
+         fill="none"
+         height="147.0703"
+         id="rect143"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         width="126.0417"
+         x="173.4375"
+         y="716.14581" />
+      <circle
+         cx="188.0208"
+         cy="733.83789"
+         fill="#e47833"
+         style="stroke:#ffffff;stroke-width:1.04167"
+         id="ellipse145"
+         r="10.4167" />
+      <path
+         d="m 187.321,734.4401 h 1.0579 v 0.0977 c 0,0.2929 0.0326,0.4069 0.0977,0.5208 0.1139,0.1953 0.3255,0.293 0.5371,0.293 0.179,0 0.3743,-0.0977 0.4883,-0.2605 0.0976,-0.1139 0.1139,-0.2278 0.1139,-0.5533 v -1.4161 c 0,-0.1139 0,-0.1464 0,-0.2604 -0.0651,-0.358 -0.2767,-0.5696 -0.6185,-0.5696 -0.1953,0 -0.3744,0.0976 -0.5046,0.2604 -0.0813,0.1139 -0.1139,0.2278 -0.1139,0.5696 v 0.0814 h -1.0579 v -1.7578 h 2.9297 v 0.6185 c 0,0.3092 0.0162,0.4395 0.0813,0.5371 0.1302,0.1953 0.3256,0.3093 0.5371,0.3093 0.1954,0 0.3907,-0.0977 0.5209,-0.2605 0.0814,-0.1302 0.1139,-0.2278 0.1139,-0.5859 v -1.8717 h -5.6152 c -0.3255,0 -0.4232,0.0162 -0.5371,0.0976 -0.1791,0.1139 -0.293,0.3255 -0.293,0.5371 0,0.1953 0.0977,0.3744 0.2604,0.5046 0.1139,0.0976 0.2442,0.1139 0.5697,0.1139 h 0.179 v 4.7852 h -0.179 c -0.3093,0 -0.4232,0.0162 -0.5371,0.0976 -0.1791,0.114 -0.293,0.3255 -0.293,0.5371 0,0.1953 0.0977,0.3744 0.2604,0.4883 0.0977,0.0977 0.2767,0.1302 0.5697,0.1302 h 5.8756 v -1.9043 c 0,-0.3092 -0.0163,-0.4231 -0.0814,-0.5371 -0.1302,-0.179 -0.3255,-0.293 -0.5371,-0.293 -0.1953,0 -0.3906,0.0814 -0.5045,0.2605 -0.0977,0.1302 -0.114,0.2278 -0.114,0.5696 v 0.6511 h -3.2063 z"
+         fill="#000000"
+         id="path147" />
+      <text
+         fill="#f8f9fa"
+         font-family="Verdana"
+         font-size="12.5px"
+         lengthAdjust="spacing"
+         textLength="84.375"
+         x="206.7708"
+         y="738.16528"
+         id="text149">TipoDePromo</text>
+      <line
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         x1="174.4792"
+         x2="298.4375"
+         y1="751.52991"
+         y2="751.52991"
+         id="line151" />
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="77.083298"
+         x="184.8958"
+         y="771.54077"
+         id="text153">PORCENTUAL</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="64.583298"
+         x="184.8958"
+         y="795.29572"
+         id="text155">ABSOLUTA</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="23.9583"
+         x="184.8958"
+         y="819.0506"
+         id="text157">AxB</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="53.125"
+         x="184.8958"
+         y="842.80548"
+         id="text159">DEFAULT</text>
+      <line
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         x1="174.4792"
+         x2="298.4375"
+         y1="854.88281"
+         y2="854.88281"
+         id="line161" />
+    </a>
+    <!--MD5=[35a64b983c79880384a2fd9b61f0c24b]
+class Usuario-->
+    <a
+       href="java:turismo_en_tierra_media.Usuario"
+       target="_top"
+       title="java:turismo_en_tierra_media.Usuario"
+       xlink:actuate="onRequest"
+       xlink:href="java:turismo_en_tierra_media.Usuario"
+       xlink:show="new"
+       xlink:title="java:turismo_en_tierra_media.Usuario"
+       xlink:type="simple"
+       id="a226"
+       transform="translate(-253.69644,379.58927)">
+      <rect
+         codeLine="51"
+         height="574.6582"
+         id="Usuario"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="fill:none;stroke:#2fa4e7;stroke-width:1.04167"
+         width="579.16669"
+         x="336.45831"
+         y="502.08331" />
+      <rect
+         fill="url(#goqe3d0h3rwq00)"
+         height="35.384102"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="fill:url(#linearGradient4286);stroke:url(#linearGradient4288);stroke-width:1.04167"
+         width="579.16669"
+         x="336.45831"
+         y="502.08331"
+         id="rect166" />
+      <rect
+         fill="url(#goqe3d0h3rwq00)"
+         height="4.1666999"
+         style="fill:url(#linearGradient4290);stroke:url(#linearGradient4292);stroke-width:1.04167"
+         width="579.16669"
+         x="336.45831"
+         y="533.30078"
+         id="rect168" />
+      <rect
+         codeLine="51"
+         fill="none"
+         height="574.6582"
+         id="rect170"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         width="579.16669"
+         x="336.45831"
+         y="502.08331" />
+      <circle
+         cx="592.70831"
+         cy="519.77539"
+         fill="#edf0f2"
+         style="stroke:#babdbf;stroke-width:1.04167"
+         id="ellipse172"
+         r="10.4167" />
+      <path
+         d="m 594.6452,516.39 c -0.6836,-0.3255 -1.1231,-0.4232 -1.7741,-0.4232 -1.9206,0 -3.4017,1.5137 -3.4017,3.5156 v 0.8301 c 0,1.9043 1.5625,3.2878 3.6784,3.2878 0.8952,0 1.7578,-0.2279 2.2949,-0.6348 0.4395,-0.293 0.6673,-0.6185 0.6673,-0.9115 0,-0.3255 -0.2929,-0.6185 -0.6185,-0.6185 -0.1627,0 -0.3092,0.0652 -0.4557,0.1954 -0.3418,0.358 -0.3418,0.358 -0.472,0.4231 -0.3092,0.1953 -0.8138,0.293 -1.3835,0.293 -1.4974,0 -2.4576,-0.8138 -2.4576,-2.0671 v -0.7975 c 0,-1.3183 0.9277,-2.2786 2.1972,-2.2786 0.4232,0 0.8789,0.1139 1.2207,0.3092 0.3581,0.1953 0.4883,0.3581 0.5534,0.6511 0.0488,0.3092 0.0651,0.3906 0.1628,0.4882 0.0976,0.114 0.2767,0.1791 0.4394,0.1791 0.2116,0 0.3906,-0.0977 0.5209,-0.2604 0.0813,-0.114 0.1139,-0.2442 0.1139,-0.5697 v -1.0417 c 0,-0.3092 -0.0163,-0.4069 -0.0977,-0.5208 -0.1139,-0.1953 -0.3092,-0.3092 -0.5371,-0.3092 -0.2116,0 -0.358,0.0813 -0.5208,0.3092 z"
+         fill="#000000"
+         id="path174" />
+      <text
+         fill="#f8f9fa"
+         font-family="Verdana"
+         font-size="12.5px"
+         lengthAdjust="spacing"
+         textLength="47.916698"
+         x="617.70831"
+         y="524.10278"
+         id="text176">Usuario</text>
+      <line
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         x1="337.5"
+         x2="914.58331"
+         y1="537.46741"
+         y2="537.46741"
+         id="line178" />
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="156.25"
+         x="347.91669"
+         y="557.47827"
+         id="text180">-itinerario: List&lt;Atraccion&gt;</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="91.666702"
+         x="347.91669"
+         y="581.23322"
+         id="text182">-nombre: String</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="208.3333"
+         x="347.91669"
+         y="604.9881"
+         id="text184">-atraccionFavorita: TipoDeAtraccion</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="100"
+         x="347.91669"
+         y="628.74298"
+         id="text186">-presupuesto: int</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="129.1667"
+         x="347.91669"
+         y="652.49792"
+         id="text188">-monedasIniciales: int</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="141.6667"
+         x="347.91669"
+         y="676.25269"
+         id="text190">-tiempoDisponible: float</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="186.4583"
+         x="347.91669"
+         y="700.00763"
+         id="text192">-tiempoDisponibleOriginal: float</text>
+      <line
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         x1="337.5"
+         x2="914.58331"
+         y1="712.08502"
+         y2="712.08502"
+         id="line194" />
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="556.25"
+         x="347.91669"
+         y="732.09583"
+         id="text196">+Usuario(nombre: String, atraccionFavorita: TipoDeAtraccion, monedas: int, tiempoLibre: float)</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="61.458302"
+         x="347.91669"
+         y="755.85071"
+         id="text198">+Usuario()</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="132.2917"
+         x="347.91669"
+         y="779.60559"
+         id="text200">+getPresupuesto(): int</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="189.5833"
+         x="347.91669"
+         y="803.36047"
+         id="text202">+getItinerario(): List&lt;Atraccion&gt;</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="178.125"
+         x="347.91669"
+         y="827.11542"
+         id="text204">+getTiempoDisponible(): float</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="126.0417"
+         x="347.91669"
+         y="850.8703"
+         id="text206">+getNombre(): String</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="227.0833"
+         x="347.91669"
+         y="874.62512"
+         id="text208">+getNombreAtraccionFavorita(): String</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="242.7083"
+         x="347.91669"
+         y="898.38"
+         id="text210">+getAtraccionFavorita(): TipoDeAtraccion</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="105.2083"
+         x="347.91669"
+         y="922.13489"
+         id="text212">+toString(): String</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="107.2917"
+         x="347.91669"
+         y="945.88977"
+         id="text214">+userInfo(): String</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="287.5"
+         x="347.91669"
+         y="969.64471"
+         id="text216">#agregarAtraccion(unaAtraccion: Atraccion): void</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="239.5833"
+         x="347.91669"
+         y="993.3996"
+         id="text218">+podesIrA(atraccion: Atraccion): boolean</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="254.1667"
+         x="347.91669"
+         y="1017.1544"
+         id="text220">+podesIrA(promocion: Promocion): boolean</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="300"
+         x="347.91669"
+         y="1040.9093"
+         id="text222">+todaviaNoVasA(unaAtraccion: Atraccion): boolean</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="291.66669"
+         x="347.91669"
+         y="1064.6642"
+         id="text224">+todaviaNoVasA(promocion: Promocion): boolean</text>
+    </a>
+    <!--MD5=[49d2efb26cb008063a0194009feb0ee0]
+class PromoAbsoluta-->
+    <!--MD5=[73ad001b98dd01dedc7aab92789b3152]
+class Promocion-->
+    <!--MD5=[9e48785404abbd4a583b47eec0208d3a]
+class PromoAxB-->
+    <!--MD5=[f61c7ec706f0baf219beb863ce6257cd]
+class PromoPorcentual-->
+    <!--MD5=[08df7ae9e3fd7961e796c409491f7549]
+class lectorDeArchivos-->
+    <a
+       href="java:turismo_en_tierra_media.lectorDeArchivos"
+       target="_top"
+       title="java:turismo_en_tierra_media.lectorDeArchivos"
+       xlink:actuate="onRequest"
+       xlink:href="java:turismo_en_tierra_media.lectorDeArchivos"
+       xlink:show="new"
+       xlink:title="java:turismo_en_tierra_media.lectorDeArchivos"
+       xlink:type="simple"
+       id="a363"
+       transform="translate(-834.42896,-297.33384)">
+      <rect
+         codeLine="110"
+         height="123.3154"
+         id="lectorDeArchivos"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="fill:none;stroke:#2fa4e7;stroke-width:1.04167"
+         width="571.875"
+         x="952.60419"
+         y="728.125" />
+      <rect
+         fill="url(#goqe3d0h3rwq00)"
+         height="35.384102"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="fill:url(#linearGradient4972);stroke:url(#linearGradient4974);stroke-width:1.04167"
+         width="571.875"
+         x="952.60419"
+         y="728.125"
+         id="rect341" />
+      <rect
+         fill="url(#goqe3d0h3rwq00)"
+         height="4.1666999"
+         style="fill:url(#linearGradient4976);stroke:url(#linearGradient4978);stroke-width:1.04167"
+         width="571.875"
+         x="952.60419"
+         y="759.34241"
+         id="rect343" />
+      <rect
+         codeLine="110"
+         fill="none"
+         height="123.3154"
+         id="rect345"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         width="571.875"
+         x="952.60419"
+         y="728.125" />
+      <circle
+         cx="1175"
+         cy="745.81708"
+         fill="#edf0f2"
+         style="stroke:#babdbf;stroke-width:1.04167"
+         id="ellipse347"
+         r="10.4167" />
+      <path
+         d="m 1176.9368,742.4316 c -0.6835,-0.3255 -1.123,-0.4231 -1.774,-0.4231 -1.9206,0 -3.4017,1.5136 -3.4017,3.5156 v 0.8301 c 0,1.9043 1.5625,3.2877 3.6784,3.2877 0.8951,0 1.7578,-0.2278 2.2949,-0.6347 0.4394,-0.293 0.6673,-0.6185 0.6673,-0.9115 0,-0.3255 -0.293,-0.6185 -0.6185,-0.6185 -0.1628,0 -0.3092,0.0651 -0.4557,0.1953 -0.3418,0.3581 -0.3418,0.3581 -0.472,0.4232 -0.3093,0.1953 -0.8138,0.293 -1.3835,0.293 -1.4974,0 -2.4577,-0.8138 -2.4577,-2.0671 v -0.7975 c 0,-1.3184 0.9278,-2.2787 2.1973,-2.2787 0.4232,0 0.8789,0.114 1.2207,0.3093 0.3581,0.1953 0.4883,0.3581 0.5534,0.651 0.049,0.3093 0.065,0.3907 0.1627,0.4883 0.098,0.1139 0.2767,0.179 0.4395,0.179 0.2116,0 0.3906,-0.0976 0.5208,-0.2604 0.081,-0.1139 0.114,-0.2441 0.114,-0.5696 v -1.0417 c 0,-0.3092 -0.016,-0.4069 -0.098,-0.5208 -0.1139,-0.1953 -0.3092,-0.3093 -0.5371,-0.3093 -0.2116,0 -0.3581,0.0814 -0.5208,0.3093 z"
+         fill="#000000"
+         id="path349" />
+      <text
+         fill="#f8f9fa"
+         font-family="Verdana"
+         font-size="12.5px"
+         lengthAdjust="spacing"
+         textLength="108.3333"
+         x="1200"
+         y="750.14441"
+         id="text351">lectorDeArchivos</text>
+      <line
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         x1="953.64581"
+         x2="1523.4375"
+         y1="763.50909"
+         y2="763.50909"
+         id="line353" />
+      <line
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         x1="953.64581"
+         x2="1523.4375"
+         y1="771.84241"
+         y2="771.84241"
+         id="line355" />
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="315.625"
+         x="964.0625"
+         y="791.85327"
+         id="text357">+leerUsuarios(todosLosUsuarios: List&lt;Usuario&gt;): void</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="366.66669"
+         x="964.0625"
+         y="815.60822"
+         id="text359">+LeerAtracciones(todasLasAtracciones: List&lt;Atraccion&gt;): void</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="548.95831"
+         x="964.0625"
+         y="839.3631"
+         id="text361">+LeerPromos(todasLasPromos: List&lt;Promocion&gt;, todasLasAtracciones: List&lt;Atraccion&gt;): void</text>
+    </a>
+    <!--MD5=[f6eb1cb71d5419f7fe4357afaa831c0c]
+class pruebaPorConsola-->
+    <a
+       href="java:turismo_en_tierra_media.pruebaPorConsola"
+       target="_top"
+       title="java:turismo_en_tierra_media.pruebaPorConsola"
+       xlink:actuate="onRequest"
+       xlink:href="java:turismo_en_tierra_media.pruebaPorConsola"
+       xlink:show="new"
+       xlink:title="java:turismo_en_tierra_media.pruebaPorConsola"
+       xlink:type="simple"
+       id="a384"
+       transform="translate(875.69592,-734.30511)">
+      <rect
+         codeLine="115"
+         height="75.805702"
+         id="pruebaPorConsola"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="fill:none;stroke:#2fa4e7;stroke-width:1.04167"
+         width="177.0833"
+         x="147.9167"
+         y="1186.9792" />
+      <rect
+         fill="url(#goqe3d0h3rwq00)"
+         height="35.384102"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="fill:url(#linearGradient4988);stroke:url(#linearGradient4990);stroke-width:1.04167"
+         width="177.0833"
+         x="147.9167"
+         y="1186.9792"
+         id="rect366" />
+      <rect
+         fill="url(#goqe3d0h3rwq00)"
+         height="4.1666999"
+         style="fill:url(#linearGradient4992);stroke:url(#linearGradient4994);stroke-width:1.04167"
+         width="177.0833"
+         x="147.9167"
+         y="1218.1967"
+         id="rect368" />
+      <rect
+         codeLine="115"
+         fill="none"
+         height="75.805702"
+         id="rect370"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         width="177.0833"
+         x="147.9167"
+         y="1186.9792" />
+      <circle
+         cx="171.875"
+         cy="1204.6711"
+         fill="#edf0f2"
+         style="stroke:#babdbf;stroke-width:1.04167"
+         id="ellipse372"
+         r="10.4167" />
+      <path
+         d="m 173.8118,1201.2858 c -0.6835,-0.3255 -1.123,-0.4232 -1.774,-0.4232 -1.9206,0 -3.4017,1.5137 -3.4017,3.5157 v 0.83 c 0,1.9043 1.5625,3.2878 3.6784,3.2878 0.8951,0 1.7578,-0.2279 2.2949,-0.6348 0.4394,-0.2929 0.6673,-0.6185 0.6673,-0.9114 0,-0.3256 -0.293,-0.6185 -0.6185,-0.6185 -0.1628,0 -0.3092,0.065 -0.4557,0.1953 -0.3418,0.3581 -0.3418,0.3581 -0.472,0.4232 -0.3093,0.1953 -0.8138,0.2929 -1.3835,0.2929 -1.4974,0 -2.4577,-0.8138 -2.4577,-2.067 v -0.7975 c 0,-1.3184 0.9278,-2.2787 2.1973,-2.2787 0.4232,0 0.8789,0.1139 1.2207,0.3093 0.3581,0.1953 0.4883,0.358 0.5534,0.651 0.0488,0.3092 0.0651,0.3906 0.1627,0.4883 0.0977,0.1139 0.2767,0.179 0.4395,0.179 0.2116,0 0.3906,-0.098 0.5208,-0.2604 0.0814,-0.1139 0.114,-0.2441 0.114,-0.5697 v -1.0416 c 0,-0.3093 -0.0163,-0.4069 -0.0977,-0.5209 -0.1139,-0.1953 -0.3092,-0.3092 -0.5371,-0.3092 -0.2116,0 -0.3581,0.081 -0.5208,0.3092 z"
+         fill="#000000"
+         id="path374" />
+      <text
+         fill="#f8f9fa"
+         font-family="Verdana"
+         font-size="12.5px"
+         lengthAdjust="spacing"
+         textLength="114.5833"
+         x="192.7083"
+         y="1208.9987"
+         id="text376">pruebaPorConsola</text>
+      <line
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         x1="148.9583"
+         x2="323.95831"
+         y1="1222.3633"
+         y2="1222.3633"
+         id="line378" />
+      <line
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         x1="148.9583"
+         x2="323.95831"
+         y1="1230.6967"
+         y2="1230.6967"
+         id="line380" />
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         text-decoration="underline"
+         textLength="154.1667"
+         x="159.375"
+         y="1250.7075"
+         id="text382"
+         style="text-decoration:underline;text-decoration-line:underline">+main(args: String[]): void</text>
+    </a>
+    <!--MD5=[fe045cbfe749a50e89fea366c57e5452]
+class Sugeridor-->
+    <a
+       href="java:turismo_en_tierra_media.Sugeridor"
+       target="_top"
+       title="java:turismo_en_tierra_media.Sugeridor"
+       xlink:actuate="onRequest"
+       xlink:href="java:turismo_en_tierra_media.Sugeridor"
+       xlink:show="new"
+       xlink:title="java:turismo_en_tierra_media.Sugeridor"
+       xlink:type="simple"
+       id="a411"
+       transform="translate(1706.2574,-731.30544)">
+      <rect
+         codeLine="118"
+         height="147.0703"
+         id="Sugeridor"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="fill:none;stroke:#2fa4e7;stroke-width:1.04167"
+         width="564.58331"
+         x="361.45831"
+         y="1151.5625" />
+      <rect
+         fill="url(#goqe3d0h3rwq00)"
+         height="35.384102"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="fill:url(#linearGradient4278);stroke:url(#linearGradient4280);stroke-width:1.04167"
+         width="564.58331"
+         x="361.45831"
+         y="1151.5625"
+         id="rect387" />
+      <rect
+         fill="url(#goqe3d0h3rwq00)"
+         height="4.1666999"
+         style="fill:url(#linearGradient4282);stroke:url(#linearGradient4284);stroke-width:1.04167"
+         width="564.58331"
+         x="361.45831"
+         y="1182.7799"
+         id="rect389" />
+      <rect
+         codeLine="118"
+         fill="none"
+         height="147.0703"
+         id="rect391"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         width="564.58331"
+         x="361.45831"
+         y="1151.5625" />
+      <circle
+         cx="603.125"
+         cy="1169.2546"
+         fill="#edf0f2"
+         style="stroke:#babdbf;stroke-width:1.04167"
+         id="ellipse393"
+         r="10.4167" />
+      <path
+         d="m 605.0618,1165.8691 c -0.6835,-0.3255 -1.123,-0.4231 -1.774,-0.4231 -1.9206,0 -3.4017,1.5136 -3.4017,3.5156 v 0.8301 c 0,1.9043 1.5625,3.2877 3.6784,3.2877 0.8951,0 1.7578,-0.2278 2.2949,-0.6347 0.4394,-0.293 0.6673,-0.6185 0.6673,-0.9115 0,-0.3255 -0.293,-0.6185 -0.6185,-0.6185 -0.1628,0 -0.3092,0.065 -0.4557,0.1953 -0.3418,0.3581 -0.3418,0.3581 -0.472,0.4232 -0.3093,0.1953 -0.8138,0.293 -1.3835,0.293 -1.4974,0 -2.4577,-0.8138 -2.4577,-2.0671 v -0.7975 c 0,-1.3184 0.9278,-2.2787 2.1973,-2.2787 0.4232,0 0.8789,0.114 1.2207,0.3093 0.3581,0.1953 0.4883,0.3581 0.5534,0.651 0.0488,0.3093 0.0651,0.3907 0.1627,0.4883 0.0977,0.1139 0.2767,0.179 0.4395,0.179 0.2116,0 0.3906,-0.098 0.5208,-0.2604 0.0814,-0.1139 0.114,-0.2441 0.114,-0.5696 v -1.0417 c 0,-0.3092 -0.0163,-0.4069 -0.0977,-0.5208 -0.1139,-0.1953 -0.3092,-0.3093 -0.5371,-0.3093 -0.2116,0 -0.3581,0.081 -0.5208,0.3093 z"
+         fill="#000000"
+         id="path395" />
+      <text
+         fill="#f8f9fa"
+         font-family="Verdana"
+         font-size="12.5px"
+         lengthAdjust="spacing"
+         textLength="62.5"
+         x="628.125"
+         y="1173.5819"
+         id="text397">Sugeridor</text>
+      <line
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         x1="362.5"
+         x2="925"
+         y1="1186.9467"
+         y2="1186.9467"
+         id="line399" />
+      <line
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         x1="362.5"
+         x2="925"
+         y1="1195.2799"
+         y2="1195.2799"
+         id="line401" />
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         text-decoration="underline"
+         textLength="459.375"
+         x="372.91669"
+         y="1215.2908"
+         id="text403"
+         style="text-decoration:underline;text-decoration-line:underline">#sugerirPromos(unUsuario: Usuario, unasPromociones: List&lt;Promocion&gt;): void</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         text-decoration="underline"
+         textLength="472.91669"
+         x="372.91669"
+         y="1239.0457"
+         id="text405"
+         style="text-decoration:underline;text-decoration-line:underline">#sugerirAtracciones(unUsuario: Usuario, unasAtracciones: List&lt;Atraccion&gt;): void</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         text-decoration="underline"
+         textLength="528.125"
+         x="372.91669"
+         y="1262.8007"
+         id="text407"
+         style="text-decoration:underline;text-decoration-line:underline">#sugerirPromosNoFavoritas(unUsuario: Usuario, unasPromociones: List&lt;Promocion&gt;): void</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         text-decoration="underline"
+         textLength="541.66669"
+         x="372.91669"
+         y="1286.5555"
+         id="text409"
+         style="text-decoration:underline;text-decoration-line:underline">#sugerirAtraccionesNoFavoritas(unUsuario: Usuario, unasAtracciones: List&lt;Atraccion&gt;): void</text>
+    </a>
+    <!--MD5=[c2b07f9f59b12832057291b7108daf2d]
+class Validacion-->
+    <a
+       href="java:turismo_en_tierra_media.Validacion"
+       target="_top"
+       title="java:turismo_en_tierra_media.Validacion"
+       xlink:actuate="onRequest"
+       xlink:href="java:turismo_en_tierra_media.Validacion"
+       xlink:show="new"
+       xlink:title="java:turismo_en_tierra_media.Validacion"
+       xlink:type="simple"
+       id="a440"
+       transform="translate(-81.480274,418.34778)">
+      <rect
+         codeLine="124"
+         height="170.8252"
+         id="Validacion"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="fill:none;stroke:#2fa4e7;stroke-width:1.04167"
+         width="440.625"
+         x="963.02081"
+         y="1139.5833" />
+      <rect
+         fill="url(#goqe3d0h3rwq00)"
+         height="35.384102"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="fill:url(#linearGradient4270);stroke:url(#linearGradient4272);stroke-width:1.04167"
+         width="440.625"
+         x="963.02081"
+         y="1139.5833"
+         id="rect414" />
+      <rect
+         fill="url(#goqe3d0h3rwq00)"
+         height="4.1666999"
+         style="fill:url(#linearGradient4274);stroke:url(#linearGradient4276);stroke-width:1.04167"
+         width="440.625"
+         x="963.02081"
+         y="1170.8008"
+         id="rect416" />
+      <rect
+         codeLine="124"
+         fill="none"
+         height="170.8252"
+         id="rect418"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         width="440.625"
+         x="963.02081"
+         y="1139.5833" />
+      <circle
+         cx="1142.1875"
+         cy="1157.2754"
+         fill="#edf0f2"
+         style="stroke:#babdbf;stroke-width:1.04167"
+         id="ellipse420"
+         r="10.4167" />
+      <path
+         d="m 1144.1243,1153.89 c -0.6835,-0.3255 -1.123,-0.4232 -1.774,-0.4232 -1.9206,0 -3.4017,1.5137 -3.4017,3.5156 v 0.8301 c 0,1.9043 1.5625,3.2878 3.6784,3.2878 0.8951,0 1.7578,-0.2279 2.2949,-0.6348 0.4394,-0.293 0.6673,-0.6185 0.6673,-0.9115 0,-0.3255 -0.293,-0.6185 -0.6185,-0.6185 -0.1628,0 -0.3092,0.065 -0.4557,0.1954 -0.3418,0.358 -0.3418,0.358 -0.472,0.4231 -0.3093,0.1953 -0.8138,0.293 -1.3835,0.293 -1.4974,0 -2.4577,-0.8138 -2.4577,-2.0671 v -0.7975 c 0,-1.3183 0.9278,-2.2786 2.1973,-2.2786 0.4232,0 0.8789,0.1139 1.2207,0.3092 0.3581,0.1953 0.4883,0.3581 0.5534,0.6511 0.049,0.3092 0.065,0.3906 0.1627,0.4882 0.098,0.114 0.2767,0.1791 0.4395,0.1791 0.2116,0 0.3906,-0.098 0.5208,-0.2604 0.081,-0.114 0.114,-0.2442 0.114,-0.5697 v -1.0417 c 0,-0.3092 -0.016,-0.4069 -0.098,-0.5208 -0.1139,-0.1953 -0.3092,-0.3092 -0.5371,-0.3092 -0.2116,0 -0.3581,0.081 -0.5208,0.3092 z"
+         fill="#000000"
+         id="path422" />
+      <text
+         fill="#f8f9fa"
+         font-family="Verdana"
+         font-size="12.5px"
+         lengthAdjust="spacing"
+         textLength="63.541698"
+         x="1167.1875"
+         y="1161.6028"
+         id="text424">Validacion</text>
+      <line
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         x1="964.0625"
+         x2="1402.6042"
+         y1="1174.9674"
+         y2="1174.9674"
+         id="line426" />
+      <line
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         x1="964.0625"
+         x2="1402.6042"
+         y1="1183.3008"
+         y2="1183.3008"
+         id="line428" />
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         text-decoration="underline"
+         textLength="146.875"
+         x="974.47919"
+         y="1203.3116"
+         id="text430"
+         style="text-decoration:underline;text-decoration-line:underline">+validar(numero: int): int</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         text-decoration="underline"
+         textLength="169.7917"
+         x="974.47919"
+         y="1227.0665"
+         id="text432"
+         style="text-decoration:underline;text-decoration-line:underline">+validar(numero: float): float</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         text-decoration="underline"
+         textLength="198.9583"
+         x="974.47919"
+         y="1250.8214"
+         id="text434"
+         style="text-decoration:underline;text-decoration-line:underline">+validar(numero: double): double</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         text-decoration="underline"
+         textLength="184.375"
+         x="974.47919"
+         y="1274.5763"
+         id="text436"
+         style="text-decoration:underline;text-decoration-line:underline">+validar(cadena: String): String</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         text-decoration="underline"
+         textLength="417.70831"
+         x="974.47919"
+         y="1298.3312"
+         id="text438"
+         style="text-decoration:underline;text-decoration-line:underline">+validarTipo(referencia: TipoDeAtraccion, dato: TipoDeAtraccion): void</text>
+    </a>
+    <!--MD5=[19a00519d3ba20981dec930b5e5dd005]
+class DistintoTipoException-->
+    <!--MD5=[8db60afef7a3447bbe27c5ed187fdac2]
+class Exception-->
+    <!--MD5=[0b3e7914c706a88340c418aba1bb5fa6]
+class NumeroNegativoException-->
+    <!--MD5=[9ffd5f431e6bdb249453acd2d35b6425]
+class ComparadorAtraccion-->
+    <!--MD5=[9d749c95d25a74e84aa54db4623f3294]
+class Comparator_Atraccion_-->
+    <!--MD5=[e17f22805c97b0653e05b4fbdcc4b6ab]
+class ComparadorPromocion-->
+    <!--MD5=[b94266d0b5f34575bc331be5c66425ba]
+class Comparator_Promocion_-->
+    <!--MD5=[f75e46bc54c79ac77bb7e10d8db311ce]
+reverse link Promocion to PromoAbsoluta-->
+    <!--MD5=[695d09bbe5e54cde588ced18acb77035]
+reverse link Promocion to PromoAxB-->
+    <!--MD5=[8f4c534c89a7ace813bd87ff373524a3]
+reverse link Promocion to PromoPorcentual-->
+    <!--MD5=[5071cd810bbcac0d4207b924206a5a5c]
+reverse link Exception to DistintoTipoException-->
+    <!--MD5=[19b4c0c1247d5749a8191a0659cfd55f]
+reverse link Exception to NumeroNegativoException-->
+    <!--MD5=[24ec7092134bd7db601329fa02b08870]
+reverse link Comparator_Atraccion_ to ComparadorAtraccion-->
+    <!--MD5=[035f0bfec33b0105d736b87112e07b9f]
+reverse link Comparator_Promocion_ to ComparadorPromocion-->
+    <!--MD5=[24f1732585ae919de2eb149daa24048f]
+link Aplicacion to Atraccion-->
+    <!--MD5=[47fdbd557a5e79fd6ca1d60574bc7e27]
+link Atraccion to TipoDeAtraccion-->
+    <!--MD5=[43525ebe179dd1f10d626bc41b0117e9]
+link Aplicacion to TipoDePromo-->
+    <!--MD5=[b63320f9fe578edcfe3ab6b33bb8667e]
+link TipoDePromo to Usuario-->
+    <!--MD5=[05830fa4bc0acf71f053ca48f0a98052]
+link Usuario to lectorDeArchivos-->
+    <!--MD5=[871338125704728d6719f61c280f3360]
+link TipoDePromo to pruebaPorConsola-->
+    <!--MD5=[357fd8cea71a9d1c6f872ceed364b138]
+link pruebaPorConsola to Sugeridor-->
+    <!--MD5=[26c919e9261d17c6a990435f23236196]
+link Sugeridor to Validacion-->
+    <!--MD5=[38fd6c1fb216b3259702432b81544905]
+@startuml
+!theme cerulean-outline
+skinparam classAttributeIconSize 0
+class Aplicacion [[java:turismo_en_tierra_media.Aplicacion]] {
+	~todasLasAtracciones: List<Atraccion>
+	~atraccionesDeAventura: List<Atraccion>
+	~atraccionesDeDegustacion: List<Atraccion>
+	~atraccionesDePaisaje: List<Atraccion>
+	~todasLasPromociones: List<Promocion>
+	~promocionesDeAventura: List<Promocion>
+	~promocionesDeDegustacion: List<Promocion>
+	~promocionesDePaisaje: List<Promocion>
+	+Aplicacion(Atracciones: List<Atraccion>, promociones: List<Promocion>)
+	+separarEnListas(): void
+	#ordenarListas(): void
+	+ofrecerTodo(unUsuario: Usuario): void
+	+crearArchivoUsuario(unUsuario: Usuario): void
+}
+class Atraccion [[java:turismo_en_tierra_media.Atraccion]] {
+	-nombre: String
+	-valor: int
+	-tiempoDeUso: double
+	-usosDisponibles: int
+	-tipo: TipoDeAtraccion
+	+Atraccion(nombre: String, valor: int, tiempoDeUso: double, usosMaximos: int, tipo: TipoDeAtraccion)
+	+Atraccion()
+	+getValor(): int
+	+getTiempoDeUso(): double
+	+getUsosDisponibles(): int
+	+getTipo(): TipoDeAtraccion
+	+getNombreTipo(): String
+	+getNombre(): String
+	#setTipo(tipo: TipoDeAtraccion): void
+	+toString(): String
+	+reservarLugar(unUsuario: Usuario): void
+}
+enum TipoDeAtraccion [[java:turismo_en_tierra_media.TipoDeAtraccion]] {
+	PAISAJE
+	AVENTURA
+	DEGUSTACION
+	DEFAULT
+	nombre
+	~TipoDeAtraccion(nombre: String)
+	~getNombreDeTipo(): String
+}
+enum TipoDePromo [[java:turismo_en_tierra_media.TipoDePromo]] {
+	PORCENTUAL
+	ABSOLUTA
+	AxB
+	DEFAULT
+}
+class Usuario [[java:turismo_en_tierra_media.Usuario]] {
+	-itinerario: List<Atraccion>
+	-nombre: String
+	-atraccionFavorita: TipoDeAtraccion
+	-presupuesto: int
+	-monedasIniciales: int
+	-tiempoDisponible: float
+	-tiempoDisponibleOriginal: float
+	+Usuario(nombre: String, atraccionFavorita: TipoDeAtraccion, monedas: int, tiempoLibre: float)
+	+Usuario()
+	+getPresupuesto(): int
+	+getItinerario(): List<Atraccion>
+	+getTiempoDisponible(): float
+	+getNombre(): String
+	+getNombreAtraccionFavorita(): String
+	+getAtraccionFavorita(): TipoDeAtraccion
+	+toString(): String
+	+userInfo(): String
+	#agregarAtraccion(unaAtraccion: Atraccion): void
+	+podesIrA(atraccion: Atraccion): boolean
+	+podesIrA(promocion: Promocion): boolean
+	+todaviaNoVasA(unaAtraccion: Atraccion): boolean
+	+todaviaNoVasA(promocion: Promocion): boolean
+}
+class PromoAbsoluta [[java:turismo_en_tierra_media.PromoAbsoluta]] {
+	+PromoAbsoluta(atraccionesEnPromo: List<Atraccion>, valorPromo: int)
+}
+class Promocion {
+}
+Promocion <|- - PromoAbsoluta
+class PromoAxB [[java:turismo_en_tierra_media.PromoAxB]] {
+	+PromoAxB(atraccionesEnPromo: List<Atraccion>)
+	+setValor(): void
+}
+class Promocion {
+}
+Promocion <|- - PromoAxB
+class Promocion [[java:turismo_en_tierra_media.Promocion]] {
+	#valor: int
+	#tiempoPromo: double
+	#tipoAtraccion: TipoDeAtraccion
+	#tipo: TipoDePromo
+	#atraccionesEnPromocion: List<Atraccion>
+	+Promocion(atraccionesEnPromo: List<Atraccion>)
+	+getAtraccionesEnPromocion(): List<Atraccion>
+	+getNombre(): String
+	+getValorPromo(): int
+	+getTiempoDeUso(): double
+	+getTipo(): TipoDePromo
+	+getTipoDeAtraccion(): TipoDeAtraccion
+	+tieneCupos(): boolean
+	+setTiempo(): void
+}
+class PromoPorcentual [[java:turismo_en_tierra_media.PromoPorcentual]] {
+	+PromoPorcentual(atraccionesEnPromo: List<Atraccion>, valorDescuento: int)
+}
+class Promocion {
+}
+Promocion <|- - PromoPorcentual
+class lectorDeArchivos [[java:turismo_en_tierra_media.lectorDeArchivos]] {
+	+leerUsuarios(todosLosUsuarios: List<Usuario>): void
+	+LeerAtracciones(todasLasAtracciones: List<Atraccion>): void
+	+LeerPromos(todasLasPromos: List<Promocion>, todasLasAtracciones: List<Atraccion>): void
+}
+class pruebaPorConsola [[java:turismo_en_tierra_media.pruebaPorConsola]] {
+	+{static} main(args: String[]): void
+}
+class Sugeridor [[java:turismo_en_tierra_media.Sugeridor]] {
+	#{static} sugerirPromos(unUsuario: Usuario, unasPromociones: List<Promocion>): void
+	#{static} sugerirAtracciones(unUsuario: Usuario, unasAtracciones: List<Atraccion>): void
+	#{static} sugerirPromosNoFavoritas(unUsuario: Usuario, unasPromociones: List<Promocion>): void
+	#{static} sugerirAtraccionesNoFavoritas(unUsuario: Usuario, unasAtracciones: List<Atraccion>): void
+}
+class Validacion [[java:turismo_en_tierra_media.Validacion]] {
+	+{static} validar(numero: int): int
+	+{static} validar(numero: float): float
+	+{static} validar(numero: double): double
+	+{static} validar(cadena: String): String
+	+{static} validarTipo(referencia: TipoDeAtraccion, dato: TipoDeAtraccion): void
+}
+class DistintoTipoException [[java:turismo_en_tierra_media.DistintoTipoException]] {
+	+DistintoTipoException(message: String)
+}
+class Exception {
+}
+Exception <|- - DistintoTipoException
+class NumeroNegativoException [[java:turismo_en_tierra_media.NumeroNegativoException]] {
+	+NumeroNegativoException(message: String)
+}
+class Exception {
+}
+Exception <|- - NumeroNegativoException
+class ComparadorAtraccion [[java:turismo_en_tierra_media.ComparadorAtraccion]] {
+	+compare(atraccion1: Atraccion, atraccion2: Atraccion): int
+}
+interface "Comparator<Atraccion>" as Comparator_Atraccion_ {
+}
+Comparator_Atraccion_ <|.. ComparadorAtraccion
+class ComparadorPromocion [[java:turismo_en_tierra_media.ComparadorPromocion]] {
+	+compare(promocion1: Promocion, promocion2: Promocion): int
+}
+interface "Comparator<Promocion>" as Comparator_Promocion_ {
+}
+Comparator_Promocion_ <|.. ComparadorPromocion
+@enduml
+
+@startuml
+
+
+
+skinparam backgroundColor transparent
+skinparam useBetaStyle false
+
+
+
+
+
+
+
+skinparam defaultFontName       "Verdana"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           8
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               5
+skinparam ArrowColor            #868E96
+skinparam stereotype {
+    CBackgroundColor #EDF0F2
+    CBorderColor #BABDBF
+    ABackgroundColor #8FB961
+    ABorderColor $SUCCESS_DARK
+    IBackgroundColor #D2494E
+    IBorderColor $DANGER_DARK
+    EBackgroundColor #E47833
+    EBorderColor $WARNING_DARK
+    NBackgroundColor #35638F
+    NBorderColor $INFO_DARK
+}
+skinparam title {
+	FontColor	                 #2FA4E7
+	BorderColor	                 #BABDBF
+	FontSize	    	         20
+	BorderRoundCorner            8
+	BorderThickness 	         1
+	BackgroundColor              transparent
+}
+
+skinparam legend {
+	BackgroundColor transparent
+	BorderColor #BABDBF
+	FontColor #343A40
+}
+
+skinparam swimlane {
+	BorderColor #033C73
+	BorderThickness 2
+	TitleBackgroundColor  #EDF0F2-#E9ECEF
+	TitleFontColor #2FA4E7
+}
+
+
+skinparam activity {
+		FontColor #2FA4E7
+	BorderColor #2FA4E7
+	BackgroundColor transparent
+	BarColor #73A839
+	StartColor #033C73
+	EndColor #033C73
+	DiamondBackgroundColor transparent
+  	DiamondBorderColor #BABDBF
+	DiamondFontColor #BABDBF
+}
+
+
+skinparam participant {
+		FontColor #2FA4E7
+	BorderColor #2FA4E7
+	BackgroundColor transparent
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #2FA4E7
+	BorderColor #2FA4E7
+	BackgroundColor transparent
+}
+
+
+skinparam arrow {
+	Thickness 3
+	Color #2FA4E7
+	FontColor #343A40
+}
+
+
+skinparam sequence {
+	BorderColor #2FA4E7
+	TitleFontColor #2FA4E7
+	BackgroundColor transparent
+	StartColor #2FA4E7
+	EndColor #2FA4E7
+	BoxBackgroundColor transparent
+	BoxBorderColor #868E96
+	BoxFontColor #343A40
+	DelayFontColor #343A40
+	LifeLineBorderColor #BABDBF
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor transparent
+	GroupBorderColor #868E96
+	GroupFontColor #343A40
+	GroupHeaderFontColor #033C73
+	DividerBackgroundColor transparent
+    DividerBorderColor #868E96
+    DividerBorderThickness 2
+    DividerFontColor #343A40
+	ReferenceBackgroundColor transparent
+	ReferenceBorderColor #868E96
+	ReferenceFontColor #343A40
+	ReferenceHeaderFontColor #033C73
+	StereotypeFontColor #2FA4E7
+}
+
+
+skinparam partition {
+	BorderColor #2FA4E7
+	FontColor #2FA4E7
+	BackgroundColor transparent
+}
+
+
+skinparam collections {
+		FontColor #2FA4E7
+	BorderColor #2FA4E7
+	BackgroundColor transparent
+}
+
+
+skinparam control {
+		FontColor #2FA4E7
+	BorderColor #2FA4E7
+	BackgroundColor transparent
+}
+
+
+skinparam entity {
+		FontColor #2FA4E7
+	BorderColor #2FA4E7
+	BackgroundColor transparent
+}
+
+
+skinparam boundary {
+		FontColor #2FA4E7
+	BorderColor #2FA4E7
+	BackgroundColor transparent
+}
+
+
+skinparam agent {
+	BackgroundColor transparent
+	BorderColor #999999
+	FontColor #333333
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor transparent
+	BorderColor #033C73
+	FontColor #033C73
+}
+
+
+skinparam artifact {
+	BackgroundColor transparent
+	BorderColor #868E96
+	FontColor #868E96
+}
+
+
+skinparam component {
+		FontColor #2FA4E7
+	BorderColor #2FA4E7
+	BackgroundColor transparent
+}
+
+
+skinparam interface {
+	BackgroundColor  transparent
+	BorderColor  #C71C22
+	FontColor #343A40
+}
+
+
+skinparam storage {
+	BackgroundColor transparent
+  	BorderColor #DD5600
+	FontColor #DD5600
+}
+
+
+skinparam node {
+	BackgroundColor transparent
+	BorderColor #343A40
+	FontColor #343A40
+}
+
+
+skinparam cloud {
+	BackgroundColor #F2FCFE-#eeeeee
+	BorderColor #F2FCFE
+	FontColor #343A40
+}
+
+
+skinparam database {
+		FontColor #2FA4E7
+	BorderColor #2FA4E7
+	BackgroundColor transparent
+}
+
+
+skinparam class {
+		FontColor #2FA4E7
+	BorderColor #2FA4E7
+	BackgroundColor transparent
+	FontColor #F8F9FA
+	HeaderBackgroundColor #2FA4E7-#2683B9
+	StereotypeFontColor #343A40
+	BorderThickness 1
+	AttributeFontColor #343A40
+	AttributeFontSize 11
+}
+
+
+skinparam object {
+		FontColor #2FA4E7
+	BorderColor #2FA4E7
+	BackgroundColor transparent
+	StereotypeFontColor #343A40
+	BorderThickness 1
+	AttributeFontColor #BABDBF
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #2FA4E7
+	BorderColor #2FA4E7
+	BackgroundColor transparent
+	BorderThickness 2
+	StereotypeFontColor #2FA4E7
+}
+
+
+skinparam rectangle {
+		FontColor #2FA4E7
+	BorderColor #2FA4E7
+	BackgroundColor transparent
+	BorderThickness 2
+	StereotypeFontColor #2FA4E7
+}
+
+
+skinparam package {
+	BackgroundColor transparent
+  	BorderColor #2FA4E7
+	FontColor #2FA4E7
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor transparent
+  	BorderColor #DD5600
+	FontColor #DD5600
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor transparent
+  	BorderColor #033C73
+	FontColor #033C73
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #2FA4E7
+	BorderColor #2FA4E7
+	BackgroundColor transparent
+	StartColor #033C73
+	EndColor #033C73
+	AttributeFontColor #BABDBF
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #2FA4E7
+	BorderColor #2FA4E7
+	BackgroundColor transparent
+}
+
+
+skinparam card {
+	BackgroundColor transparent
+	BorderColor #033C73
+	FontColor #033C73
+}
+
+
+skinparam file {
+	BackgroundColor transparent
+	BorderColor #868E96
+	FontColor #868E96
+}
+
+
+skinparam stack {
+		FontColor #2FA4E7
+	BorderColor #2FA4E7
+	BackgroundColor transparent
+}
+
+
+
+skinparam classAttributeIconSize 0
+class Aplicacion [[java:turismo_en_tierra_media.Aplicacion]] {
+	~todasLasAtracciones: List<Atraccion>
+	~atraccionesDeAventura: List<Atraccion>
+	~atraccionesDeDegustacion: List<Atraccion>
+	~atraccionesDePaisaje: List<Atraccion>
+	~todasLasPromociones: List<Promocion>
+	~promocionesDeAventura: List<Promocion>
+	~promocionesDeDegustacion: List<Promocion>
+	~promocionesDePaisaje: List<Promocion>
+	+Aplicacion(Atracciones: List<Atraccion>, promociones: List<Promocion>)
+	+separarEnListas(): void
+	#ordenarListas(): void
+	+ofrecerTodo(unUsuario: Usuario): void
+	+crearArchivoUsuario(unUsuario: Usuario): void
+}
+class Atraccion [[java:turismo_en_tierra_media.Atraccion]] {
+	-nombre: String
+	-valor: int
+	-tiempoDeUso: double
+	-usosDisponibles: int
+	-tipo: TipoDeAtraccion
+	+Atraccion(nombre: String, valor: int, tiempoDeUso: double, usosMaximos: int, tipo: TipoDeAtraccion)
+	+Atraccion()
+	+getValor(): int
+	+getTiempoDeUso(): double
+	+getUsosDisponibles(): int
+	+getTipo(): TipoDeAtraccion
+	+getNombreTipo(): String
+	+getNombre(): String
+	#setTipo(tipo: TipoDeAtraccion): void
+	+toString(): String
+	+reservarLugar(unUsuario: Usuario): void
+}
+enum TipoDeAtraccion [[java:turismo_en_tierra_media.TipoDeAtraccion]] {
+	PAISAJE
+	AVENTURA
+	DEGUSTACION
+	DEFAULT
+	nombre
+	~TipoDeAtraccion(nombre: String)
+	~getNombreDeTipo(): String
+}
+enum TipoDePromo [[java:turismo_en_tierra_media.TipoDePromo]] {
+	PORCENTUAL
+	ABSOLUTA
+	AxB
+	DEFAULT
+}
+class Usuario [[java:turismo_en_tierra_media.Usuario]] {
+	-itinerario: List<Atraccion>
+	-nombre: String
+	-atraccionFavorita: TipoDeAtraccion
+	-presupuesto: int
+	-monedasIniciales: int
+	-tiempoDisponible: float
+	-tiempoDisponibleOriginal: float
+	+Usuario(nombre: String, atraccionFavorita: TipoDeAtraccion, monedas: int, tiempoLibre: float)
+	+Usuario()
+	+getPresupuesto(): int
+	+getItinerario(): List<Atraccion>
+	+getTiempoDisponible(): float
+	+getNombre(): String
+	+getNombreAtraccionFavorita(): String
+	+getAtraccionFavorita(): TipoDeAtraccion
+	+toString(): String
+	+userInfo(): String
+	#agregarAtraccion(unaAtraccion: Atraccion): void
+	+podesIrA(atraccion: Atraccion): boolean
+	+podesIrA(promocion: Promocion): boolean
+	+todaviaNoVasA(unaAtraccion: Atraccion): boolean
+	+todaviaNoVasA(promocion: Promocion): boolean
+}
+class PromoAbsoluta [[java:turismo_en_tierra_media.PromoAbsoluta]] {
+	+PromoAbsoluta(atraccionesEnPromo: List<Atraccion>, valorPromo: int)
+}
+class Promocion {
+}
+Promocion <|- - PromoAbsoluta
+class PromoAxB [[java:turismo_en_tierra_media.PromoAxB]] {
+	+PromoAxB(atraccionesEnPromo: List<Atraccion>)
+	+setValor(): void
+}
+class Promocion {
+}
+Promocion <|- - PromoAxB
+class Promocion [[java:turismo_en_tierra_media.Promocion]] {
+	#valor: int
+	#tiempoPromo: double
+	#tipoAtraccion: TipoDeAtraccion
+	#tipo: TipoDePromo
+	#atraccionesEnPromocion: List<Atraccion>
+	+Promocion(atraccionesEnPromo: List<Atraccion>)
+	+getAtraccionesEnPromocion(): List<Atraccion>
+	+getNombre(): String
+	+getValorPromo(): int
+	+getTiempoDeUso(): double
+	+getTipo(): TipoDePromo
+	+getTipoDeAtraccion(): TipoDeAtraccion
+	+tieneCupos(): boolean
+	+setTiempo(): void
+}
+class PromoPorcentual [[java:turismo_en_tierra_media.PromoPorcentual]] {
+	+PromoPorcentual(atraccionesEnPromo: List<Atraccion>, valorDescuento: int)
+}
+class Promocion {
+}
+Promocion <|- - PromoPorcentual
+class lectorDeArchivos [[java:turismo_en_tierra_media.lectorDeArchivos]] {
+	+leerUsuarios(todosLosUsuarios: List<Usuario>): void
+	+LeerAtracciones(todasLasAtracciones: List<Atraccion>): void
+	+LeerPromos(todasLasPromos: List<Promocion>, todasLasAtracciones: List<Atraccion>): void
+}
+class pruebaPorConsola [[java:turismo_en_tierra_media.pruebaPorConsola]] {
+	+{static} main(args: String[]): void
+}
+class Sugeridor [[java:turismo_en_tierra_media.Sugeridor]] {
+	#{static} sugerirPromos(unUsuario: Usuario, unasPromociones: List<Promocion>): void
+	#{static} sugerirAtracciones(unUsuario: Usuario, unasAtracciones: List<Atraccion>): void
+	#{static} sugerirPromosNoFavoritas(unUsuario: Usuario, unasPromociones: List<Promocion>): void
+	#{static} sugerirAtraccionesNoFavoritas(unUsuario: Usuario, unasAtracciones: List<Atraccion>): void
+}
+class Validacion [[java:turismo_en_tierra_media.Validacion]] {
+	+{static} validar(numero: int): int
+	+{static} validar(numero: float): float
+	+{static} validar(numero: double): double
+	+{static} validar(cadena: String): String
+	+{static} validarTipo(referencia: TipoDeAtraccion, dato: TipoDeAtraccion): void
+}
+class DistintoTipoException [[java:turismo_en_tierra_media.DistintoTipoException]] {
+	+DistintoTipoException(message: String)
+}
+class Exception {
+}
+Exception <|- - DistintoTipoException
+class NumeroNegativoException [[java:turismo_en_tierra_media.NumeroNegativoException]] {
+	+NumeroNegativoException(message: String)
+}
+class Exception {
+}
+Exception <|- - NumeroNegativoException
+class ComparadorAtraccion [[java:turismo_en_tierra_media.ComparadorAtraccion]] {
+	+compare(atraccion1: Atraccion, atraccion2: Atraccion): int
+}
+interface "Comparator<Atraccion>" as Comparator_Atraccion_ {
+}
+Comparator_Atraccion_ <|.. ComparadorAtraccion
+class ComparadorPromocion [[java:turismo_en_tierra_media.ComparadorPromocion]] {
+	+compare(promocion1: Promocion, promocion2: Promocion): int
+}
+interface "Comparator<Promocion>" as Comparator_Promocion_ {
+}
+Comparator_Promocion_ <|.. ComparadorPromocion
+@enduml
+
+PlantUML version 1.2021.11beta1(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+-->
+    <a
+       href="java:turismo_en_tierra_media.DistintoTipoException"
+       target="_top"
+       title="java:turismo_en_tierra_media.DistintoTipoException"
+       xlink:actuate="onRequest"
+       xlink:href="java:turismo_en_tierra_media.DistintoTipoException"
+       xlink:show="new"
+       xlink:title="java:turismo_en_tierra_media.DistintoTipoException"
+       xlink:type="simple"
+       id="a461"
+       transform="translate(-1770.938,1351.8285)">
+      <rect
+         codeLine="131"
+         height="75.805702"
+         id="DistintoTipoException"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="fill:none;stroke:#2fa4e7;stroke-width:1.04167"
+         width="265.625"
+         x="2913.0208"
+         y="751.5625" />
+      <rect
+         fill="url(#goqe3d0h3rwq00)"
+         height="35.384102"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="fill:url(#linearGradient2104);stroke:url(#linearGradient2104);stroke-width:1.04167"
+         width="265.625"
+         x="2913.0208"
+         y="751.5625"
+         id="rect443" />
+      <rect
+         fill="url(#goqe3d0h3rwq00)"
+         height="4.1666999"
+         style="fill:url(#linearGradient2108);stroke:url(#linearGradient2108);stroke-width:1.04167"
+         width="265.625"
+         x="2913.0208"
+         y="782.77991"
+         id="rect445" />
+      <rect
+         codeLine="131"
+         fill="none"
+         height="75.805702"
+         id="rect447"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         width="265.625"
+         x="2913.0208"
+         y="751.5625" />
+      <circle
+         cx="2968.75"
+         cy="769.25458"
+         fill="#edf0f2"
+         style="stroke:#babdbf;stroke-width:1.04167"
+         id="ellipse449"
+         r="10.4167" />
+      <path
+         d="m 2970.6868,765.8691 c -0.6835,-0.3255 -1.123,-0.4231 -1.774,-0.4231 -1.9206,0 -3.4017,1.5136 -3.4017,3.5156 v 0.8301 c 0,1.9043 1.5625,3.2877 3.6784,3.2877 0.8951,0 1.7578,-0.2278 2.2949,-0.6347 0.4394,-0.293 0.6673,-0.6185 0.6673,-0.9115 0,-0.3255 -0.293,-0.6185 -0.6185,-0.6185 -0.1628,0 -0.3092,0.0651 -0.4557,0.1953 -0.3418,0.3581 -0.3418,0.3581 -0.472,0.4232 -0.3093,0.1953 -0.8138,0.293 -1.3835,0.293 -1.4974,0 -2.4577,-0.8138 -2.4577,-2.0671 v -0.7975 c 0,-1.3184 0.9278,-2.2787 2.1973,-2.2787 0.4232,0 0.8789,0.114 1.2207,0.3093 0.3581,0.1953 0.4883,0.3581 0.5534,0.651 0.049,0.3093 0.065,0.3907 0.1627,0.4883 0.098,0.1139 0.2767,0.179 0.4395,0.179 0.2116,0 0.3906,-0.0976 0.5208,-0.2604 0.081,-0.1139 0.114,-0.2441 0.114,-0.5696 v -1.0417 c 0,-0.3092 -0.016,-0.4069 -0.098,-0.5208 -0.1139,-0.1953 -0.3092,-0.3093 -0.5371,-0.3093 -0.2116,0 -0.3581,0.0814 -0.5208,0.3093 z"
+         fill="#000000"
+         id="path451" />
+      <text
+         fill="#f8f9fa"
+         font-family="Verdana"
+         font-size="12.5px"
+         lengthAdjust="spacing"
+         textLength="135.4167"
+         x="2993.75"
+         y="773.58191"
+         id="text453">DistintoTipoException</text>
+      <line
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         x1="2914.0625"
+         x2="3177.6042"
+         y1="786.94659"
+         y2="786.94659"
+         id="line455" />
+      <line
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         x1="2914.0625"
+         x2="3177.6042"
+         y1="795.27991"
+         y2="795.27991"
+         id="line457" />
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="242.7083"
+         x="2924.4792"
+         y="815.29077"
+         id="text459">+DistintoTipoException(message: String)</text>
+    </a>
+    <rect
+       codeLine="140"
+       height="52.0508"
+       id="Exception"
+       rx="4.1666999"
+       ry="4.1666999"
+       style="fill:none;stroke:#2fa4e7;stroke-width:1.04167"
+       width="103.125"
+       x="1365.4094"
+       y="1909.7961" />
+    <rect
+       fill="url(#goqe3d0h3rwq00)"
+       height="35.384102"
+       rx="4.1666999"
+       ry="4.1666999"
+       style="fill:url(#linearGradient2112);stroke:url(#linearGradient2112);stroke-width:1.04167"
+       width="103.125"
+       x="1365.4094"
+       y="1909.7961"
+       id="rect464" />
+    <rect
+       fill="url(#goqe3d0h3rwq00)"
+       height="4.1666999"
+       style="fill:url(#linearGradient2116);stroke:url(#linearGradient2116);stroke-width:1.04167"
+       width="103.125"
+       x="1365.4094"
+       y="1941.0137"
+       id="rect466" />
+    <rect
+       codeLine="140"
+       fill="none"
+       height="52.0508"
+       id="rect468"
+       rx="4.1666999"
+       ry="4.1666999"
+       style="stroke:#2fa4e7;stroke-width:1.04167"
+       width="103.125"
+       x="1365.4094"
+       y="1909.7961" />
+    <circle
+       cx="1379.9927"
+       cy="1927.4883"
+       fill="#edf0f2"
+       style="stroke:#babdbf;stroke-width:1.04167"
+       id="ellipse470"
+       r="10.4167" />
+    <path
+       d="m 1381.9295,1924.1031 c -0.6835,-0.3255 -1.123,-0.4232 -1.774,-0.4232 -1.9206,0 -3.4017,1.5137 -3.4017,3.5156 v 0.8301 c 0,1.9043 1.5625,3.2878 3.6784,3.2878 0.8951,0 1.7578,-0.2279 2.2949,-0.6348 0.4394,-0.293 0.6673,-0.6185 0.6673,-0.9115 0,-0.3255 -0.293,-0.6185 -0.6185,-0.6185 -0.1628,0 -0.3092,0.065 -0.4557,0.1954 -0.3418,0.358 -0.3418,0.358 -0.472,0.4231 -0.3093,0.1953 -0.8138,0.293 -1.3835,0.293 -1.4974,0 -2.4577,-0.8138 -2.4577,-2.0671 v -0.7975 c 0,-1.3183 0.9278,-2.2786 2.1973,-2.2786 0.4232,0 0.8789,0.1139 1.2207,0.3092 0.3581,0.1953 0.4883,0.3581 0.5534,0.6511 0.049,0.3092 0.065,0.3906 0.1627,0.4882 0.098,0.114 0.2767,0.1791 0.4395,0.1791 0.2116,0 0.3906,-0.098 0.5208,-0.2604 0.081,-0.114 0.114,-0.2442 0.114,-0.5697 v -1.0417 c 0,-0.3092 -0.016,-0.4069 -0.098,-0.5208 -0.1139,-0.1953 -0.3092,-0.3092 -0.5371,-0.3092 -0.2116,0 -0.3581,0.081 -0.5208,0.3092 z"
+       fill="#000000"
+       id="path472" />
+    <text
+       fill="#f8f9fa"
+       font-family="Verdana"
+       font-size="12.5px"
+       lengthAdjust="spacing"
+       textLength="61.458302"
+       x="3185.9375"
+       y="219.4153"
+       id="text474"
+       transform="translate(-1787.1947,1712.4006)">Exception</text>
+    <line
+       style="stroke:#2fa4e7;stroke-width:1.04167"
+       x1="1366.4509"
+       x2="1467.4927"
+       y1="1945.1804"
+       y2="1945.1804"
+       id="line476" />
+    <line
+       style="stroke:#2fa4e7;stroke-width:1.04167"
+       x1="1366.4509"
+       x2="1467.4927"
+       y1="1953.5139"
+       y2="1953.5139"
+       id="line478" />
+    <a
+       href="java:turismo_en_tierra_media.NumeroNegativoException"
+       target="_top"
+       title="java:turismo_en_tierra_media.NumeroNegativoException"
+       xlink:actuate="onRequest"
+       xlink:href="java:turismo_en_tierra_media.NumeroNegativoException"
+       xlink:show="new"
+       xlink:title="java:turismo_en_tierra_media.NumeroNegativoException"
+       xlink:type="simple"
+       id="a499"
+       transform="translate(-1781.9172,1351.8285)">
+      <rect
+         codeLine="137"
+         height="75.805702"
+         id="NumeroNegativoException"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="fill:none;stroke:#2fa4e7;stroke-width:1.04167"
+         width="295.83331"
+         x="3215.625"
+         y="751.5625" />
+      <rect
+         fill="url(#goqe3d0h3rwq00)"
+         height="35.384102"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="fill:url(#linearGradient2120);stroke:url(#linearGradient2120);stroke-width:1.04167"
+         width="295.83331"
+         x="3215.625"
+         y="751.5625"
+         id="rect481" />
+      <rect
+         fill="url(#goqe3d0h3rwq00)"
+         height="4.1666999"
+         style="fill:url(#linearGradient2124);stroke:url(#linearGradient2124);stroke-width:1.04167"
+         width="295.83331"
+         x="3215.625"
+         y="782.77991"
+         id="rect483" />
+      <rect
+         codeLine="137"
+         fill="none"
+         height="75.805702"
+         id="rect485"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         width="295.83331"
+         x="3215.625"
+         y="751.5625" />
+      <circle
+         cx="3271.3542"
+         cy="769.25458"
+         fill="#edf0f2"
+         style="stroke:#babdbf;stroke-width:1.04167"
+         id="ellipse487"
+         r="10.4167" />
+      <path
+         d="m 3273.291,765.8691 c -0.6836,-0.3255 -1.123,-0.4231 -1.7741,-0.4231 -1.9205,0 -3.4017,1.5136 -3.4017,3.5156 v 0.8301 c 0,1.9043 1.5625,3.2877 3.6784,3.2877 0.8952,0 1.7578,-0.2278 2.2949,-0.6347 0.4395,-0.293 0.6674,-0.6185 0.6674,-0.9115 0,-0.3255 -0.293,-0.6185 -0.6185,-0.6185 -0.1628,0 -0.3093,0.0651 -0.4558,0.1953 -0.3418,0.3581 -0.3418,0.3581 -0.472,0.4232 -0.3092,0.1953 -0.8138,0.293 -1.3834,0.293 -1.4974,0 -2.4577,-0.8138 -2.4577,-2.0671 v -0.7975 c 0,-1.3184 0.9277,-2.2787 2.1973,-2.2787 0.4231,0 0.8789,0.114 1.2207,0.3093 0.358,0.1953 0.4882,0.3581 0.5533,0.651 0.049,0.3093 0.065,0.3907 0.1628,0.4883 0.098,0.1139 0.2767,0.179 0.4395,0.179 0.2115,0 0.3906,-0.0976 0.5208,-0.2604 0.081,-0.1139 0.1139,-0.2441 0.1139,-0.5696 v -1.0417 c 0,-0.3092 -0.016,-0.4069 -0.098,-0.5208 -0.114,-0.1953 -0.3093,-0.3093 -0.5371,-0.3093 -0.2116,0 -0.3581,0.0814 -0.5209,0.3093 z"
+         fill="#000000"
+         id="path489" />
+      <text
+         fill="#f8f9fa"
+         font-family="Verdana"
+         font-size="12.5px"
+         lengthAdjust="spacing"
+         textLength="165.625"
+         x="3296.3542"
+         y="773.58191"
+         id="text491">NumeroNegativoException</text>
+      <line
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         x1="3216.6667"
+         x2="3510.4167"
+         y1="786.94659"
+         y2="786.94659"
+         id="line493" />
+      <line
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         x1="3216.6667"
+         x2="3510.4167"
+         y1="795.27991"
+         y2="795.27991"
+         id="line495" />
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="272.91669"
+         x="3227.0833"
+         y="815.29077"
+         id="text497">+NumeroNegativoException(message: String)</text>
+    </a>
+    <a
+       href="java:turismo_en_tierra_media.ComparadorAtraccion"
+       target="_top"
+       title="java:turismo_en_tierra_media.ComparadorAtraccion"
+       xlink:actuate="onRequest"
+       xlink:href="java:turismo_en_tierra_media.ComparadorAtraccion"
+       xlink:show="new"
+       xlink:title="java:turismo_en_tierra_media.ComparadorAtraccion"
+       xlink:type="simple"
+       id="a520"
+       transform="translate(-1784.8964,1351.8285)">
+      <rect
+         codeLine="143"
+         height="75.805702"
+         id="ComparadorAtraccion"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="fill:none;stroke:#2fa4e7;stroke-width:1.04167"
+         width="365.625"
+         x="3548.4375"
+         y="751.5625" />
+      <rect
+         fill="url(#goqe3d0h3rwq00)"
+         height="35.384102"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="fill:url(#linearGradient2128);stroke:url(#linearGradient2128);stroke-width:1.04167"
+         width="365.625"
+         x="3548.4375"
+         y="751.5625"
+         id="rect502" />
+      <rect
+         fill="url(#goqe3d0h3rwq00)"
+         height="4.1666999"
+         style="fill:url(#linearGradient2132);stroke:url(#linearGradient2132);stroke-width:1.04167"
+         width="365.625"
+         x="3548.4375"
+         y="782.77991"
+         id="rect504" />
+      <rect
+         codeLine="143"
+         fill="none"
+         height="75.805702"
+         id="rect506"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         width="365.625"
+         x="3548.4375"
+         y="751.5625" />
+      <circle
+         cx="3653.6458"
+         cy="769.25458"
+         fill="#edf0f2"
+         style="stroke:#babdbf;stroke-width:1.04167"
+         id="ellipse508"
+         r="10.4167" />
+      <path
+         d="m 3655.5827,765.8691 c -0.6836,-0.3255 -1.1231,-0.4231 -1.7741,-0.4231 -1.9206,0 -3.4017,1.5136 -3.4017,3.5156 v 0.8301 c 0,1.9043 1.5625,3.2877 3.6784,3.2877 0.8952,0 1.7578,-0.2278 2.2949,-0.6347 0.4395,-0.293 0.6673,-0.6185 0.6673,-0.9115 0,-0.3255 -0.2929,-0.6185 -0.6185,-0.6185 -0.1627,0 -0.3092,0.0651 -0.4557,0.1953 -0.3418,0.3581 -0.3418,0.3581 -0.472,0.4232 -0.3092,0.1953 -0.8138,0.293 -1.3835,0.293 -1.4974,0 -2.4576,-0.8138 -2.4576,-2.0671 v -0.7975 c 0,-1.3184 0.9277,-2.2787 2.1972,-2.2787 0.4232,0 0.8789,0.114 1.2207,0.3093 0.3581,0.1953 0.4883,0.3581 0.5534,0.651 0.049,0.3093 0.065,0.3907 0.1628,0.4883 0.098,0.1139 0.2767,0.179 0.4394,0.179 0.2116,0 0.3906,-0.0976 0.5209,-0.2604 0.081,-0.1139 0.1139,-0.2441 0.1139,-0.5696 v -1.0417 c 0,-0.3092 -0.016,-0.4069 -0.098,-0.5208 -0.1139,-0.1953 -0.3092,-0.3093 -0.5371,-0.3093 -0.2116,0 -0.358,0.0814 -0.5208,0.3093 z"
+         fill="#000000"
+         id="path510" />
+      <text
+         fill="#f8f9fa"
+         font-family="Verdana"
+         font-size="12.5px"
+         lengthAdjust="spacing"
+         textLength="136.4583"
+         x="3678.6458"
+         y="773.58191"
+         id="text512">ComparadorAtraccion</text>
+      <line
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         x1="3549.4792"
+         x2="3913.0208"
+         y1="786.94659"
+         y2="786.94659"
+         id="line514" />
+      <line
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         x1="3549.4792"
+         x2="3913.0208"
+         y1="795.27991"
+         y2="795.27991"
+         id="line516" />
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="342.70831"
+         x="3559.8958"
+         y="815.29077"
+         id="text518">+compare(atraccion1: Atraccion, atraccion2: Atraccion): int</text>
+    </a>
+    <rect
+       codeLine="146"
+       height="52.0508"
+       id="Comparator_Atraccion_"
+       rx="4.1666999"
+       ry="4.1666999"
+       style="fill:none;stroke:#2fa4e7;stroke-width:1.04167"
+       width="189.5833"
+       x="1849.2634"
+       y="1909.7961" />
+    <rect
+       fill="url(#goqe3d0h3rwq00)"
+       height="35.384102"
+       rx="4.1666999"
+       ry="4.1666999"
+       style="fill:url(#linearGradient2136);stroke:url(#linearGradient2136);stroke-width:1.04167"
+       width="189.5833"
+       x="1849.2634"
+       y="1909.7961"
+       id="rect523" />
+    <rect
+       fill="url(#goqe3d0h3rwq00)"
+       height="4.1666999"
+       style="fill:url(#linearGradient2140);stroke:url(#linearGradient2140);stroke-width:1.04167"
+       width="189.5833"
+       x="1849.2634"
+       y="1941.0137"
+       id="rect525" />
+    <rect
+       codeLine="146"
+       fill="none"
+       height="52.0508"
+       id="rect527"
+       rx="4.1666999"
+       ry="4.1666999"
+       style="stroke:#2fa4e7;stroke-width:1.04167"
+       width="189.5833"
+       x="1849.2634"
+       y="1909.7961" />
+    <circle
+       cx="1863.8469"
+       cy="1927.4883"
+       fill="#d2494e"
+       style="stroke:#ffffff;stroke-width:1.04167"
+       id="ellipse529"
+       r="10.4167" />
+    <path
+       d="m 1864.5793,1925.0959 h 1.2532 c 0.293,0 0.4232,-0.016 0.5372,-0.081 0.179,-0.1139 0.2929,-0.3255 0.2929,-0.5371 0,-0.2116 -0.081,-0.3906 -0.2604,-0.5208 -0.1302,-0.081 -0.2279,-0.1139 -0.5697,-0.1139 h -3.776 c -0.3255,0 -0.4069,0.016 -0.5208,0.098 -0.1791,0.1139 -0.293,0.3255 -0.293,0.5371 0,0.1953 0.098,0.3744 0.2604,0.5046 0.1139,0.098 0.2442,0.1139 0.5534,0.1139 h 1.2695 v 4.7852 h -1.2695 c -0.3255,0 -0.4069,0.016 -0.5208,0.098 -0.1791,0.098 -0.293,0.3255 -0.293,0.5371 0,0.1791 0.098,0.3744 0.2604,0.4883 0.1139,0.098 0.2604,0.1302 0.5534,0.1302 h 3.776 c 0.5534,0 0.8301,-0.2116 0.8301,-0.6185 0,-0.2116 -0.081,-0.3906 -0.2604,-0.5208 -0.1302,-0.081 -0.2279,-0.1139 -0.5697,-0.1139 h -1.2532 z"
+       fill="#000000"
+       id="path531" />
+    <text
+       fill="#f8f9fa"
+       font-family="Verdana"
+       font-size="12.5px"
+       font-style="italic"
+       lengthAdjust="spacing"
+       textLength="73.958298"
+       x="3669.7917"
+       y="219.4153"
+       id="text533"
+       transform="translate(-1787.1947,1712.4006)">Comparator</text>
+    <rect
+       height="27.0508"
+       style="fill:none;stroke:#343a40;stroke-width:1.04167;stroke-dasharray:2, 2"
+       width="71.875"
+       x="1970.0969"
+       y="1906.6711"
+       id="rect535" />
+    <text
+       fill="#343a40"
+       font-family="Verdana"
+       font-size="12.5px"
+       font-style="italic"
+       lengthAdjust="spacing"
+       textLength="59.375"
+       x="3763.5417"
+       y="212.1236"
+       id="text537"
+       transform="translate(-1787.1947,1712.4006)">Atraccion</text>
+    <line
+       style="stroke:#2fa4e7;stroke-width:1.04167"
+       x1="1850.3052"
+       x2="2037.8054"
+       y1="1945.1804"
+       y2="1945.1804"
+       id="line539" />
+    <line
+       style="stroke:#2fa4e7;stroke-width:1.04167"
+       x1="1850.3052"
+       x2="2037.8054"
+       y1="1953.5139"
+       y2="1953.5139"
+       id="line541" />
+    <a
+       href="java:turismo_en_tierra_media.ComparadorPromocion"
+       target="_top"
+       title="java:turismo_en_tierra_media.ComparadorPromocion"
+       xlink:actuate="onRequest"
+       xlink:href="java:turismo_en_tierra_media.ComparadorPromocion"
+       xlink:show="new"
+       xlink:title="java:turismo_en_tierra_media.ComparadorPromocion"
+       xlink:type="simple"
+       id="a562"
+       transform="translate(-1781.4381,1351.8285)">
+      <rect
+         codeLine="149"
+         height="75.805702"
+         id="ComparadorPromocion"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="fill:none;stroke:#2fa4e7;stroke-width:1.04167"
+         width="394.79169"
+         x="3950.5208"
+         y="751.5625" />
+      <rect
+         fill="url(#goqe3d0h3rwq00)"
+         height="35.384102"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="fill:url(#linearGradient2144);stroke:url(#linearGradient2144);stroke-width:1.04167"
+         width="394.79169"
+         x="3950.5208"
+         y="751.5625"
+         id="rect544" />
+      <rect
+         fill="url(#goqe3d0h3rwq00)"
+         height="4.1666999"
+         style="fill:url(#linearGradient2148);stroke:url(#linearGradient2148);stroke-width:1.04167"
+         width="394.79169"
+         x="3950.5208"
+         y="782.77991"
+         id="rect546" />
+      <rect
+         codeLine="149"
+         fill="none"
+         height="75.805702"
+         id="rect548"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         width="394.79169"
+         x="3950.5208"
+         y="751.5625" />
+      <circle
+         cx="4066.6667"
+         cy="769.25458"
+         fill="#edf0f2"
+         style="stroke:#babdbf;stroke-width:1.04167"
+         id="ellipse550"
+         r="10.4167" />
+      <path
+         d="m 4068.6035,765.8691 c -0.6836,-0.3255 -1.123,-0.4231 -1.7741,-0.4231 -1.9205,0 -3.4017,1.5136 -3.4017,3.5156 v 0.8301 c 0,1.9043 1.5625,3.2877 3.6784,3.2877 0.8952,0 1.7578,-0.2278 2.2949,-0.6347 0.4395,-0.293 0.6674,-0.6185 0.6674,-0.9115 0,-0.3255 -0.293,-0.6185 -0.6185,-0.6185 -0.1628,0 -0.3093,0.0651 -0.4558,0.1953 -0.3418,0.3581 -0.3418,0.3581 -0.472,0.4232 -0.3092,0.1953 -0.8138,0.293 -1.3834,0.293 -1.4974,0 -2.4577,-0.8138 -2.4577,-2.0671 v -0.7975 c 0,-1.3184 0.9277,-2.2787 2.1973,-2.2787 0.4231,0 0.8789,0.114 1.2207,0.3093 0.358,0.1953 0.4882,0.3581 0.5533,0.651 0.049,0.3093 0.065,0.3907 0.1628,0.4883 0.098,0.1139 0.2767,0.179 0.4395,0.179 0.2115,0 0.3906,-0.0976 0.5208,-0.2604 0.081,-0.1139 0.1139,-0.2441 0.1139,-0.5696 v -1.0417 c 0,-0.3092 -0.016,-0.4069 -0.098,-0.5208 -0.114,-0.1953 -0.3093,-0.3093 -0.5371,-0.3093 -0.2116,0 -0.3581,0.0814 -0.5209,0.3093 z"
+         fill="#000000"
+         id="path552" />
+      <text
+         fill="#f8f9fa"
+         font-family="Verdana"
+         font-size="12.5px"
+         lengthAdjust="spacing"
+         textLength="143.75"
+         x="4091.6667"
+         y="773.58191"
+         id="text554">ComparadorPromocion</text>
+      <line
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         x1="3951.5625"
+         x2="4344.271"
+         y1="786.94659"
+         y2="786.94659"
+         id="line556" />
+      <line
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         x1="3951.5625"
+         x2="4344.271"
+         y1="795.27991"
+         y2="795.27991"
+         id="line558" />
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="371.875"
+         x="3961.9792"
+         y="815.29077"
+         id="text560">+compare(promocion1: Promocion, promocion2: Promocion): int</text>
+    </a>
+    <rect
+       codeLine="152"
+       height="52.0508"
+       id="Comparator_Promocion_"
+       rx="4.1666999"
+       ry="4.1666999"
+       style="fill:none;stroke:#2fa4e7;stroke-width:1.04167"
+       width="195.8333"
+       x="2262.8054"
+       y="1909.7961" />
+    <rect
+       fill="url(#goqe3d0h3rwq00)"
+       height="35.384102"
+       rx="4.1666999"
+       ry="4.1666999"
+       style="fill:url(#linearGradient2152);stroke:url(#linearGradient2152);stroke-width:1.04167"
+       width="195.8333"
+       x="2262.8054"
+       y="1909.7961"
+       id="rect565" />
+    <rect
+       fill="url(#goqe3d0h3rwq00)"
+       height="4.1666999"
+       style="fill:url(#linearGradient2156);stroke:url(#linearGradient2156);stroke-width:1.04167"
+       width="195.8333"
+       x="2262.8054"
+       y="1941.0137"
+       id="rect567" />
+    <rect
+       codeLine="152"
+       fill="none"
+       height="52.0508"
+       id="rect569"
+       rx="4.1666999"
+       ry="4.1666999"
+       style="stroke:#2fa4e7;stroke-width:1.04167"
+       width="195.8333"
+       x="2262.8054"
+       y="1909.7961" />
+    <circle
+       cx="2277.3887"
+       cy="1927.4883"
+       fill="#d2494e"
+       style="stroke:#ffffff;stroke-width:1.04167"
+       id="ellipse571"
+       r="10.4167" />
+    <path
+       d="m 2278.121,1925.0959 h 1.2532 c 0.293,0 0.4232,-0.016 0.5371,-0.081 0.1791,-0.1139 0.293,-0.3255 0.293,-0.5371 0,-0.2116 -0.081,-0.3906 -0.2604,-0.5208 -0.1302,-0.081 -0.2279,-0.1139 -0.5697,-0.1139 h -3.776 c -0.3256,0 -0.4069,0.016 -0.5209,0.098 -0.179,0.1139 -0.2929,0.3255 -0.2929,0.5371 0,0.1953 0.098,0.3744 0.2604,0.5046 0.1139,0.098 0.2441,0.1139 0.5534,0.1139 h 1.2695 v 4.7852 h -1.2695 c -0.3256,0 -0.4069,0.016 -0.5209,0.098 -0.179,0.098 -0.2929,0.3255 -0.2929,0.5371 0,0.1791 0.098,0.3744 0.2604,0.4883 0.1139,0.098 0.2604,0.1302 0.5534,0.1302 h 3.776 c 0.5534,0 0.8301,-0.2116 0.8301,-0.6185 0,-0.2116 -0.081,-0.3906 -0.2604,-0.5208 -0.1302,-0.081 -0.2279,-0.1139 -0.5697,-0.1139 h -1.2532 z"
+       fill="#000000"
+       id="path573" />
+    <text
+       fill="#f8f9fa"
+       font-family="Verdana"
+       font-size="12.5px"
+       font-style="italic"
+       lengthAdjust="spacing"
+       textLength="73.958298"
+       x="4083.3333"
+       y="219.4153"
+       id="text575"
+       transform="translate(-1787.1947,1712.4006)">Comparator</text>
+    <rect
+       height="27.0508"
+       style="fill:none;stroke:#343a40;stroke-width:1.04167;stroke-dasharray:2, 2"
+       width="78.125"
+       x="2383.6389"
+       y="1906.6711"
+       id="rect577" />
+    <text
+       fill="#343a40"
+       font-family="Verdana"
+       font-size="12.5px"
+       font-style="italic"
+       lengthAdjust="spacing"
+       textLength="65.625"
+       x="4177.0835"
+       y="212.1236"
+       id="text579"
+       transform="translate(-1787.1947,1712.4006)">Promocion</text>
+    <line
+       style="stroke:#2fa4e7;stroke-width:1.04167"
+       x1="2263.8472"
+       x2="2457.5969"
+       y1="1945.1804"
+       y2="1945.1804"
+       id="line581" />
+    <line
+       style="stroke:#2fa4e7;stroke-width:1.04167"
+       x1="2263.8472"
+       x2="2457.5969"
+       y1="1953.5139"
+       y2="1953.5139"
+       id="line583" />
+    <path
+       codeLine="136"
+       d="m 1404.0796,1982.0789 c -9.1694,27.4192 -32.1664,96.1857 -40.5662,121.3121"
+       fill="none"
+       id="Exception-backto-DistintoTipoException"
+       style="stroke:#2fa4e7;stroke-width:3.99769;stroke-miterlimit:4;stroke-dasharray:none" />
+    <polygon
+       fill="none"
+       points="3197.0521,249.8125 3198.4479,271.8406 3184.4063,267.8958 "
+       style="stroke:#2fa4e7;stroke-width:3.125"
+       id="polygon595"
+       transform="translate(-1787.1947,1712.4006)" />
+    <path
+       codeLine="142"
+       d="m 1430.2002,1982.1449 c 10.5823,27.4042 37.1243,96.1334 46.8242,121.2461"
+       fill="none"
+       id="Exception-backto-NumeroNegativoException"
+       style="stroke:#2fa4e7;stroke-width:3.99769;stroke-miterlimit:4;stroke-dasharray:none" />
+    <polygon
+       fill="none"
+       points="3211.3229,249.8125 3224.0104,267.875 3209.9688,271.8427 "
+       style="stroke:#2fa4e7;stroke-width:3.125"
+       id="polygon598"
+       transform="translate(-1787.1947,1712.4006)" />
+    <path
+       codeLine="148"
+       d="m 1944.9927,1983.2121 c 0,27.3153 0,95.3039 0,120.1789"
+       fill="none"
+       id="Comparator_Atraccion_-backto-ComparadorAtraccion"
+       style="stroke:#2fa4e7;stroke-width:3.99769;stroke-miterlimit:4;stroke-dasharray:8.95483, 8.95483;stroke-dashoffset:0" />
+    <polygon
+       fill="none"
+       points="3731.25,249.8125 3738.5417,270.6448 3723.9583,270.6448 "
+       style="stroke:#2fa4e7;stroke-width:3.125"
+       id="polygon601"
+       transform="translate(-1787.1947,1712.4006)" />
+    <path
+       codeLine="154"
+       d="m 2361.6594,1983.2121 c 0,26.3909 0,92.0787 0,116.1119"
+       fill="none"
+       id="Comparator_Promocion_-backto-ComparadorPromocion"
+       style="stroke:#2fa4e7;stroke-width:3.99769;stroke-miterlimit:4;stroke-dasharray:8.95483, 8.95483;stroke-dashoffset:0" />
+    <polygon
+       fill="none"
+       points="4147.9167,249.8125 4155.2083,270.6448 4140.625,270.6448 "
+       style="stroke:#2fa4e7;stroke-width:3.125"
+       id="polygon604"
+       transform="translate(-1787.1947,1712.4006)" />
+    <a
+       href="java:turismo_en_tierra_media.PromoAbsoluta"
+       target="_top"
+       title="java:turismo_en_tierra_media.PromoAbsoluta"
+       xlink:actuate="onRequest"
+       xlink:href="java:turismo_en_tierra_media.PromoAbsoluta"
+       xlink:show="new"
+       xlink:title="java:turismo_en_tierra_media.PromoAbsoluta"
+       xlink:type="simple"
+       id="a247"
+       transform="translate(-129.76507,841.98654)">
+      <rect
+         codeLine="75"
+         height="75.805702"
+         id="PromoAbsoluta"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="fill:none;stroke:#2fa4e7;stroke-width:1.04167"
+         width="441.66669"
+         x="1561.4583"
+         y="751.5625" />
+      <rect
+         fill="url(#goqe3d0h3rwq00)"
+         height="35.384102"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="fill:url(#linearGradient2072);stroke:url(#linearGradient2072);stroke-width:1.04167"
+         width="441.66669"
+         x="1561.4583"
+         y="751.5625"
+         id="rect229" />
+      <rect
+         fill="url(#goqe3d0h3rwq00)"
+         height="4.1666999"
+         style="fill:url(#linearGradient2076);stroke:url(#linearGradient2076);stroke-width:1.04167"
+         width="441.66669"
+         x="1561.4583"
+         y="782.77991"
+         id="rect231" />
+      <rect
+         codeLine="75"
+         fill="none"
+         height="75.805702"
+         id="rect233"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         width="441.66669"
+         x="1561.4583"
+         y="751.5625" />
+      <circle
+         cx="1726.0417"
+         cy="769.25458"
+         fill="#edf0f2"
+         style="stroke:#babdbf;stroke-width:1.04167"
+         id="ellipse235"
+         r="10.4167" />
+      <path
+         d="m 1727.9785,765.8691 c -0.6836,-0.3255 -1.123,-0.4231 -1.7741,-0.4231 -1.9205,0 -3.4017,1.5136 -3.4017,3.5156 v 0.8301 c 0,1.9043 1.5625,3.2877 3.6784,3.2877 0.8952,0 1.7578,-0.2278 2.2949,-0.6347 0.4395,-0.293 0.6674,-0.6185 0.6674,-0.9115 0,-0.3255 -0.293,-0.6185 -0.6185,-0.6185 -0.1628,0 -0.3093,0.0651 -0.4558,0.1953 -0.3418,0.3581 -0.3418,0.3581 -0.472,0.4232 -0.3092,0.1953 -0.8138,0.293 -1.3834,0.293 -1.4974,0 -2.4577,-0.8138 -2.4577,-2.0671 v -0.7975 c 0,-1.3184 0.9277,-2.2787 2.1973,-2.2787 0.4231,0 0.8789,0.114 1.2207,0.3093 0.358,0.1953 0.4882,0.3581 0.5533,0.651 0.049,0.3093 0.065,0.3907 0.1628,0.4883 0.098,0.1139 0.2767,0.179 0.4395,0.179 0.2115,0 0.3906,-0.0976 0.5208,-0.2604 0.081,-0.1139 0.1139,-0.2441 0.1139,-0.5696 v -1.0417 c 0,-0.3092 -0.016,-0.4069 -0.098,-0.5208 -0.114,-0.1953 -0.3093,-0.3093 -0.5371,-0.3093 -0.2116,0 -0.3581,0.0814 -0.5209,0.3093 z"
+         fill="#000000"
+         id="path237" />
+      <text
+         fill="#f8f9fa"
+         font-family="Verdana"
+         font-size="12.5px"
+         lengthAdjust="spacing"
+         textLength="93.75"
+         x="1751.0417"
+         y="773.58191"
+         id="text239">PromoAbsoluta</text>
+      <line
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         x1="1562.5"
+         x2="2002.0833"
+         y1="786.94659"
+         y2="786.94659"
+         id="line241" />
+      <line
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         x1="1562.5"
+         x2="2002.0833"
+         y1="795.27991"
+         y2="795.27991"
+         id="line243" />
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="418.75"
+         x="1572.9167"
+         y="815.29077"
+         id="text245">+PromoAbsoluta(atraccionesEnPromo: List&lt;Atraccion&gt;, valorPromo: int)</text>
+    </a>
+    <a
+       href="java:turismo_en_tierra_media.Promocion"
+       target="_top"
+       title="java:turismo_en_tierra_media.Promocion"
+       xlink:actuate="onRequest"
+       xlink:href="java:turismo_en_tierra_media.Promocion"
+       xlink:show="new"
+       xlink:title="java:turismo_en_tierra_media.Promocion"
+       xlink:type="simple"
+       id="a294"
+       transform="translate(-129.76507,841.98654)">
+      <rect
+         codeLine="107"
+         height="384.61911"
+         id="Promocion"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="fill:none;stroke:#2fa4e7;stroke-width:1.04167"
+         width="319.79169"
+         x="2040.1042"
+         y="31.25" />
+      <rect
+         fill="url(#goqe3d0h3rwq00)"
+         height="35.384102"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="fill:url(#linearGradient2080);stroke:url(#linearGradient2080);stroke-width:1.04167"
+         width="319.79169"
+         x="2040.1042"
+         y="31.25"
+         id="rect250" />
+      <rect
+         fill="url(#goqe3d0h3rwq00)"
+         height="4.1666999"
+         style="fill:url(#linearGradient2084);stroke:url(#linearGradient2084);stroke-width:1.04167"
+         width="319.79169"
+         x="2040.1042"
+         y="62.4674"
+         id="rect252" />
+      <rect
+         codeLine="107"
+         fill="none"
+         height="384.61911"
+         id="rect254"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         width="319.79169"
+         x="2040.1042"
+         y="31.25" />
+      <circle
+         cx="2157.8125"
+         cy="48.942101"
+         fill="#edf0f2"
+         style="stroke:#babdbf;stroke-width:1.04167"
+         id="ellipse256"
+         r="10.4167" />
+      <path
+         d="m 2159.7493,45.5566 c -0.6835,-0.3255 -1.123,-0.4231 -1.774,-0.4231 -1.9206,0 -3.4017,1.5136 -3.4017,3.5156 v 0.8301 c 0,1.9043 1.5625,3.2877 3.6784,3.2877 0.8951,0 1.7578,-0.2278 2.2949,-0.6347 0.4394,-0.293 0.6673,-0.6185 0.6673,-0.9115 0,-0.3255 -0.293,-0.6185 -0.6185,-0.6185 -0.1628,0 -0.3092,0.0651 -0.4557,0.1953 -0.3418,0.3581 -0.3418,0.3581 -0.472,0.4232 -0.3093,0.1953 -0.8138,0.293 -1.3835,0.293 -1.4974,0 -2.4577,-0.8138 -2.4577,-2.0671 v -0.7975 c 0,-1.3184 0.9278,-2.2787 2.1973,-2.2787 0.4232,0 0.8789,0.114 1.2207,0.3093 0.3581,0.1953 0.4883,0.3581 0.5534,0.651 0.049,0.3093 0.065,0.3907 0.1627,0.4883 0.098,0.1139 0.2767,0.179 0.4395,0.179 0.2116,0 0.3906,-0.0976 0.5208,-0.2604 0.081,-0.1139 0.114,-0.2441 0.114,-0.5696 v -1.0417 c 0,-0.3092 -0.016,-0.4069 -0.098,-0.5208 -0.1139,-0.1953 -0.3092,-0.3093 -0.5371,-0.3093 -0.2116,0 -0.3581,0.0814 -0.5208,0.3093 z"
+         fill="#000000"
+         id="path258" />
+      <text
+         fill="#f8f9fa"
+         font-family="Verdana"
+         font-size="12.5px"
+         lengthAdjust="spacing"
+         textLength="65.625"
+         x="2182.8125"
+         y="53.269402"
+         id="text260">Promocion</text>
+      <line
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         x1="2041.1458"
+         x2="2358.8542"
+         y1="66.634102"
+         y2="66.634102"
+         id="line262" />
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="60.416698"
+         x="2051.5625"
+         y="86.644997"
+         id="text264">#valor: int</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="135.4167"
+         x="2051.5625"
+         y="110.3999"
+         id="text266">#tiempoPromo: double</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="189.5833"
+         x="2051.5625"
+         y="134.1548"
+         id="text268">#tipoAtraccion: TipoDeAtraccion</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="117.7083"
+         x="2051.5625"
+         y="157.90961"
+         id="text270">#tipo: TipoDePromo</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="252.0833"
+         x="2051.5625"
+         y="181.66451"
+         id="text272">#atraccionesEnPromocion: List&lt;Atraccion&gt;</text>
+      <line
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         x1="2041.1458"
+         x2="2358.8542"
+         y1="193.7419"
+         y2="193.7419"
+         id="line274" />
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="296.875"
+         x="2051.5625"
+         y="213.7527"
+         id="text276">+Promocion(atraccionesEnPromo: List&lt;Atraccion&gt;)</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="281.25"
+         x="2051.5625"
+         y="237.5076"
+         id="text278">+getAtraccionesEnPromocion(): List&lt;Atraccion&gt;</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="126.0417"
+         x="2051.5625"
+         y="261.26251"
+         id="text280">+getNombre(): String</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="126.0417"
+         x="2051.5625"
+         y="285.0174"
+         id="text282">+getValorPromo(): int</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="169.7917"
+         x="2051.5625"
+         y="308.77231"
+         id="text284">+getTiempoDeUso(): double</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="148.9583"
+         x="2051.5625"
+         y="332.52719"
+         id="text286">+getTipo(): TipoDePromo</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="238.5417"
+         x="2051.5625"
+         y="356.28201"
+         id="text288">+getTipoDeAtraccion(): TipoDeAtraccion</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="140.625"
+         x="2051.5625"
+         y="380.0369"
+         id="text290">+tieneCupos(): boolean</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="113.5417"
+         x="2051.5625"
+         y="403.79181"
+         id="text292">+setTiempo(): void</text>
+    </a>
+    <a
+       href="java:turismo_en_tierra_media.PromoAxB"
+       target="_top"
+       title="java:turismo_en_tierra_media.PromoAxB"
+       xlink:actuate="onRequest"
+       xlink:href="java:turismo_en_tierra_media.PromoAxB"
+       xlink:show="new"
+       xlink:title="java:turismo_en_tierra_media.PromoAxB"
+       xlink:type="simple"
+       id="a317"
+       transform="translate(-129.76507,841.98654)">
+      <rect
+         codeLine="81"
+         height="99.560501"
+         id="PromoAxB"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="fill:none;stroke:#2fa4e7;stroke-width:1.04167"
+         width="319.79169"
+         x="2040.1042"
+         y="739.58331" />
+      <rect
+         fill="url(#goqe3d0h3rwq00)"
+         height="35.384102"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="fill:url(#linearGradient2088);stroke:url(#linearGradient2088);stroke-width:1.04167"
+         width="319.79169"
+         x="2040.1042"
+         y="739.58331"
+         id="rect297" />
+      <rect
+         fill="url(#goqe3d0h3rwq00)"
+         height="4.1666999"
+         style="fill:url(#linearGradient2092);stroke:url(#linearGradient2092);stroke-width:1.04167"
+         width="319.79169"
+         x="2040.1042"
+         y="770.80078"
+         id="rect299" />
+      <rect
+         codeLine="81"
+         fill="none"
+         height="99.560501"
+         id="rect301"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         width="319.79169"
+         x="2040.1042"
+         y="739.58331" />
+      <circle
+         cx="2158.8542"
+         cy="757.27539"
+         fill="#edf0f2"
+         style="stroke:#babdbf;stroke-width:1.04167"
+         id="ellipse303"
+         r="10.4167" />
+      <path
+         d="m 2160.791,753.89 c -0.6836,-0.3255 -1.123,-0.4232 -1.7741,-0.4232 -1.9205,0 -3.4017,1.5137 -3.4017,3.5156 v 0.8301 c 0,1.9043 1.5625,3.2878 3.6784,3.2878 0.8952,0 1.7578,-0.2279 2.2949,-0.6348 0.4395,-0.293 0.6674,-0.6185 0.6674,-0.9115 0,-0.3255 -0.293,-0.6185 -0.6185,-0.6185 -0.1628,0 -0.3093,0.0652 -0.4558,0.1954 -0.3418,0.358 -0.3418,0.358 -0.472,0.4231 -0.3092,0.1953 -0.8138,0.293 -1.3834,0.293 -1.4974,0 -2.4577,-0.8138 -2.4577,-2.0671 v -0.7975 c 0,-1.3183 0.9277,-2.2786 2.1973,-2.2786 0.4231,0 0.8789,0.1139 1.2207,0.3092 0.358,0.1953 0.4882,0.3581 0.5533,0.6511 0.049,0.3092 0.065,0.3906 0.1628,0.4882 0.098,0.114 0.2767,0.1791 0.4395,0.1791 0.2115,0 0.3906,-0.0977 0.5208,-0.2604 0.081,-0.114 0.1139,-0.2442 0.1139,-0.5697 v -1.0417 c 0,-0.3092 -0.016,-0.4069 -0.098,-0.5208 -0.114,-0.1953 -0.3093,-0.3092 -0.5371,-0.3092 -0.2116,0 -0.3581,0.0813 -0.5209,0.3092 z"
+         fill="#000000"
+         id="path305" />
+      <text
+         fill="#f8f9fa"
+         font-family="Verdana"
+         font-size="12.5px"
+         lengthAdjust="spacing"
+         textLength="63.541698"
+         x="2183.8542"
+         y="761.60278"
+         id="text307">PromoAxB</text>
+      <line
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         x1="2041.1458"
+         x2="2358.8542"
+         y1="774.96741"
+         y2="774.96741"
+         id="line309" />
+      <line
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         x1="2041.1458"
+         x2="2358.8542"
+         y1="783.30078"
+         y2="783.30078"
+         id="line311" />
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="296.875"
+         x="2051.5625"
+         y="803.31171"
+         id="text313">+PromoAxB(atraccionesEnPromo: List&lt;Atraccion&gt;)</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="98.958298"
+         x="2051.5625"
+         y="827.06653"
+         id="text315">+setValor(): void</text>
+    </a>
+    <a
+       href="java:turismo_en_tierra_media.PromoPorcentual"
+       target="_top"
+       title="java:turismo_en_tierra_media.PromoPorcentual"
+       xlink:actuate="onRequest"
+       xlink:href="java:turismo_en_tierra_media.PromoPorcentual"
+       xlink:show="new"
+       xlink:title="java:turismo_en_tierra_media.PromoPorcentual"
+       xlink:type="simple"
+       id="a338"
+       transform="translate(-129.76507,841.98654)">
+      <rect
+         codeLine="104"
+         height="75.805702"
+         id="PromoPorcentual"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="fill:none;stroke:#2fa4e7;stroke-width:1.04167"
+         width="480.20831"
+         x="2396.3542"
+         y="751.5625" />
+      <rect
+         fill="url(#goqe3d0h3rwq00)"
+         height="35.384102"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="fill:url(#linearGradient2096);stroke:url(#linearGradient2096);stroke-width:1.04167"
+         width="480.20831"
+         x="2396.3542"
+         y="751.5625"
+         id="rect320" />
+      <rect
+         fill="url(#goqe3d0h3rwq00)"
+         height="4.1666999"
+         style="fill:url(#linearGradient2100);stroke:url(#linearGradient2100);stroke-width:1.04167"
+         width="480.20831"
+         x="2396.3542"
+         y="782.77991"
+         id="rect322" />
+      <rect
+         codeLine="104"
+         fill="none"
+         height="75.805702"
+         id="rect324"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         width="480.20831"
+         x="2396.3542"
+         y="751.5625" />
+      <circle
+         cx="2575"
+         cy="769.25458"
+         fill="#edf0f2"
+         style="stroke:#babdbf;stroke-width:1.04167"
+         id="ellipse326"
+         r="10.4167" />
+      <path
+         d="m 2576.9368,765.8691 c -0.6835,-0.3255 -1.123,-0.4231 -1.774,-0.4231 -1.9206,0 -3.4017,1.5136 -3.4017,3.5156 v 0.8301 c 0,1.9043 1.5625,3.2877 3.6784,3.2877 0.8951,0 1.7578,-0.2278 2.2949,-0.6347 0.4394,-0.293 0.6673,-0.6185 0.6673,-0.9115 0,-0.3255 -0.293,-0.6185 -0.6185,-0.6185 -0.1628,0 -0.3092,0.0651 -0.4557,0.1953 -0.3418,0.3581 -0.3418,0.3581 -0.472,0.4232 -0.3093,0.1953 -0.8138,0.293 -1.3835,0.293 -1.4974,0 -2.4577,-0.8138 -2.4577,-2.0671 v -0.7975 c 0,-1.3184 0.9278,-2.2787 2.1973,-2.2787 0.4232,0 0.8789,0.114 1.2207,0.3093 0.3581,0.1953 0.4883,0.3581 0.5534,0.651 0.049,0.3093 0.065,0.3907 0.1627,0.4883 0.098,0.1139 0.2767,0.179 0.4395,0.179 0.2116,0 0.3906,-0.0976 0.5208,-0.2604 0.081,-0.1139 0.114,-0.2441 0.114,-0.5696 v -1.0417 c 0,-0.3092 -0.016,-0.4069 -0.098,-0.5208 -0.1139,-0.1953 -0.3092,-0.3093 -0.5371,-0.3093 -0.2116,0 -0.3581,0.0814 -0.5208,0.3093 z"
+         fill="#000000"
+         id="path328" />
+      <text
+         fill="#f8f9fa"
+         font-family="Verdana"
+         font-size="12.5px"
+         lengthAdjust="spacing"
+         textLength="104.1667"
+         x="2600"
+         y="773.58191"
+         id="text330">PromoPorcentual</text>
+      <line
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         x1="2397.3958"
+         x2="2875.5208"
+         y1="786.94659"
+         y2="786.94659"
+         id="line332" />
+      <line
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         x1="2397.3958"
+         x2="2875.5208"
+         y1="795.27991"
+         y2="795.27991"
+         id="line334" />
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="457.29169"
+         x="2407.8125"
+         y="815.29077"
+         id="text336">+PromoPorcentual(atraccionesEnPromo: List&lt;Atraccion&gt;, valorDescuento: int)</text>
+    </a>
+    <path
+       codeLine="80"
+       d="m 1916.0162,1274.7137 c -87.3646,117.9802 -188.4584,254.4896 -236.0417,318.7448"
+       fill="none"
+       id="Promocion-backto-PromoAbsoluta"
+       style="stroke:#2fa4e7;stroke-width:3.99895;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       codeLine="80"
+       d="m 1023.6126,497.29195 c -123.46285,-6.9e-4 -266.3202,-0.0268 -333.56237,-0.0344"
+       fill="none"
+       id="Promocion-backto-PromoAbsoluta-5"
+       style="stroke:#2fa4e7;stroke-width:3.99769;stroke-miterlimit:4;stroke-dasharray:none" />
+    <polygon
+       fill="none"
+       points="2058.2917,415.8385 2051.75,436.9208 2040.0313,428.2417 "
+       style="stroke:#2fa4e7;stroke-width:3.125"
+       id="polygon586"
+       transform="translate(-129.76507,841.98654)" />
+    <path
+       codeLine="87"
+       d="m 2071.1724,1278.8856 c 0,109.9989 0,235.0666 0,302.4156"
+       fill="none"
+       id="Promocion-backto-PromoAxB"
+       style="stroke:#2fa4e7;stroke-width:3.99895;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       codeLine="87"
+       d="m 1112.8652,768.43409 c 0,39.80655 0,85.06623 0,109.43858"
+       fill="none"
+       id="Promocion-backto-PromoAxB-4"
+       style="stroke:#2fa4e7;stroke-width:3.99769;stroke-miterlimit:4;stroke-dasharray:none" />
+    <polygon
+       fill="none"
+       points="2200,415.8385 2207.2917,436.6719 2192.7083,436.6719 "
+       style="stroke:#2fa4e7;stroke-width:3.125"
+       id="polygon589"
+       transform="translate(-129.76507,841.98654)" />
+    <path
+       codeLine="109"
+       d="m 2231.0891,1274.3512 c 91.3541,118.0635 197.1458,254.7864 246.9166,319.1073"
+       fill="none"
+       id="Promocion-backto-PromoPorcentual"
+       style="stroke:#2fa4e7;stroke-width:3.99895;stroke-miterlimit:4;stroke-dasharray:none" />
+    <polygon
+       fill="none"
+       points="2348.0729,415.8385 2366.5833,427.8531 2355.0521,436.7771 "
+       style="stroke:#2fa4e7;stroke-width:3.125"
+       id="polygon592"
+       transform="translate(-129.76507,841.98654)" />
+    <path
+       codeLine="80"
+       d="m 1399.9867,497.78859 c -73.7644,-8.7e-4 -159.1162,-0.034 -199.2908,-0.0437"
+       fill="none"
+       id="Promocion-backto-PromoAbsoluta-5-4"
+       style="stroke:#2fa4e7;stroke-width:3.99769;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       codeLine="80"
+       d="m 2068.578,496.94959 c -77.8237,-8.7e-4 -167.8725,-0.034 -210.258,-0.0437"
+       fill="none"
+       id="Promocion-backto-PromoAbsoluta-5-4-5"
+       style="stroke:#2fa4e7;stroke-width:3.99769;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       codeLine="109"
+       d="m 359.15552,768.48925 c 626.07732,-0.0459 1351.10258,-0.0987 1692.19198,-0.12414"
+       fill="none"
+       id="Promocion-backto-PromoPorcentual-7"
+       style="stroke:#2fa4e7;stroke-width:3.99769;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       codeLine="87"
+       d="m 2051.3475,768.36511 c 0,39.04811 0,83.44543 0,107.35341"
+       fill="none"
+       id="Promocion-backto-PromoAxB-1"
+       style="stroke:#2fa4e7;stroke-width:3.99895;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
+       style="fill:#2fa4e7;fill-opacity:0.666667;stroke:#2fa4e7;stroke-width:3.99769;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 359.15552,554.10656 V 881.67259"
+       id="path5875" />
+    <path
+       style="fill:#2fa4e7;fill-opacity:1;stroke-width:0.678258"
+       d="m 448.95832,770.73328 c 49.5334,-0.096 130.588,-0.096 180.1215,0 49.5333,0.096 9.006,0.17452 -90.0608,0.17452 -99.0667,0 -139.594,-0.0786 -90.0607,-0.17452 z"
+       id="path12707" />
+    <ellipse
+       id="path24449"
+       style="fill:#000000;stroke:none;stroke-width:0.999737"
+       cx="1114.4585"
+       cy="1310.0015"
+       rx="1.4999712"
+       ry="1.4992404" />
+    <path
+       style="fill:none;stroke:#2fa4e7;stroke-width:3.99895;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1120.2152,1310.0017 v 245.6116"
+       id="path24451" />
+    <path
+       style="fill:none;stroke:#2fa4e7;stroke-width:3.99769;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 1322.1655,1637.8807 1910.339,1129.5024"
+       id="path30155" />
+    <path
+       style="fill:none;stroke:#2fa4e7;stroke-width:3.99769;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 881.54054,1644.6328 505.18862,1456.3308"
+       id="path30350" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:39.9895px;line-height:1.25;font-family:sans-serif;overflow:hidden;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.999737"
+       x="608.86194"
+       y="142.70801"
+       id="text61563"
+       transform="scale(1.0002437,0.99975636)"><tspan
+         sodipodi:role="line"
+         id="tspan61561"
+         x="608.86194"
+         y="142.70801"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:74.6471px;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.999737">Diagrama UML - Turimos en la Tierra Media</tspan><tspan
+         sodipodi:role="line"
+         x="608.86194"
+         y="204.39771"
+         id="tspan65543"
+         style="stroke-width:0.999737" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:39.9895px;line-height:1.25;font-family:sans-serif;overflow:hidden;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.999737"
+       x="998.79285"
+       y="217.93604"
+       id="text79043"
+       transform="scale(1.0002437,0.99975636)"><tspan
+         sodipodi:role="line"
+         id="tspan79041"
+         x="998.79285"
+         y="217.93604"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.3193px;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.999737">Trabajo Práctico: Capítulo I</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6555px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;overflow:hidden;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.999737"
+       x="1936.1375"
+       y="2351.877"
+       id="text91891"
+       transform="scale(1.0002437,0.99975636)"><tspan
+         sodipodi:role="line"
+         id="tspan91889"
+         x="1936.1375"
+         y="2351.877"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6555px;font-family:Verdana;-inkscape-font-specification:'Verdana, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.999737">Argentina Programa #YoProgramo 2021</tspan></text>
+    <a
+       href="java:turismo_en_tierra_media.lectorTest"
+       target="_top"
+       title="java:turismo_en_tierra_media.lectorTest"
+       xlink:actuate="onRequest"
+       xlink:href="java:turismo_en_tierra_media.lectorTest"
+       xlink:show="new"
+       xlink:title="java:turismo_en_tierra_media.lectorTest"
+       xlink:type="simple"
+       id="a36"
+       transform="matrix(1.0001477,0,0,1.0000848,-136.96868,1853.747)">
+      <rect
+         codeLine="4"
+         height="170.8252"
+         id="lectorTest"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="fill:none;stroke:#2fa4e7;stroke-width:1.04167"
+         width="230.2083"
+         x="201.5625"
+         y="114.0625" />
+      <rect
+         fill="url(#g1sxmj8826msxj0)"
+         height="35.384102"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="fill:url(#linearGradient1651);stroke:url(#linearGradient1651);stroke-width:1.04167"
+         width="230.2083"
+         x="201.5625"
+         y="114.0625"
+         id="rect10-0" />
+      <rect
+         fill="url(#g1sxmj8826msxj0)"
+         height="4.1666999"
+         style="fill:url(#linearGradient1655);stroke:url(#linearGradient1655);stroke-width:1.04167"
+         width="230.2083"
+         x="201.5625"
+         y="145.27991"
+         id="rect12-3" />
+      <rect
+         codeLine="4"
+         fill="none"
+         height="170.8252"
+         id="rect14-6"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         width="230.2083"
+         x="201.5625"
+         y="114.0625" />
+      <circle
+         cx="275.52081"
+         cy="131.75459"
+         fill="#edf0f2"
+         style="stroke:#babdbf;stroke-width:1.04167"
+         id="ellipse16-4"
+         r="10.4167" />
+      <path
+         d="m 277.4577,128.3691 c -0.6836,-0.3255 -1.1231,-0.4231 -1.7741,-0.4231 -1.9206,0 -3.4017,1.5136 -3.4017,3.5156 v 0.8301 c 0,1.9043 1.5625,3.2877 3.6784,3.2877 0.8952,0 1.7578,-0.2278 2.2949,-0.6347 0.4395,-0.293 0.6673,-0.6185 0.6673,-0.9115 0,-0.3255 -0.2929,-0.6185 -0.6185,-0.6185 -0.1627,0 -0.3092,0.0651 -0.4557,0.1953 -0.3418,0.3581 -0.3418,0.3581 -0.472,0.4232 -0.3092,0.1953 -0.8138,0.293 -1.3835,0.293 -1.4974,0 -2.4576,-0.8138 -2.4576,-2.0671 v -0.7975 c 0,-1.3184 0.9277,-2.2787 2.1972,-2.2787 0.4232,0 0.8789,0.114 1.2207,0.3093 0.3581,0.1953 0.4883,0.3581 0.5534,0.651 0.0488,0.3093 0.0651,0.3907 0.1628,0.4883 0.0976,0.1139 0.2767,0.179 0.4394,0.179 0.2116,0 0.3906,-0.0976 0.5209,-0.2604 0.0813,-0.1139 0.1139,-0.2441 0.1139,-0.5696 v -1.0417 c 0,-0.3092 -0.0163,-0.4069 -0.0977,-0.5208 -0.1139,-0.1953 -0.3092,-0.3093 -0.5371,-0.3093 -0.2116,0 -0.358,0.0814 -0.5208,0.3093 z"
+         fill="#000000"
+         id="path18-3" />
+      <text
+         fill="#f8f9fa"
+         font-family="Verdana"
+         font-size="12.5px"
+         lengthAdjust="spacing"
+         textLength="63.541698"
+         x="300.52081"
+         y="136.08189"
+         id="text20-5">lectorTest</text>
+      <line
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         x1="202.6042"
+         x2="430.72919"
+         y1="149.44659"
+         y2="149.44659"
+         id="line22-2" />
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="194.7917"
+         x="213.0208"
+         y="169.4575"
+         id="text24-5">~lasAtracciones: List&lt;Atraccion&gt;</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="207.2917"
+         x="213.0208"
+         y="193.2124"
+         id="text26-3">~lasPromociones: List&lt;Promocion&gt;</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="165.625"
+         x="213.0208"
+         y="216.9673"
+         id="text28-1">~losUsuarios: List&lt;Usuario&gt;</text>
+      <line
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         x1="202.6042"
+         x2="430.72919"
+         y1="229.0446"
+         y2="229.0446"
+         id="line30" />
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="83.333298"
+         x="213.0208"
+         y="249.0555"
+         id="text32-9">+setup(): void</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="186.4583"
+         x="213.0208"
+         y="272.81039"
+         id="text34-7">+cantidadDePromosTest(): void</text>
+    </a>
+    <a
+       href="java:turismo_en_tierra_media.PromocionesTest"
+       target="_top"
+       title="java:turismo_en_tierra_media.PromocionesTest"
+       xlink:actuate="onRequest"
+       xlink:href="java:turismo_en_tierra_media.PromocionesTest"
+       xlink:show="new"
+       xlink:title="java:turismo_en_tierra_media.PromocionesTest"
+       xlink:type="simple"
+       id="a73"
+       transform="matrix(1.0001477,0,0,1.0000848,-136.96868,1853.747)">
+      <rect
+         codeLine="11"
+         height="265.8447"
+         id="PromocionesTest"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="fill:none;stroke:#2fa4e7;stroke-width:1.04167"
+         width="316.66669"
+         x="468.75"
+         y="66.666702" />
+      <rect
+         fill="url(#g1sxmj8826msxj0)"
+         height="35.384102"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="fill:url(#linearGradient1659);stroke:url(#linearGradient1659);stroke-width:1.04167"
+         width="316.66669"
+         x="468.75"
+         y="66.666702"
+         id="rect39" />
+      <rect
+         fill="url(#g1sxmj8826msxj0)"
+         height="4.1666999"
+         style="fill:url(#linearGradient1663);stroke:url(#linearGradient1663);stroke-width:1.04167"
+         width="316.66669"
+         x="468.75"
+         y="97.884102"
+         id="rect41" />
+      <rect
+         codeLine="11"
+         fill="none"
+         height="265.8447"
+         id="rect43"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         width="316.66669"
+         x="468.75"
+         y="66.666702" />
+      <circle
+         cx="563.54169"
+         cy="84.358704"
+         fill="#edf0f2"
+         style="stroke:#babdbf;stroke-width:1.04167"
+         id="ellipse45"
+         r="10.4167" />
+      <path
+         d="m 565.4785,80.9733 c -0.6836,-0.3255 -1.123,-0.4232 -1.7741,-0.4232 -1.9205,0 -3.4017,1.5137 -3.4017,3.5157 v 0.83 c 0,1.9043 1.5625,3.2878 3.6784,3.2878 0.8952,0 1.7578,-0.2279 2.2949,-0.6348 0.4395,-0.2929 0.6674,-0.6185 0.6674,-0.9114 0,-0.3256 -0.293,-0.6185 -0.6185,-0.6185 -0.1628,0 -0.3093,0.0651 -0.4558,0.1953 -0.3418,0.3581 -0.3418,0.3581 -0.472,0.4232 -0.3092,0.1953 -0.8138,0.2929 -1.3834,0.2929 -1.4974,0 -2.4577,-0.8138 -2.4577,-2.067 v -0.7975 c 0,-1.3184 0.9277,-2.2787 2.1973,-2.2787 0.4231,0 0.8789,0.1139 1.2207,0.3093 0.358,0.1953 0.4882,0.358 0.5533,0.651 0.0489,0.3092 0.0651,0.3906 0.1628,0.4883 0.0977,0.1139 0.2767,0.179 0.4395,0.179 0.2115,0 0.3906,-0.0976 0.5208,-0.2604 0.0814,-0.1139 0.1139,-0.2441 0.1139,-0.5697 V 81.543 c 0,-0.3093 -0.0163,-0.4069 -0.0976,-0.5209 -0.114,-0.1953 -0.3093,-0.3092 -0.5371,-0.3092 -0.2116,0 -0.3581,0.0814 -0.5209,0.3092 z"
+         fill="#000000"
+         id="path47" />
+      <text
+         fill="#f8f9fa"
+         font-family="Verdana"
+         font-size="12.5px"
+         lengthAdjust="spacing"
+         textLength="108.3333"
+         x="588.54169"
+         y="88.686096"
+         id="text49">PromocionesTest</text>
+      <line
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         x1="469.79169"
+         x2="784.375"
+         y1="102.0508"
+         y2="102.0508"
+         id="line51" />
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="194.7917"
+         x="480.20831"
+         y="122.0617"
+         id="text53">~lasAtracciones: List&lt;Atraccion&gt;</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="207.2917"
+         x="480.20831"
+         y="145.8165"
+         id="text55">~lasPromociones: List&lt;Promocion&gt;</text>
+      <line
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         x1="469.79169"
+         x2="784.375"
+         y1="157.89391"
+         y2="157.89391"
+         id="line57" />
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="83.333298"
+         x="480.20831"
+         y="177.9048"
+         id="text59">+setup(): void</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="105.2083"
+         x="480.20831"
+         y="201.65961"
+         id="text61">+teardown(): void</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="186.4583"
+         x="480.20831"
+         y="225.41451"
+         id="text63">+cantidadDePromosTest(): void</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="164.5833"
+         x="480.20831"
+         y="249.1694"
+         id="text65-7">+tiposDePromosTest(): void</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="293.75"
+         x="480.20831"
+         y="272.92429"
+         id="text67">+cantidadDeAtraccionesEnCadaPromoTest(): void</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="214.5833"
+         x="480.20831"
+         y="296.6792"
+         id="text69-6">+nombresDeAtraccionesTest(): void</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="200"
+         x="480.20831"
+         y="320.43411"
+         id="text71-7">+valoresDeLasPromosTest(): void</text>
+    </a>
+    <a
+       href="java:turismo_en_tierra_media.UsuarioTest"
+       target="_top"
+       title="java:turismo_en_tierra_media.UsuarioTest"
+       xlink:actuate="onRequest"
+       xlink:href="java:turismo_en_tierra_media.UsuarioTest"
+       xlink:show="new"
+       xlink:title="java:turismo_en_tierra_media.UsuarioTest"
+       xlink:type="simple"
+       id="a104"
+       transform="matrix(1.0001477,0,0,1.0000848,-136.96868,1853.747)">
+      <rect
+         codeLine="22"
+         height="194.58009"
+         id="UsuarioTest"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="fill:none;stroke:#2fa4e7;stroke-width:1.04167"
+         width="288.54169"
+         x="822.39581"
+         y="102.0833" />
+      <rect
+         fill="url(#g1sxmj8826msxj0)"
+         height="35.384102"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="fill:url(#linearGradient1667);stroke:url(#linearGradient1667);stroke-width:1.04167"
+         width="288.54169"
+         x="822.39581"
+         y="102.0833"
+         id="rect76" />
+      <rect
+         fill="url(#g1sxmj8826msxj0)"
+         height="4.1666999"
+         style="fill:url(#linearGradient1671);stroke:url(#linearGradient1671);stroke-width:1.04167"
+         width="288.54169"
+         x="822.39581"
+         y="133.3008"
+         id="rect78" />
+      <rect
+         codeLine="22"
+         fill="none"
+         height="194.58009"
+         id="rect80"
+         rx="4.1666999"
+         ry="4.1666999"
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         width="288.54169"
+         x="822.39581"
+         y="102.0833" />
+      <circle
+         cx="919.79169"
+         cy="119.7754"
+         fill="#edf0f2"
+         style="stroke:#babdbf;stroke-width:1.04167"
+         id="ellipse82"
+         r="10.4167" />
+      <path
+         d="m 921.7285,116.39 c -0.6836,-0.3255 -1.123,-0.4232 -1.7741,-0.4232 -1.9205,0 -3.4017,1.5137 -3.4017,3.5156 v 0.8301 c 0,1.9043 1.5625,3.2878 3.6784,3.2878 0.8952,0 1.7578,-0.2279 2.2949,-0.6348 0.4395,-0.293 0.6674,-0.6185 0.6674,-0.9115 0,-0.3255 -0.293,-0.6185 -0.6185,-0.6185 -0.1628,0 -0.3093,0.0652 -0.4558,0.1954 -0.3418,0.358 -0.3418,0.358 -0.472,0.4231 -0.3092,0.1953 -0.8138,0.293 -1.3834,0.293 -1.4974,0 -2.4577,-0.8138 -2.4577,-2.0671 v -0.7975 c 0,-1.3183 0.9277,-2.2786 2.1973,-2.2786 0.4231,0 0.8789,0.1139 1.2207,0.3092 0.358,0.1953 0.4882,0.3581 0.5533,0.6511 0.0489,0.3092 0.0651,0.3906 0.1628,0.4882 0.0977,0.114 0.2767,0.1791 0.4395,0.1791 0.2115,0 0.3906,-0.0977 0.5208,-0.2604 0.0814,-0.114 0.1139,-0.2442 0.1139,-0.5697 v -1.0417 c 0,-0.3092 -0.0163,-0.4069 -0.0976,-0.5208 -0.114,-0.1953 -0.3093,-0.3092 -0.5371,-0.3092 -0.2116,0 -0.3581,0.0813 -0.5209,0.3092 z"
+         fill="#000000"
+         id="path84" />
+      <text
+         fill="#f8f9fa"
+         font-family="Verdana"
+         font-size="12.5px"
+         lengthAdjust="spacing"
+         textLength="75"
+         x="944.79169"
+         y="124.1028"
+         id="text86">UsuarioTest</text>
+      <line
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         x1="823.4375"
+         x2="1109.8958"
+         y1="137.46741"
+         y2="137.46741"
+         id="line88" />
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="153.125"
+         x="833.85419"
+         y="157.4783"
+         id="text90">~personas: List&lt;Usuario&gt;</text>
+      <line
+         style="stroke:#2fa4e7;stroke-width:1.04167"
+         x1="823.4375"
+         x2="1109.8958"
+         y1="169.55569"
+         y2="169.55569"
+         id="line92" />
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="83.333298"
+         x="833.85419"
+         y="189.5665"
+         id="text94">+setup(): void</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="210.4167"
+         x="833.85419"
+         y="213.3214"
+         id="text96">+noAceptaValoresNegativos(): void</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="265.625"
+         x="833.85419"
+         y="237.07629"
+         id="text98">+pruebaDeLecturadeTipoDeAtraccion(): void</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="141.6667"
+         x="833.85419"
+         y="260.83121"
+         id="text100">+usuarioToString(): void</text>
+      <text
+         fill="#343a40"
+         font-family="Verdana"
+         font-size="11.4583px"
+         lengthAdjust="spacing"
+         textLength="236.4583"
+         x="833.85419"
+         y="284.58609"
+         id="text102">+agregarUnaAtraccionAlItinerario(): void</text>
+    </a>
+  </g>
+</svg>

@@ -1,11 +1,12 @@
 package turismo_en_tierra_media;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
 public class pruebaPorConsola {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 
 		List<Atraccion> todasLasAtracciones = new ArrayList<Atraccion>();
 		List<Usuario> todosLosUsuarios = new ArrayList<Usuario>();
@@ -47,9 +48,6 @@ public class pruebaPorConsola {
 			
 
 		}
-		
 		System.out.println("FIN DE LA APP. Gracias por utilizar Tierra Media APP");
-
 	}
-
 }

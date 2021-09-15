@@ -78,11 +78,17 @@ public class Usuario {
 	// Verdadero, tengo dinero y tiempo para ir a...
 	public boolean podesIrA(Atraccion atraccion) {
 
-		return this.presupuesto >= atraccion.getValor() && this.tiempoDisponible >= atraccion.getTiempoDeUso() && todaviaNoVasA(atraccion);
+		return this.presupuesto >= atraccion.getValor() 
+				&& this.tiempoDisponible >= atraccion.getTiempoDeUso() 
+				&& todaviaNoVasA(atraccion);								// agrego el método todaviaNoVasA() a este método para
+																			// simplificar el la forma de evaluar si el usuario 
+																			//puede ir a una atraccion.  
 	}
 	
 	public boolean podesIrA(Promocion promocion) {
-		return this.presupuesto>= promocion.getValorPromo() && this.tiempoDisponible>= promocion.getTiempoDeUso() && todaviaNoVasA(promocion);
+		return this.presupuesto>= promocion.getValorPromo() 
+				&& this.tiempoDisponible>= promocion.getTiempoDeUso() 
+				&& todaviaNoVasA(promocion);
 	}
 	
 	// Si todavia no tiene en el itinerario la atraccion que le pasan como
