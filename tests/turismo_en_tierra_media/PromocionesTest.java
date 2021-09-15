@@ -55,7 +55,7 @@ public class PromocionesTest {
 		assertEquals(2, lasPromociones.get(0).getAtraccionesEnPromocion().size());
 		assertEquals(3, lasPromociones.get(1).getAtraccionesEnPromocion().size());
 		assertEquals(2, lasPromociones.get(2).getAtraccionesEnPromocion().size());
-		assertEquals(5, lasPromociones.get(3).getAtraccionesEnPromocion().size());
+		assertEquals(3, lasPromociones.get(3).getAtraccionesEnPromocion().size());
 	}
 	
 	@Test

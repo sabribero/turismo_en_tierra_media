@@ -14,12 +14,12 @@ public class Usuario {
 	private float tiempoDisponible, tiempoDisponibleOriginal;
 
 	public Usuario(String nombre, TipoDeAtraccion atraccionFavorita, int monedas, float tiempoLibre) {
-		this.nombre = nombre;
+		this.nombre = Validacion.validar(nombre);
 		this.atraccionFavorita = atraccionFavorita;
-		this.presupuesto = monedas;
-		this.monedasIniciales = monedas;
-		this.tiempoDisponible = tiempoLibre;
-		this.tiempoDisponibleOriginal = tiempoLibre;
+		this.presupuesto = Validacion.validar(monedas);
+		this.monedasIniciales = this.presupuesto;
+		this.tiempoDisponible = Validacion.validar(tiempoLibre);
+		this.tiempoDisponibleOriginal = this.tiempoDisponible;
 	}
 
 	public Usuario() {
@@ -78,11 +78,11 @@ public class Usuario {
 	// Verdadero, tengo dinero y tiempo para ir a...
 	public boolean podesIrA(Atraccion atraccion) {
 
-		return this.presupuesto >= atraccion.getValor() && this.tiempoDisponible >= atraccion.getTiempoDeUso();
+		return this.presupuesto >= atraccion.getValor() && this.tiempoDisponible >= atraccion.getTiempoDeUso() && todaviaNoVasA(atraccion);
 	}
 	
 	public boolean podesIrA(Promocion promocion) {
-		return this.presupuesto>= promocion.getValorPromo() && this.tiempoDisponible>= promocion.getTiempoDeUso();
+		return this.presupuesto>= promocion.getValorPromo() && this.tiempoDisponible>= promocion.getTiempoDeUso() && todaviaNoVasA(promocion);
 	}
 	
 	// Si todavia no tiene en el itinerario la atraccion que le pasan como

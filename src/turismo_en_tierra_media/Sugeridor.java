@@ -11,18 +11,7 @@ public class Sugeridor {
 	protected static void sugerirPromos(Usuario unUsuario, List<Promocion> unasPromociones) {
 		for (Promocion cadaPromocion : unasPromociones) {
 
-			boolean puede = true;
-
-
-				if (!unUsuario.podesIrA(cadaPromocion)|| !unUsuario.todaviaNoVasA(cadaPromocion) || 
-						!cadaPromocion.tieneCupos()) {
-
-					puede = false;
-
-				}
-
-
-			if (puede) {
+			if (unUsuario.podesIrA(cadaPromocion) && cadaPromocion.tieneCupos()) { 
 
 				Scanner entrada = new Scanner(System.in);
 
@@ -106,7 +95,7 @@ public class Sugeridor {
 						Iterator<Promocion> iterador= unasPromociones.iterator();
 						while(iterador.hasNext()) {
 							Promocion actual= iterador.next();
-							if(actual.getTipoDeAtraccion() == unUsuario.getAtraccionFavorita()) {
+							if(actual.getTipoDeAtraccion() == unUsuario.getAtraccionFavorita()) {					/////// equals
 								promocionesRechazadas.add(actual);
 								iterador.remove();
 							}
@@ -127,7 +116,7 @@ public class Sugeridor {
 				Iterator<Atraccion> iterador= unasAtracciones.iterator();
 				while(iterador.hasNext()) {
 					Atraccion actual= iterador.next();
-					if(actual.getTipo() == unUsuario.getAtraccionFavorita()) {
+					if(actual.getTipo() == unUsuario.getAtraccionFavorita()) {										/////// equals
 						atraccionesRechazadas.add(actual);
 						iterador.remove();
 					}

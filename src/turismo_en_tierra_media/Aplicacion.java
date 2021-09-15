@@ -121,12 +121,6 @@ public class Aplicacion {
 
 	}
 	
-	
-	
-	
-	
-	
-
 	public void crearArchivoUsuario(Usuario unUsuario) {
 
 		try {

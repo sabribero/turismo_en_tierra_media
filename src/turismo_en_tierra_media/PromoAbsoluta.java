@@ -5,15 +5,15 @@ import java.util.List;
 public class PromoAbsoluta extends Promocion {
 
 /*
- * Toma como valor de la promocion al indicado con valorPromo 
+ * Toma como costo de la promocion al valor indicado con valorPromo (leido desde archivo).
  */
 	
 	
 	public PromoAbsoluta(List<Atraccion> atraccionesEnPromo, int valorPromo) {
 		super(atraccionesEnPromo);
 		this.atraccionesEnPromocion=atraccionesEnPromo;
-		this.valor= valorPromo;
-		this.tipoAtraccion = atraccionesEnPromo.get(0).getTipo(); // asumo que habrá almenos una atracción y todas en la lista serán del mismo tipo
+		this.valor= Validacion.validar(valorPromo);
+		this.tipoAtraccion = atraccionesEnPromo.get(0).getTipo();
 		this.tipo = TipoDePromo.ABSOLUTA;
 		
 	}

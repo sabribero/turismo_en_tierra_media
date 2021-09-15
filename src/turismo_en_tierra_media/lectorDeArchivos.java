@@ -146,11 +146,11 @@ public class lectorDeArchivos {
 						for(Atraccion atraccion: atraccionesEnPromocion) {
 							Validacion.validarTipo(atraccionesEnPromocion.get(0).getTipo(), atraccion.getTipo());
 						}
-						if (valores[0].equals("ABSOLUTA")) //unTipo == TipoDePromo.ABSOLUTA)
+						if (valores[0].equals("ABSOLUTA"))
 							todasLasPromos.add(new PromoAbsoluta(atraccionesEnPromocion, valorDescuento));
-						else if (valores[0].equals("PORCENTUAL")) //unTipo == TipoDePromo.PORCENTUAL)
+						else if (valores[0].equals("PORCENTUAL"))
 							todasLasPromos.add(new PromoPorcentual(atraccionesEnPromocion, valorDescuento));
-						else if (valores[0].equals("AxB")) //unTipo == TipoDePromo.AxB)
+						else if (valores[0].equals("AxB"))
 							todasLasPromos.add(new PromoAxB(atraccionesEnPromocion));
 					} catch(DistintoTipoException e) {
 						System.err.println("Se encontro una discrepancia en los tipos de atracciones de una promocion ingresada.");

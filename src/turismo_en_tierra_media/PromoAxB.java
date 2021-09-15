@@ -4,12 +4,15 @@ import java.util.List;
 
 public class PromoAxB extends Promocion {
 	
+	/*
+	 * Suma el valor de cada atracción de la lista sin tener en cuenta el valor de la última. 
+	 */
 
 	public PromoAxB(List<Atraccion> atraccionesEnPromo) {
 		super(atraccionesEnPromo);
 		this.atraccionesEnPromocion=atraccionesEnPromo;
 		this.setValor();
-		this.tipoAtraccion = atraccionesEnPromo.get(0).getTipo(); // asumo que habrá almenos una atracción y todas en la lista serán del mismo tipo
+		this.tipoAtraccion = atraccionesEnPromo.get(0).getTipo();
 		this.tipo = TipoDePromo.AxB;
 		
 	}	

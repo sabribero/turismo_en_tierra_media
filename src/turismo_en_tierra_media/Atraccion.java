@@ -10,10 +10,10 @@ public class Atraccion {
 	
 	public Atraccion(String nombre, int valor, double tiempoDeUso, int usosMaximos, TipoDeAtraccion tipo) {
 
-		this.nombre=nombre;
-		this.valor=valor;
-		this.tiempoDeUso=tiempoDeUso;
-		this.usosDisponibles=usosMaximos;
+		this.nombre=Validacion.validar(nombre);
+		this.valor=Validacion.validar(valor);
+		this.tiempoDeUso=Validacion.validar(tiempoDeUso);
+		this.usosDisponibles=Validacion.validar(usosMaximos);
 		this.tipo=tipo;
 	}
 
@@ -65,8 +65,5 @@ public class Atraccion {
 	public void reservarLugar(Usuario unUsuario) {
 		this.usosDisponibles-=1;
 		unUsuario.agregarAtraccion(this);
-	}
-	
-	/////////////////////
-    
+	}   
 }
