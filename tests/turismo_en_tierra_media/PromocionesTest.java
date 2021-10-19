@@ -32,7 +32,7 @@ public class PromocionesTest {
 		
 		//Vemos que se cargaron la cantidad correcta de promociones
 
-		assertEquals(21, lasPromociones.size());
+		assertEquals(20, lasPromociones.size());
 	}
 
 	@Test

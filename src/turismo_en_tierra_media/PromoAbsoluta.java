@@ -12,7 +12,7 @@ public class PromoAbsoluta extends Promocion {
 	public PromoAbsoluta(List<Atraccion> atraccionesEnPromo, int valorPromo) {
 		super(atraccionesEnPromo);
 		this.atraccionesEnPromocion=atraccionesEnPromo;
-		this.valor= Validacion.validar(valorPromo);
+		this.valor= valorPromo;
 		this.tipoAtraccion = atraccionesEnPromo.get(0).getTipo();
 		this.tipo = TipoDePromo.ABSOLUTA;
 		

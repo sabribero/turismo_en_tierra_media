@@ -14,11 +14,11 @@ public class Usuario {
 	private float tiempoDisponible, tiempoDisponibleOriginal;
 
 	public Usuario(String nombre, TipoDeAtraccion atraccionFavorita, int monedas, float tiempoLibre) {
-		this.nombre = Validacion.validar(nombre);
+		this.nombre = nombre;
 		this.atraccionFavorita = atraccionFavorita;
-		this.presupuesto = Validacion.validar(monedas);
+		this.presupuesto = monedas;
 		this.monedasIniciales = this.presupuesto;
-		this.tiempoDisponible = Validacion.validar(tiempoLibre);
+		this.tiempoDisponible = tiempoLibre;
 		this.tiempoDisponibleOriginal = this.tiempoDisponible;
 	}
 

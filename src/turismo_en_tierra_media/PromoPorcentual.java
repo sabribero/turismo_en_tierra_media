@@ -19,7 +19,7 @@ public class PromoPorcentual extends Promocion {
 		for(Atraccion cadaUna: atraccionesEnPromocion) {
 			auxValor+= cadaUna.getValor();
 		}
-		this.valor= (int) Math.round(auxValor- auxValor*(Validacion.validar(valorDescuento)/100.0));
+		this.valor= (int) Math.round(auxValor- auxValor*(valorDescuento/100.0));
 	}	
 	
 }

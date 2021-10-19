@@ -4,59 +4,38 @@ import excepciones.*;
 
 public class Validacion {
 
-	public static int validar(int numero) {
-		try {
+	public static int validar(int numero) throws NumeroNegativoException{
 			if(numero>=0) {
 				return numero;
 			} else {
 				throw new NumeroNegativoException("Se ha ingresado un número negativo.");
 			}
-		} catch(IllegalArgumentException e) {
-			return 0;
-		} catch(NumeroNegativoException e2) {
-			return 0;
-		}
 	}
 	
 	
-	public static float validar(float numero) {
-		try {
+	public static float validar(float numero) throws NumeroNegativoException {
+	
 			if(numero>=0) {
 				return numero;
 			} else {
 				throw new NumeroNegativoException("Se ha ingresado un número negativo.");
 			}
-		} catch(IllegalArgumentException e) {
-			return 0;
-		} catch(NumeroNegativoException e2) {
-			return 0;
-		}
 	}
 	
-	public static double validar(double numero) {
-		try {
+	public static double validar(double numero) throws NumeroNegativoException {
 			if(numero>=0) {
 				return numero;
 			} else {
 				throw new NumeroNegativoException("Se ha ingresado un número negativo.");
 			}
-		} catch(IllegalArgumentException e) {
-			return 0;
-		} catch(NumeroNegativoException e2) {
-			return 0;
-		}
 	}
 	
-	public static String validar(String cadena) {
-		try{
+	public static String validar(String cadena) throws NullPointerException {
 			if(cadena!= null) {
 				return cadena;
 			} else {
 				throw new NullPointerException("No se ingreso ninguna cadena de caracteres.");
 			}
-		} catch(NullPointerException e1) {
-			return " ";
-		}
 	}
 	
 	//solo tira error si los datos no son correctos

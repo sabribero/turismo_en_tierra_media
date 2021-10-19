@@ -34,14 +34,19 @@ public class LectorDeArchivos {
 				if (linea.charAt(0) != '#') {
 					String[] valores = linea.split(",");
 					
-					//auxiliares para validar los datos ingresados y luego crear el objeto
-					String nombre= Validacion.validar(valores[0]);
-					int monedas= Validacion.validar(Integer.parseInt(valores[1]));
-					float tiempoLibre= Validacion.validar(Float.parseFloat(valores[2]));
 					
-					Usuario aux = new Usuario(nombre, TipoDeAtraccion.valueOf(valores[3]), monedas, tiempoLibre);
+					try {
+						//auxiliares para validar los datos ingresados y luego crear el objeto
+						String nombre= Validacion.validar(valores[0]);
+						int monedas= Validacion.validar(Integer.parseInt(valores[1]));
+						float tiempoLibre= Validacion.validar(Float.parseFloat(valores[2]));
 					
-					todosLosUsuarios.add(aux);
+						Usuario aux = new Usuario(nombre, TipoDeAtraccion.valueOf(valores[3]), monedas, tiempoLibre);
+					
+						todosLosUsuarios.add(aux);
+					} catch(Exception e) {
+						System.err.println("No fue cargado un usuario con datos incorrectos.");
+					}
 				}
 			}
 		} catch (Exception e) {
@@ -81,15 +86,20 @@ public class LectorDeArchivos {
 				
 				if (linea.charAt(0) != '#') {
 					String[] valores = linea.split(",");
-					//auxiliares para validar los datos ingresados y luego crear el objeto
-					String nombre= Validacion.validar(valores[4]);
-					int valor= Validacion.validar(Integer.parseInt(valores[0]));
-					double tiempoDeUso= Validacion.validar(Float.parseFloat(valores[1]));
-					int usosMaximos= Validacion.validar(Integer.parseInt(valores[2]));
 					
-					Atraccion aux = new Atraccion(nombre, valor, tiempoDeUso, usosMaximos, TipoDeAtraccion.valueOf(valores[3]));
+					try {
+						//auxiliares para validar los datos ingresados y luego crear el objeto
+						String nombre= Validacion.validar(valores[4]);
+						int valor= Validacion.validar(Integer.parseInt(valores[0]));
+						double tiempoDeUso= Validacion.validar(Float.parseFloat(valores[1]));
+						int usosMaximos= Validacion.validar(Integer.parseInt(valores[2]));
+						
+						Atraccion aux = new Atraccion(nombre, valor, tiempoDeUso, usosMaximos, TipoDeAtraccion.valueOf(valores[3]));
 					
-					todasLasAtracciones.add(aux);
+						todasLasAtracciones.add(aux);
+					} catch (Exception e) {
+						System.err.println("No fue cargada una Atraccion con datos incorrectos.");
+					}
 				}
 			}
 		} catch (Exception e) {
@@ -147,6 +157,7 @@ public class LectorDeArchivos {
 					try {
 						for(Atraccion atraccion: atraccionesEnPromocion) {
 							Validacion.validarTipo(atraccionesEnPromocion.get(0).getTipo(), atraccion.getTipo());
+							Validacion.validar(valorDescuento);
 						}
 						if (valores[0].equals("ABSOLUTA"))
 							todasLasPromos.add(new PromoAbsoluta(atraccionesEnPromocion, valorDescuento));
@@ -160,7 +171,7 @@ public class LectorDeArchivos {
 				}
 			}
 		} catch (Exception e) {
-			e.printStackTrace();
+			System.err.println("No fue cargada una promocion con datos incorrectos.");
 		} finally {
 			// En el finally cerramos el fichero, para asegurarnos
 			// que se cierra tanto si todo va bien como si salta

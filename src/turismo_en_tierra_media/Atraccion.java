@@ -10,10 +10,10 @@ public class Atraccion {
 	
 	public Atraccion(String nombre, int valor, double tiempoDeUso, int usosMaximos, TipoDeAtraccion tipo) {
 
-		this.nombre=Validacion.validar(nombre);
-		this.valor=Validacion.validar(valor);
-		this.tiempoDeUso=Validacion.validar(tiempoDeUso);
-		this.usosDisponibles=Validacion.validar(usosMaximos);
+		this.nombre=nombre;
+		this.valor=valor;
+		this.tiempoDeUso=tiempoDeUso;
+		this.usosDisponibles=usosMaximos;
 		this.tipo=tipo;
 	}
 
