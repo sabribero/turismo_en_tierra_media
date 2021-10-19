@@ -69,7 +69,6 @@ public class Usuario {
 	// a usarse cuando el usuario clickea aceptar
 	protected void agregarAtraccion(Atraccion unaAtraccion) {
 		this.itinerario.add(unaAtraccion);
-		//this.presupuesto -= unaAtraccion.getValor();
 		this.tiempoDisponible -= unaAtraccion.getTiempoDeUso();
 	}
 

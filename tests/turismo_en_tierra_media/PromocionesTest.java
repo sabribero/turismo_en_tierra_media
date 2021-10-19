@@ -75,7 +75,8 @@ public class PromocionesTest {
 		assertEquals(36, lasPromociones.get(3).getValorPromo());	// ABSOLUTA,36,Bosque Negro,Moria,Mordor
 		assertEquals(5, lasPromociones.get(2).getValorPromo());		// AxB,0,Minas Tirith,Erebor
 		assertEquals(18, lasPromociones.get(1).getValorPromo());	// PORCENTUAL,20,Minas Tirith,Abismo de Helm,Erebor 
-																	// las sumatoria del costo de las atracciones es 22 y tienen 20% de descuento 
 		assertEquals(10, lasPromociones.get(0).getValorPromo());	// ABSOLUTA,50,Bosque Negro,Moria
 	}
+	
+	
 }
