@@ -6,7 +6,9 @@ import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.List;
 
-public class lectorDeArchivos {
+import excepciones.DistintoTipoException;
+
+public class LectorDeArchivos {
 
 	// Metodo que llamo en caso de que llegue una lista de Usuarios
 	public void leerUsuarios(List<Usuario> todosLosUsuarios) {
@@ -30,7 +32,7 @@ public class lectorDeArchivos {
 				
 				// ahora los archivos de entrada soportan comentarios, si la línea tiene '#' al comienzo se ignora.
 				if (linea.charAt(0) != '#') {
-					String[] valores = linea.replace("\t","").split(",");	// el replace es para eliminar las tabulaciones en los archivos de entrada.
+					String[] valores = linea.split(",");
 					
 					//auxiliares para validar los datos ingresados y luego crear el objeto
 					String nombre= Validacion.validar(valores[0]);
@@ -59,7 +61,7 @@ public class lectorDeArchivos {
 	}
 
 	// Metodo que llamo en caso de que llegue una lista de Atracciones
-	public void LeerAtracciones(List<Atraccion> todasLasAtracciones) {
+	public void leerAtracciones(List<Atraccion> todasLasAtracciones) {
 
 		File archivo = null;
 		FileReader fr = null;
@@ -78,7 +80,7 @@ public class lectorDeArchivos {
 			while ((linea = br.readLine()) != null) {
 				
 				if (linea.charAt(0) != '#') {
-					String[] valores = linea.replace("\t","").split(","); // el replace es para eliminar las tabulaciones en los archivos de entrada
+					String[] valores = linea.split(",");
 					//auxiliares para validar los datos ingresados y luego crear el objeto
 					String nombre= Validacion.validar(valores[4]);
 					int valor= Validacion.validar(Integer.parseInt(valores[0]));
@@ -108,7 +110,7 @@ public class lectorDeArchivos {
 
 
 	// Metodo que llamo en caso de que llegue una lista de Atracciones
-	public void LeerPromos(List<Promocion> todasLasPromos, List<Atraccion> todasLasAtracciones) {
+	public void leerPromos(List<Promocion> todasLasPromos, List<Atraccion> todasLasAtracciones) {
 
 		File archivo = null;
 		FileReader fr = null;
@@ -129,7 +131,7 @@ public class lectorDeArchivos {
 					List<Atraccion> atraccionesEnPromocion = new ArrayList<Atraccion>();
 					int valorDescuento;
 	
-					String[] valores = linea.replace("\t","").split(",");
+					String[] valores = linea.split(",");
 	
 					valorDescuento = Integer.parseInt(valores[1]);
 	

@@ -1,4 +1,4 @@
-package turismo_en_tierra_media;
+package excepciones;
 
 public class DistintoTipoException extends Exception {
 	public DistintoTipoException(String message) {

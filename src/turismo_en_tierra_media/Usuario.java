@@ -69,10 +69,18 @@ public class Usuario {
 	// a usarse cuando el usuario clickea aceptar
 	protected void agregarAtraccion(Atraccion unaAtraccion) {
 		this.itinerario.add(unaAtraccion);
-		this.presupuesto -= unaAtraccion.getValor();
+		//this.presupuesto -= unaAtraccion.getValor();
 		this.tiempoDisponible -= unaAtraccion.getTiempoDeUso();
 	}
 
+	//cobra dependiendo si es una promocion o atraccion
+	protected void pagar(Promocion unaPromocion) {
+		this.presupuesto -= unaPromocion.getValorPromo();
+	}
+	
+	protected void pagar(Atraccion unaAtraccion) {
+		this.presupuesto -= unaAtraccion.getValor();
+	}
 
 	// Responde verdadero si tiene las monedas y el tiempo suficiente ---->
 	// Verdadero, tengo dinero y tiempo para ir a...

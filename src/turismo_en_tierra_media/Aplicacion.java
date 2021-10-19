@@ -5,10 +5,9 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
-
-
 import java.util.List;
 
+import comparadores.*;
 
 //La aplicacion se encarga del manejo y organizacion de todas las atracciones y promociones disponibles.
 

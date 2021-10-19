@@ -1,22 +1,21 @@
-# 'Tipo de Promoción' -	'Valor de Promo' -	'Atracción 1' -		'Atracción 2' -		'Atracción 3' 
-	ABSOLUTA,					10,				Bosque Negro,		Moria
-	PORCENTUAL,					20,				Minas Tirith,		Abismo de Helm,		Erebor
-	AxB,						0,				Minas Tirith,		Erebor
-	ABSOLUTA,					36,				Bosque Negro,		Moria,				Mordor
-	PORCENTUAL,					22,				Moria,				Mordor
-	PORCENTUAL,					20,				Moria,				Bosque Negro
-	ABSOLUTA,					8,				Bosque Negro,		Mordor
-	AxB,						0,				Moria,				Isengard,			Mordor
-	AxB,						0,				Moria,				Bosque Negro,		Fangorn
-	AxB,						0,				Bosque Negro,		Mordor,				Isengard
-	PORCENTUAL,					15,				Lothlórien,			Edoras,				Gondor
-	PORCENTUAL,					25,				La Comarca,			Lothlórien,			Edoras
-	ABSOLUTA,					36,				La Comarca,			Lothlórien
-	PORCENTUAL,					10,				Minas Tirith,		Abismo de Helm
-	PORCENTUAL,					10,				Minas Tirith,		Pelargir
-	PORCENTUAL,					9,6,			Erebor,				Abismo de Helm
-	ABSOLUTA,					8,				Minas Tirith,		Abismo de Helm
-	ABSOLUTA,					8,				Minas Tirith,		Erebor
-	ABSOLUTA,					12,				Erebor,				Abismo de Helm
-	AxB,						0,				Minas Tirith,		Abismo de Helm,		Rivendel
-	AxB,						0,				Erebor,				Abismo de Helm,		Harad
+# 'Tipo de Promoción'-'Valor de Promo'-'Atracción 1'-'Atracción 2'-'Atracción 3' 
+ABSOLUTA,10,Bosque Negro,Moria
+PORCENTUAL,20,Minas Tirith,Abismo de Helm,Erebor
+AxB,0,Minas Tirith,Erebor
+ABSOLUTA,36,Bosque Negro,Moria,Mordor
+PORCENTUAL,22,Moria,Mordor
+PORCENTUAL,20,Moria,Bosque Negro
+ABSOLUTA,8,Bosque Negro,Mordor
+AxB,0,Moria,Isengard,Mordor
+AxB,0,Moria,Bosque Negro,Fangorn
+AxB,0,Bosque Negro,Mordor,Isengard
+PORCENTUAL,15,Lothlorien,Edoras,Gondor
+PORCENTUAL,25,La Comarca,Lothlorien,Edoras
+ABSOLUTA,36,La Comarca,Lothlorien
+PORCENTUAL,10,Minas Tirith,Abismo de Helm
+PORCENTUAL,10,Minas Tirith,Pelargir
+ABSOLUTA,8,Minas Tirith,Abismo de Helm
+ABSOLUTA,8,Minas Tirith,Erebor
+ABSOLUTA,12,Erebor,Abismo de Helm
+AxB,0,Minas Tirith,Abismo de Helm,Rivendel
+AxB,0,Erebor,Abismo de Helm,Harad

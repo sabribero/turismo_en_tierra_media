@@ -16,7 +16,7 @@ public class UsuarioTest {
 	
 	@Before
 	public void setUp() {
-		lectorDeArchivos lector = new lectorDeArchivos();
+		LectorDeArchivos lector = new LectorDeArchivos();
 		lector.leerUsuarios(personas);
 	}
 	

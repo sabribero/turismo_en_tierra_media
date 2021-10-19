@@ -6,6 +6,9 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Scanner;
 
+import comparadores.ComparadorAtraccion;
+import comparadores.ComparadorPromocion;
+
 public class Sugeridor {
 
 	protected static void sugerirPromos(Usuario unUsuario, List<Promocion> unasPromociones) {
@@ -17,15 +20,21 @@ public class Sugeridor {
 
 				System.out.println(
 						unUsuario.getNombre() + ", te gustaria comprar la promo de " + cadaPromocion.getNombre()
-								+ "por " + cadaPromocion.getValorPromo() + " monedas? ( 1 - Si / 2 - No )");
+								+ " por " + cadaPromocion.getValorPromo() + " monedas? Tiene una duracion de " + 
+								cadaPromocion.getTiempoDeUso() + " horas.");
+				System.out.println("( 1 - Si / 2 - No )");
 
 				int seleccion = Character.getNumericValue(entrada.next().charAt(0));
 
 				while (seleccion != 1 && seleccion != 2) {
 
 					System.out.println("Error, debe ingresar solo un 1 o un 2");
-					System.out.println(unUsuario.getNombre() + ", te gustaria comprar o no? ( 1 - Si / 2 - No )");
-
+					System.out.println(
+							unUsuario.getNombre() + ", te gustaria comprar la promo de " + cadaPromocion.getNombre()
+									+ " por " + cadaPromocion.getValorPromo() + " monedas? Tiene una duracion de " +
+									cadaPromocion.getTiempoDeUso() + " horas.");
+					System.out.println("( 1 - Si / 2 - No )");
+					
 					seleccion = Character.getNumericValue(entrada.next().charAt(0));
 
 				}
@@ -37,8 +46,10 @@ public class Sugeridor {
 						cadaAtraccion.reservarLugar(unUsuario);
 
 					}
-
-
+					unUsuario.pagar(cadaPromocion);
+					System.out.println(unUsuario.getNombre() + ", adquiriste exitosamente la promocion.");
+					System.out.println("Tiempo disponible restante: " + unUsuario.getTiempoDisponible() + " horas.");
+					System.out.println("Dinero disponible restante: " + unUsuario.getPresupuesto() + " monedas. \n");
 				} else if (seleccion == 2) {
 
 					System.out.println("No vas a ir a " + cadaPromocion.getNombre());
@@ -56,7 +67,9 @@ public class Sugeridor {
 				Scanner entrada = new Scanner(System.in);
 
 				System.out.println(unUsuario.getNombre() + ", te gustaria ir a " + cadaAtraccion.getNombre()
-						+ "? ( 1 - Si / 2 - No )");
+						+ " por "+ cadaAtraccion.getValor() +" monedas? Tiene una duracion de "+
+						cadaAtraccion.getTiempoDeUso()+ " horas.");
+				System.out.println("( 1 - Si / 2 - No )");
 
 				int seleccion = Character.getNumericValue(entrada.next().charAt(0));
 
@@ -64,7 +77,9 @@ public class Sugeridor {
 
 					System.out.println("Error, debe ingresar solo un 1 o un 2");
 					System.out.println(unUsuario.getNombre() + ", te gustaria ir a " + cadaAtraccion.getNombre()
-							+ "? ( 1 - Si / 2 - No )");
+					+ " por "+ cadaAtraccion.getValor() +" monedas? Tiene una duracion de "+
+					cadaAtraccion.getTiempoDeUso()+ " horas.");
+					System.out.println("( 1 - Si / 2 - No )");
 
 					seleccion = Character.getNumericValue(entrada.next().charAt(0));
 
@@ -73,6 +88,10 @@ public class Sugeridor {
 				if (seleccion == 1) {
 
 					cadaAtraccion.reservarLugar(unUsuario);
+					unUsuario.pagar(cadaAtraccion);
+					System.out.println(unUsuario.getNombre() + ", adquiriste exitosamente la atraccion.");
+					System.out.println("Tiempo disponible restante: " + unUsuario.getTiempoDisponible() + " horas.");
+					System.out.println("Dinero disponible restante: " + unUsuario.getPresupuesto() + " monedas. \n");
 					
 					
 				} else if (seleccion == 2) {

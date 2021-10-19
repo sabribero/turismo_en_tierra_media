@@ -1,6 +1,8 @@
-package turismo_en_tierra_media;
+package comparadores;
 
 import java.util.Comparator;
+
+import turismo_en_tierra_media.Promocion;
 
 public class ComparadorPromocion implements Comparator<Promocion> {
 

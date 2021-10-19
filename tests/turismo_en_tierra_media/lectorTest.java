@@ -17,9 +17,9 @@ public class lectorTest {
 
 	@Before
 	public void setUp() {
-		lectorDeArchivos lector = new lectorDeArchivos();
-		lector.LeerAtracciones(lasAtracciones);
-		lector.LeerPromos(lasPromociones, lasAtracciones);
+		LectorDeArchivos lector = new LectorDeArchivos();
+		lector.leerAtracciones(lasAtracciones);
+		lector.leerPromos(lasPromociones, lasAtracciones);
 		lector.leerUsuarios(losUsuarios);
 	}
 	

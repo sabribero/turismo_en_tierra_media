@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class pruebaPorConsola {
+public class PruebaPorConsola {
 
 	public static void main(String[] args) throws IOException {
 
@@ -12,33 +12,33 @@ public class pruebaPorConsola {
 		List<Usuario> todosLosUsuarios = new ArrayList<Usuario>();
 		List<Promocion> todasLasPromociones = new ArrayList<Promocion>();
 
-		lectorDeArchivos lector = new lectorDeArchivos();
+		LectorDeArchivos lector = new LectorDeArchivos();
 
 		lector.leerUsuarios(todosLosUsuarios);
-		lector.LeerAtracciones(todasLasAtracciones);
-		lector.LeerPromos(todasLasPromociones, todasLasAtracciones);
+		lector.leerAtracciones(todasLasAtracciones);
+		lector.leerPromos(todasLasPromociones, todasLasAtracciones);
 
-		Aplicacion APP = new Aplicacion(todasLasAtracciones, todasLasPromociones);
+		Aplicacion app = new Aplicacion(todasLasAtracciones, todasLasPromociones);
 
-		APP.separarEnListas();
+		app.separarEnListas();
 		
 		
 		System.out.println("Las atracciones separadas por tipo son:\n ");	
 		
 		
 		System.out.print("Aventura: ");
-		System.out.println(APP.atraccionesDeAventura);
+		System.out.println(app.atraccionesDeAventura);
 		System.out.print("Degustacion: ");
-		System.out.println(APP.atraccionesDeDegustacion);
+		System.out.println(app.atraccionesDeDegustacion);
 		System.out.print("Paisaje : ");
-		System.out.println(APP.atraccionesDePaisaje);
+		System.out.println(app.atraccionesDePaisaje);
 		
 		
 		System.out.println("\n Iniciamos la oferta de atracciones:  \n \n ");	
 
 		for (int i = 0; i < todosLosUsuarios.size(); i++) {
 
-			APP.ofrecerTodo(todosLosUsuarios.get(i));
+			app.ofrecerTodo(todosLosUsuarios.get(i));
 
 			System.out.println(todosLosUsuarios.get(i).getNombre() + " va a ir a:");
 			todosLosUsuarios.get(i).getItinerario().forEach(System.out::println);

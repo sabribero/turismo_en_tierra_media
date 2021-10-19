@@ -1,5 +1,7 @@
 package turismo_en_tierra_media;
 
+import excepciones.*;
+
 public class Validacion {
 
 	public static int validar(int numero) {
